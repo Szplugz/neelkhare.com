@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       colors: {
         lightpink: "#EE9B86",
+        eggshell: "#FFF9EF",
       },
       fontFamily: {
         forma: ["forma-djr-micro", "sans-serif"],

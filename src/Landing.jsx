@@ -9,16 +9,37 @@ const Landing = () => {
           {" "}
           Neel Khare{" "}
         </h>
-        <MenuItem text={"Bits"} />
-        <MenuItem text={"Intrigue"} />
-        <MenuItem text={"Inspiration"} />
-        <MenuItem text={"Project"} />
-        <MenuItem text={"Resumé"} />
+        <li className="menu-item">
+          <a href="#">
+            <MenuItem text={"Bits"} />
+          </a>
+        </li>
+        <li className="menu-item">
+          <a href="#">
+            <MenuItem text={"Intrigue"} />
+          </a>
+        </li>
+        <li className="menu-item">
+          <a href="#">
+            <MenuItem text={"Inspiration"} />
+          </a>
+        </li>
+        <li className="menu-item">
+          <a href="#">
+            <MenuItem text={"Project"} />
+          </a>
+        </li>
+        <li className="menu-item">
+          <a href="#">
+            <MenuItem text={"Resumé"} />
+          </a>
+        </li>
       </div>
+      <div className="right bg-eggshell"></div>
     </div>
   );
 };
 
-const MenuItem = ({ text }) => <div className="menu-item"> {text} </div>;
+const MenuItem = ({ text }) => <div className="menu-item">{text}</div>;
 
 export default Landing;
