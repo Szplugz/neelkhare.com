@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .menu-item {
+    @apply text-white font-forma relative flex items-center font-[550] text-84 h-12.7;
+  }
+}
