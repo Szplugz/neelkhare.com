@@ -30,7 +30,10 @@ const Menu = () => {
           </a>
         </li>
         <li className="menu-item">
-          <a href="#">
+          <a
+            href="https://drive.google.com/file/d/1Opg8P9ej8cd1tPoKEsSkcYo7F4J3Uz63/view?usp=sharing"
+            target="_blank"
+          >
             <MenuItem text={"Resumé"} />
           </a>
         </li>
