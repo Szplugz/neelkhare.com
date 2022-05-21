@@ -14,6 +14,7 @@ module.exports = {
         84: "84px",
         1: "8vw",
         2: "5vw",
+        10: "10vh",
       },
       spacing: {
         5.4: "20px",

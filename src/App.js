@@ -1,9 +1,15 @@
 import logo from "./logo.svg";
-import Landing from "./Landing";
+import Menu from "./Menu";
+import Home from "./Home";
 import "./App.css";
 
 function App() {
-  return <Landing />;
+  return (
+    <div>
+      <Home />
+      <Menu />
+    </div>
+  );
 }
 
 export default App;
