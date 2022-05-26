@@ -4,7 +4,7 @@
 
 @layer components {
   .menu-item {
-    @apply text-eggshell font-forma relative flex items-center font-[550] text-10 h-12.7 hover:text-lightpink transition duration-500 ease-in-out;
+    @apply text-eggshell font-forma relative flex items-center font-[550] text-10 hover:text-lightpink transition duration-500 ease-in-out leading-none;
   }
 }
 
