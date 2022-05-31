@@ -36,6 +36,9 @@ module.exports = {
         562: "562px",
         1024: "1024px",
       },
+      dropShadow: {
+        "xl-white": ["0 20px 13px rgba(255 249 239 / 0.03)"], // fix this
+      },
     },
   },
   plugins: [],

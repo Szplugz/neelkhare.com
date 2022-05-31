@@ -12,3 +12,12 @@
   transition: 0.3s ease-in-out;
   transform: translate(0.75rem, -0.25rem);
 }
+
+.name:hover {
+  transition: 0.3s ease-in-out;
+  transform: translate(0.75rem, -0.25rem);
+}
+
+.name {
+  transition: 0.3s ease-in-out;
+}

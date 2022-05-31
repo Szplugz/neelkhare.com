@@ -12,10 +12,13 @@ const Menu = () => {
           alt="profile"
         ></img>
         <div className="menu-box flex flex-col justify-center w-480 min-w-480">
-          <h className="name text-lightpink font-forma relative flex items-center font-[550] text-10 leading-none">
-            {" "}
-            Neel Khare{" "}
-          </h>
+          <div className="name font-forma relative flex items-center font-[550] text-10 leading-none">
+            <a href="/about">
+              <h className="neel text-lightpink font-forma relative flex items-center font-[550] text-10 hover:text-eggshell transition duration-500 ease-in-out leading-none">
+                Neel Khare
+              </h>
+            </a>
+          </div>
           <li className="bits text-eggshell font-forma relative flex items-center font-[550] text-10 leading-none">
             <MenuItem text={"Bits"} />
           </li>
