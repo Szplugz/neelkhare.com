@@ -40,3 +40,7 @@
 .navbar-menu::-webkit-scrollbar {
   display: none; /* Chrome */
 }
+
+.screen img {
+  pointer-events: none;
+}
