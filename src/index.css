@@ -6,9 +6,37 @@
   .menu-item {
     @apply text-eggshell font-forma relative flex items-center font-[550] text-10 hover:text-lightpink transition duration-500 ease-in-out leading-none;
   }
+
+  .navbar-item {
+    @apply text-eggshell font-forma relative flex items-center font-[550] text-10 hover:text-lightpink transition duration-500 ease-in-out leading-none;
+  }
+}
+
+.navbar-item:hover {
+  transition: 0.5s ease-in-out;
+  transform: translate(0.4rem, -0.1rem);
 }
 
 .menu-item:hover {
   transition: 0.3s ease-in-out;
   transform: translate(0.75rem, -0.25rem);
+}
+
+.name:hover {
+  transition: 0.3s ease-in-out;
+  transform: translate(0.75rem, -0.25rem);
+}
+
+.name {
+  transition: 0.3s ease-in-out;
+}
+
+/* Hide scrollbar */
+.navbar-menu {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.navbar-menu::-webkit-scrollbar {
+  display: none; /* Chrome */
 }

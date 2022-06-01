@@ -3,12 +3,16 @@
     flex-direction: column;
   }
 
+  .header {
+    margin-bottom: 5vh;
+  }
+
   .profile-picture-phone {
-    height: 20vmin;
-    width: 20vmin;
+    height: 90vmin;
+    width: 90vmin;
     margin-left: 5%;
     margin-right: 5%;
-    margin-top: 5%;
+    margin-bottom: 5%;
   }
 
   .left-box {
@@ -16,29 +20,12 @@
     width: 100vw;
   }
   .menu-box {
+    width: 90vw;
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 5%;
     margin-top: 15px;
-  }
-
-  .menu-item {
-    font-size: 10vmin;
-  }
-  .bits {
-    font-size: 10vmin;
-  }
-  .intrigue {
-    font-size: 10vmin;
-  }
-  .inspiration {
-    font-size: 10vmin;
-  }
-  .projects {
-    font-size: 10vmin;
-  }
-  .name {
-    font-size: 10vmin;
+    align-items: center;
   }
 
   .right {

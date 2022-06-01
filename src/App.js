@@ -2,7 +2,8 @@ import logo from "./logo.svg";
 import Menu from "./Menu";
 import Home from "./Home";
 import Resume from "./Resume";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import About from "./About";
+import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
 import "./App.css";
 
 function App() {
@@ -10,15 +11,9 @@ function App() {
     <BrowserRouter>
       <div className="content">
         <Routes>
-          <Route
-            path="/"
-            element={
-              <div>
-                <Menu />
-              </div>
-            }
-          ></Route>
-          <Route path="/resume" element={<Resume />}></Route>
+          <Route path="/" element={<Menu />}>
+            <Route path="*" element={<Navigate to="/" replace />} />
+          </Route>
         </Routes>
       </div>
     </BrowserRouter>

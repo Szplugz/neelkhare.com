@@ -6,6 +6,10 @@ module.exports = {
       colors: {
         lightpink: "#EE9B86",
         eggshell: "#FFF9EF",
+        githubGrey: "#333333",
+        instagramRed: "#C13584",
+        twitterBlue: "#1DA1F2",
+        youtubeRed: "#FF0000",
         almostBlack: "#08090A",
       },
       fontFamily: {
@@ -35,6 +39,9 @@ module.exports = {
         480: "480px",
         562: "562px",
         1024: "1024px",
+      },
+      dropShadow: {
+        "xl-white": ["0 20px 13px rgba(255 249 239 / 0.03)"], // fix this
       },
     },
   },
