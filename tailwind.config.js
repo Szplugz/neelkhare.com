@@ -6,6 +6,10 @@ module.exports = {
       colors: {
         lightpink: "#EE9B86",
         eggshell: "#FFF9EF",
+        githubGrey: "#333333",
+        instagramRed: "#C13584",
+        twitterBlue: "#1DA1F2",
+        youtubeRed: "#FF0000",
         almostBlack: "#08090A",
       },
       fontFamily: {
