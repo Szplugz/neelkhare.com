@@ -8,7 +8,7 @@
   }
 
   .navbar-item {
-    @apply text-eggshell font-forma relative flex items-center font-[550] text-10 hover:text-lightpink transition duration-500 ease-in-out leading-none;
+    @apply text-eggshell font-forma relative flex items-center font-[300] text-[3vh] hover:text-lightpink transition duration-500 ease-in-out leading-none;
   }
 }
 
