@@ -1,4 +1,4 @@
-@media screen and (max-width: 1284px) {
+@media screen and (max-width: 767px) {
   .screen {
     flex-direction: column;
   }
@@ -8,8 +8,9 @@
   }
 
   .profile-picture-phone {
-    height: 90vmin;
-    width: 90vmin;
+    height: 80vmin;
+    max-height: 480px;
+    width: auto;
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 5%;
@@ -28,7 +29,7 @@
     align-items: center;
   }
 
-  .right {
-    width: 100vw;
+  .profile-picture {
+    display: none;
   }
 }

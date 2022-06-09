@@ -29,7 +29,7 @@ const About = () => {
             fraternity, which provides a nice getaway from my busy schedule.
             During my (rare) free time, I like to play soccer, take pictures,
             read books, make videos, read articles, form opinions, express
-            opinions, go to the gym, go for a walk, and grab dinner with friends
+            opinions, go to the gym, take a walk, and grab dinner with friends
             (one at a time). I would like to learn how to relax.
           </p>
         </div>
