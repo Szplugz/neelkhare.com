@@ -33,7 +33,11 @@ const Navbar = () => {
           <NavbarItem text={"Quotes"} />
         </li>
         <li className="navbar-item">
-          <a href="/resume">
+          <a
+            href="https://drive.google.com/file/d/1Opg8P9ej8cd1tPoKEsSkcYo7F4J3Uz63/view?usp=sharing"
+            target="_blank"
+            rel="noreferrer"
+          >
             <NavbarItem text={"Resumé"} />
           </a>
         </li>
@@ -43,22 +47,34 @@ const Navbar = () => {
       </div>
       <div className="navbar-external flex flex-col fixed bottom-[10vh] justify-start align-top">
         <li className="navbar-github text-eggshell font-forma relative flex items-center font-[300] text-[3vh] leading-none hover:text-githubGrey transition duration-500 ease-in-out">
-          <a href="https://github.com/Szplugz" target="_blank">
+          <a href="https://github.com/Szplugz" target="_blank" rel="noreferrer">
             <NavbarItem text={"github"} />
           </a>
         </li>
         <li className="navbar-instagram text-eggshell font-forma relative flex items-center font-[300] text-[3vh] leading-none hover:text-instagramRed transition duration-500 ease-in-out">
-          <a href="https://www.instagram.com/secondhandneel/" target="_blank">
+          <a
+            href="https://www.instagram.com/secondhandneel/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <NavbarItem text={"instagram"} />
           </a>
         </li>
         <li className="navbar-twitter text-eggshell font-forma relative flex items-center font-[300] text-[3vh] leading-none hover:text-twitterBlue transition duration-500 ease-in-out">
-          <a href="https://www.instagram.com/secondhandneel/" target="_blank">
+          <a
+            href="https://www.instagram.com/secondhandneel/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <NavbarItem text={"twitter"} />
           </a>
         </li>
         <li className="navbar-youtube text-eggshell font-forma relative flex items-center font-[300] text-[3vh] leading-none hover:text-youtubeRed transition duration-500 ease-in-out">
-          <a href="https://www.instagram.com/secondhandneel/" target="_blank">
+          <a
+            href="https://www.instagram.com/secondhandneel/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <NavbarItem text={"youtube"} />
           </a>
         </li>

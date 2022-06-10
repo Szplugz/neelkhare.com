@@ -14,6 +14,8 @@ module.exports = {
       },
       fontFamily: {
         forma: ["forma-djr-micro", "sans-serif"],
+        garamond: ["adobe-garamond-pro", "serif"],
+        tablet: ["tablet-gothic", "sans-serif"],
       },
       fontSize: {
         84: "84px",
