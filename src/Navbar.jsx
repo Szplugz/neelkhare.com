@@ -2,15 +2,11 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="navbar-box flex flex-col justify-start align-top w-[15%] min-w-480 mt-[10vh] mb-[10vh]">
-      <div className="navbar-name font-forma relative flex items-center font-[550] text-[4vh] leading-none">
-        <a href="/about">
-          <h className="navbar-neel text-lightpink font-forma relative flex items-center font-[300] text-[3vh] hover:text-eggshell transition duration-500 ease-in-out leading-none">
-            Neel Khare
-          </h>
-        </a>
-      </div>
+    <div className="navbar-box flex flex-col justify-between h-[85vh] align-top w-[15%] min-w-480 mt-[10vh] mb-[10vh]">
       <div className="navbar-menu flex flex-col h-[35%] overflow-y-auto">
+        <li className="navbar-neel text-lightpink font-forma relative flex items-center font-[300] text-[3vh] hover:text-eggshell transition duration-500 ease-in-out leading-none">
+          Neel Khare
+        </li>
         <li className="navbar-bits text-eggshell font-forma relative flex items-center font-[300] text-[3vh] leading-none">
           <NavbarItem text={"Bits"} />
         </li>
@@ -45,7 +41,7 @@ const Navbar = () => {
           <NavbarItem text={"Websites"} />
         </li>
       </div>
-      <div className="navbar-external flex flex-col fixed bottom-[10vh] justify-start align-top">
+      <div className="navbar-external flex flex-col justify-start align-top">
         <li className="navbar-github text-eggshell font-forma relative flex items-center font-[300] text-[3vh] leading-none hover:text-githubGrey transition duration-500 ease-in-out">
           <a href="https://github.com/Szplugz" target="_blank" rel="noreferrer">
             <NavbarItem text={"github"} />
