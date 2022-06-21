@@ -42,8 +42,7 @@ const About = () => {
           <p className="p1 mb-[3vh]">
             I love connecting with and meeting new people, so please feel free
             to reach out to me through any of the social links that you see on
-            the bottom-left. I would <em>especially</em> love to hear from you
-            if:
+            the left. I would <em>especially</em> love to hear from you if:
             <div className="list mt-[3vh]">
               <p className="about-cat-1 ml-[5%]">
                 {" "}
@@ -65,6 +64,12 @@ const About = () => {
                   interests
                 </span>{" "}
                 .
+              </p>
+              <p className="about-cat-4 ml-[5%]">
+                {" "}
+                <span className="4 text-lightpink font-tablet">4.&nbsp;</span>
+                If you have the answer to why all of the highways and roads on
+                the outskirts of Chicago are always under construction >:(
               </p>
             </div>
           </p>

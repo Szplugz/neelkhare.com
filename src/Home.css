@@ -3,6 +3,10 @@
     flex-direction: column;
   }
 
+  .right {
+    display: none;
+  }
+
   .header {
     margin-bottom: 5vh;
   }
