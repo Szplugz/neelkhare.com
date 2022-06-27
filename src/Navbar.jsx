@@ -9,9 +9,8 @@ const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
 
   return (
-    <div className="navbar-box flex flex-col justify-between h-[85vh] align-top w-[15%] min-w-480 mt-[10vh] mb-[10vh]">
-      <img className="picture rounded w-[80%] mb-[1vh]" src={fallpic}></img>
-      <div className="navbar-menu flex flex-col h-[35%]">
+    <div className="navbar-box flex flex-col fixed left-[15vw] justify-between h-[85vh] align-top w-[15%] min-w-480 my-[10vh] mr-[7.5vw]">
+      <div className="navbar-menu flex flex-col">
         <li className="navbar-intrigue text-almostBlack font-forma relative flex items-center font-[300] text-[3vh] leading-none">
           <NavbarItem text={"Intrigue"} />
         </li>
@@ -140,6 +139,7 @@ const Navbar = () => {
           </div>
         )}
       </div>
+      <img className="picture rounded w-[100%] mb-[1vh]" src={fallpic}></img>
     </div>
   );
 };
