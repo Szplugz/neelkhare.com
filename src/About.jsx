@@ -6,26 +6,26 @@ import "./About.css";
 
 const About = () => {
   return (
-    <div className="about-page bg-almostBlack flex flex-row justify-center">
+    <div className="about-page bg-eggshell flex flex-row justify-center">
       <Helmet>
         <title>About | Neel Khare</title>
       </Helmet>
       <Navbar />
       <div className="about-bio flex flex-col w-[30%] my-[10vh] mx-[5vw]">
-        {/* <div className="about-picture-container flex flex-row w-full justify-start items-start h-[35vh] my-2vh">
-          <img className="picture rounded w-auto h-[90%]" src={biopic}></img>
-        </div> */}
-        <div className="about-bio-content flex-col w-full text-eggshell font-tablet font-[400] leading-snug">
-          <p className="p1 mb-[3vh]">
-            Hi, I'm Neel! I spend most of the year studying computer science and
-            writing code at the University of Illinois, Urbana-Champaign, where
-            I am a junior. What matters to me the most is consistent personal
-            growth and sharing my knowledge with the world in the hope of
-            lifting others up. At the moment, I'm quite interested in full-stack
-            development and product design, and I am always looking to involve
-            myself in projects that improve people’s quality of life. I find
-            myself using C++ and Javascript the most (so you can be assured that
-            I have a high pain threshold).
+        <li className="navbar-neel text-lightpink relative flex items-center font-[400] font-inter mb-[3vh]">
+          Neel Khare
+        </li>
+        <div className="about-bio-content flex-col w-full text-almostBlack font-inter font-[300] leading-snug">
+          <p className="p1 mb-[3vh] text-[2.25vh] font-[500]">
+            Hello! I'm a junior at the University of Illinois, Urbana-Champaign,
+            where I spend most of the year studying computer science and writing
+            code. What matters to me the most is consistent personal growth and
+            sharing my knowledge with the world in the hope of lifting others
+            up. At the moment, I'm quite interested in full-stack development
+            and product design, and I am always looking to involve myself in
+            projects that improve people’s quality of life. I find myself using
+            C++ and Javascript the most (so you can be assured that I have a
+            high pain threshold).
           </p>
           <h1 className="h1 mb-[3vh] text-lightpink font-[400]">
             What keeps me busy these days:
@@ -101,12 +101,6 @@ const About = () => {
             </div>
           </p>
         </div>
-      </div>
-      <div className="about-pictures flex flex-col items-center w-[30%] mt-[10vh]">
-        <img
-          className="picture rounded w-auto h-[50vh] mb-[1vh]"
-          src={biopic}
-        ></img>
       </div>
     </div>
   );
