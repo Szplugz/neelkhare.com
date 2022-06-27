@@ -1,0 +1,21 @@
+@media screen and (max-width: 767px) {
+  .about-page {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-bio {
+    width: 80%;
+    margin-bottom: 3vh;
+  }
+
+  .about-pictures {
+    width: 80%;
+    margin-top: 0;
+  }
+
+  .picture {
+    width: fit-content;
+    height: auto;
+  }
+}
