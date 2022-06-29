@@ -13,6 +13,7 @@ module.exports = {
         almostBlack: "#08090A",
         almostBlackFaded: "#4B5563",
         skyBlue: "#bac8d3",
+        pastelGreen: "#c8d3ba",
         navy: "#003547",
       },
       fontFamily: {

@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../../components/navbar/Navbar";
+import HomeNav from "../../components/navbar/HomeNav";
 import Navmobile from "../../components/navbar/Navmobile";
 import biopic from "../../utils/biopic.jpg";
 import { Helmet } from "react-helmet";
@@ -11,7 +11,7 @@ const About = () => {
       <Helmet>
         <title>About | Neel Khare</title>
       </Helmet>
-      <Navbar />
+      <HomeNav />
       <div className="about-bio float flex-col w-[30%] my-[10vh] ml-[7.5vw] overflow-y-auto">
         <Navmobile />
         <div className="desktop-head flex justify-between">

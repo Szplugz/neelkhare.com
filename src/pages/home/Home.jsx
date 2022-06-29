@@ -3,6 +3,7 @@ import profilepic from "../../utils/profilepicbw.jpg";
 import "./Home.css";
 
 const Home = () => {
+  var nearrow = "\u2197";
   return (
     <div className="screen flex flex-row">
       <div className="left-box flex justify-center h-screen w-[50%] m-0 bg-almostBlack">

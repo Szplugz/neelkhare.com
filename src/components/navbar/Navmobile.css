@@ -1,0 +1,10 @@
+/* .open-button:hover {
+  transition: 0.3s ease-in-out;
+  transform: rotate(45deg);
+} */
+
+@media screen and (min-width: 767px) {
+  .navbar-mobile {
+    display: none;
+  }
+}

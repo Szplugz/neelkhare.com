@@ -25,6 +25,18 @@
   }
 }
 
+@media screen and (min-width: 767px) {
+  .home-button {
+    display: none;
+  }
+
+  .picture {
+    border-radius: 0.25rem;
+    width: 100%;
+    margin-bottom: 1vh;
+  }
+}
+
 .about-page {
   -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
   -moz-animation: fadein 2s; /* Firefox < 16 */
