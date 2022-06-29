@@ -19,6 +19,10 @@
     width: fit-content;
     height: auto;
   }
+
+  .desktop-head {
+    display: none;
+  }
 }
 
 .about-page {

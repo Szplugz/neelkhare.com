@@ -13,11 +13,14 @@ const About = () => {
       </Helmet>
       <Navbar />
       <div className="about-bio float flex-col w-[30%] my-[10vh] ml-[7.5vw] overflow-y-auto">
-        <div className="flexibleHead flex justify-between">
-          <li className="navbar-neel text-lightpink relative flex items-center font-[400] font-inter mb-[10vh]">
+        <Navmobile />
+        <div className="desktop-head flex justify-between">
+          <a
+            href="/"
+            className="navbar-neel text-lightpink relative flex items-center font-[400] font-inter mb-[10vh]"
+          >
             Neel Khare
-          </li>
-          <Navmobile />
+          </a>
         </div>
         <div className="about-bio-content flex-col w-full text-almostBlack font-inter font-[400] leading-snug overflow-y-auto">
           <p className="p1 mb-[10vh] text-[2.25vh] font-[500]">
