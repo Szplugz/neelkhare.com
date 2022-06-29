@@ -16,14 +16,14 @@ const About = () => {
         <Navmobile />
         <div className="desktop-head flex justify-between">
           <a
-            href="/"
+            href="/about"
             className="navbar-neel text-lightpink relative flex items-center font-[400] font-inter mb-[10vh]"
           >
             Neel Khare
           </a>
         </div>
         <div className="about-bio-content flex-col w-full text-almostBlack font-inter font-[400] leading-snug overflow-y-auto">
-          <p className="p1 mb-[10vh] text-[2.25vh] font-[500]">
+          <p className="p1 mb-[10vh] font-[500]">
             Hello! I'm a junior at the University of Illinois, Urbana-Champaign,
             where I spend most of the year studying computer science and writing
             code. What matters to me the most is consistent personal growth and
@@ -99,7 +99,7 @@ const About = () => {
                   <span className="3 text-lightpink font-tablet">3.&nbsp;</span>
                   If you would like to talk to (or argue with) me about one of
                   my many{" "}
-                  <span className="about-interests-link text-lightpink font-tablet">
+                  <span className="link text-almostBlack underline hover:decoration-solid decoration-dotted">
                     interests
                   </span>{" "}
                   .

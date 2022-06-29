@@ -11,6 +11,7 @@ module.exports = {
         twitterBlue: "#1DA1F2",
         youtubeRed: "#FF0000",
         almostBlack: "#08090A",
+        almostBlackFaded: "#4B5563",
         skyBlue: "#bac8d3",
         navy: "#003547",
       },
