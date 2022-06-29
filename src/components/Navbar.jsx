@@ -9,10 +9,10 @@ const Navbar = () => {
             <NavbarItem text={"Home"} />
           </a>
         </li>
-        <li className="navbar-intrigue text-gray-600 font-forma relative flex items-center font-[300] text-[3vh] leading-none">
+        <li className="navbar-intrigue text-gray-600 font-forma relative flex items-center font-[300] text-[2.5vh] leading-tight">
           <NavbarItem text={"Intrigue"} />
         </li>
-        <li className="navbar-lyrics text-gray-600 font-forma relative flex items-center font-[300] text-[3vh] leading-none">
+        <li className="navbar-lyrics text-gray-600 font-forma relative flex items-center font-[300] text-[2.5vh] leading-tight">
           <NavbarItem text={"Lyrics"} />
         </li>
         <li className="navbar-item">
@@ -20,13 +20,13 @@ const Navbar = () => {
             <NavbarItem text={"People"} />
           </a>
         </li>
-        <li className="navbar-photography text-gray-600 font-forma relative flex items-center font-[300] text-[3vh] leading-none">
+        <li className="navbar-photography text-gray-600 font-forma relative flex items-center font-[300] text-[2.5vh] leading-tight">
           <NavbarItem text={"Photography"} />
         </li>
-        <li className="navbar-projects text-gray-600 font-forma relative flex items-center font-[300] text-[3vh] leading-none">
+        <li className="navbar-projects text-gray-600 font-forma relative flex items-center font-[300] text-[2.5vh] leading-tight">
           <NavbarItem text={"Projects"} />
         </li>
-        <li className="navbar-quotes text-gray-600 font-forma relative flex items-center font-[300] text-[3vh] leading-none">
+        <li className="navbar-quotes text-gray-600 font-forma relative flex items-center font-[300] text-[2.5vh] leading-tight">
           <NavbarItem text={"Quotes"} />
         </li>
         <li className="navbar-item">
@@ -38,36 +38,36 @@ const Navbar = () => {
             <NavbarItem text={"Resumé"} />
           </a>
         </li>
-        <li className="navbar-websites text-gray-600 font-forma relative flex items-center font-[300] text-[3vh] leading-none">
+        <li className="navbar-websites text-gray-600 font-forma relative flex items-center font-[300] text-[2.5vh] leading-tight">
           <NavbarItem text={"Websites"} />
         </li>
-        <li className="navbar-bits text-gray-600 font-forma relative flex items-center font-[300] text-[3vh] leading-none">
+        <li className="navbar-bits text-gray-600 font-forma relative flex items-center font-[300] text-[2.5vh] leading-tight">
           <NavbarItem text={"Tapas"} />
         </li>
       </div>
       <div className="navbar-external flex flex-col justify-start align-top">
-        <li className="navbar-email text-almostBlack font-forma relative flex items-center font-[300] text-[3vh] leading-none hover:text-blue transition duration-500 ease-in-out">
+        <li className="navbar-email text-almostBlack font-forma relative flex items-center font-[300] text-[2.5vh] leading-tight hover:text-blue transition duration-500 ease-in-out">
           <a href="mailto:neelk2@illinois.edu" target="_blank" rel="noreferrer">
             <NavbarItem text={"email"} />
           </a>
         </li>
-        <li className="navbar-github text-almostBlack font-forma relative flex items-center font-[300] text-[3vh] leading-none hover:text-githubGrey transition duration-500 ease-in-out">
+        <li className="navbar-github text-almostBlack font-forma relative flex items-center font-[300] text-[2.5vh] leading-tight hover:text-githubGrey transition duration-500 ease-in-out">
           <a href="https://github.com/Szplugz" target="_blank" rel="noreferrer">
             <NavbarItem text={"github"} />
           </a>
         </li>
-        <li className="navbar-twitter text-almostBlack font-forma relative flex items-center font-[300] text-[3vh] leading-none hover:text-twitterBlue transition duration-500 ease-in-out">
+        <li className="navbar-twitter text-almostBlack font-forma relative flex items-center font-[300] text-[2.5vh] leading-tight hover:text-twitterBlue transition duration-500 ease-in-out">
           <a
-            href="https://www.instagram.com/secondhandneel/"
+            href="https://www.twitter.com/szplugz/"
             target="_blank"
             rel="noreferrer"
           >
             <NavbarItem text={"twitter"} />
           </a>
         </li>
-        <li className="navbar-youtube text-almostBlack font-forma relative flex items-center font-[300] text-[3vh] leading-none hover:text-youtubeRed transition duration-500 ease-in-out">
+        <li className="navbar-youtube text-almostBlack font-forma relative flex items-center font-[300] text-[2.5vh] leading-tight hover:text-youtubeRed transition duration-500 ease-in-out">
           <a
-            href="https://www.instagram.com/secondhandneel/"
+            href="https://www.youtube.com/kiltoch/"
             target="_blank"
             rel="noreferrer"
           >

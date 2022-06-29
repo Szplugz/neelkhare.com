@@ -17,13 +17,13 @@ const About = () => {
         <div className="desktop-head flex justify-between">
           <a
             href="/about"
-            className="navbar-neel text-lightpink relative flex items-center font-[400] font-inter mb-[10vh]"
+            className="navbar-neel text-lightpink relative flex items-center font-[400] font-inter mb-[5vh]"
           >
             Neel Khare
           </a>
         </div>
         <div className="about-bio-content flex-col w-full text-almostBlack font-inter font-[400] leading-snug overflow-y-auto">
-          <p className="p1 mb-[10vh] font-[500]">
+          <p className="p1 mb-[5vh] font-[500]">
             Hello! I'm a junior at the University of Illinois, Urbana-Champaign,
             where I spend most of the year studying computer science and writing
             code. What matters to me the most is consistent personal growth and

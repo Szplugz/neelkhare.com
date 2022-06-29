@@ -14,6 +14,7 @@ module.exports = {
         almostBlackFaded: "#4B5563",
         skyBlue: "#bac8d3",
         pastelGreen: "#c8d3ba",
+        candy: "#AF818B",
         navy: "#003547",
       },
       fontFamily: {
