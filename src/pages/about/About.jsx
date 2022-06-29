@@ -1,5 +1,6 @@
 import React from "react";
-import Navbar from "../../components/Navbar";
+import Navbar from "../../components/navbar/Navbar";
+import Navmobile from "../../components/navbar/Navmobile";
 import biopic from "../../utils/biopic.jpg";
 import { Helmet } from "react-helmet";
 import "./About.css";
@@ -12,9 +13,12 @@ const About = () => {
       </Helmet>
       <Navbar />
       <div className="about-bio float flex-col w-[30%] my-[10vh] ml-[7.5vw] overflow-y-auto">
-        <li className="navbar-neel text-lightpink relative flex items-center font-[400] font-inter mb-[10vh]">
-          Neel Khare
-        </li>
+        <div className="flexibleHead flex justify-between">
+          <li className="navbar-neel text-lightpink relative flex items-center font-[400] font-inter mb-[10vh]">
+            Neel Khare
+          </li>
+          <Navmobile />
+        </div>
         <div className="about-bio-content flex-col w-full text-almostBlack font-inter font-[400] leading-snug overflow-y-auto">
           <p className="p1 mb-[10vh] text-[2.25vh] font-[500]">
             Hello! I'm a junior at the University of Illinois, Urbana-Champaign,
@@ -23,9 +27,7 @@ const About = () => {
             sharing my knowledge with the world in the hope of lifting others
             up. At the moment, I'm quite interested in full-stack development
             and product design, and I am always looking to involve myself in
-            projects that improve people’s quality of life. I find myself using
-            C++ and Javascript the most (so you can be assured that I have a
-            high pain threshold).
+            projects that improve people’s quality of life.
           </p>
           <h1 className="h1 mb-[3vh] text-lightpink font-[400]">
             What keeps me busy these days:
@@ -35,7 +37,7 @@ const About = () => {
               <span className="p1">
                 At college, I am a software developer at{" "}
                 <a
-                  className="link text-almostBlack underline hover:decoration-solid decoration-dotted"
+                  className="link text-almostBlack underline hover:decoration-solid decoration-dotted hover:text-lightpink transition duration-[200ms] ease-in-out"
                   href="https://www.quantillinois.com/"
                   target="_blank"
                   rel="noreferrer"
@@ -56,7 +58,7 @@ const About = () => {
               <span className="p2">
                 I'm a full-stack engineering intern at{" "}
                 <a
-                  className="link text-lightpink"
+                  className="link text-almostBlack underline hover:decoration-solid decoration-dotted hover:text-lightpink transition duration-[200ms] ease-in-out"
                   href="https://www.mediaocean.com/"
                   target="_blank"
                   rel="noreferrer"
