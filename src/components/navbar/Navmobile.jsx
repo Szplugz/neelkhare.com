@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "./HomeNav.css";
 import "./Navmobile.css";
 import IconButton from "@mui/material/IconButton";
 import AddIcon from "@mui/icons-material/Add";
@@ -60,8 +59,10 @@ const Navmobile = () => {
             <li className="navbar-lyrics text-gray-600 font-forma relative flex items-center font-[300] text-[3vh] leading-none">
               <NavbarItem text={"Lyrics"} />
             </li>
-            <li className="navbar-people text-gray-600 font-forma relative flex items-center font-[300] text-[3vh] leading-none">
-              <NavbarItem text={"People"} />
+            <li className="navbar-item font-[300] text-[3vh]">
+              <a href="/people">
+                <NavbarItem text={"People"} />
+              </a>
             </li>
             <li className="navbar-photography text-gray-600 font-forma relative flex items-center font-[300] text-[3vh] leading-none">
               <NavbarItem text={"Photography"} />
@@ -72,7 +73,7 @@ const Navmobile = () => {
             <li className="navbar-quotes text-gray-600 font-forma relative flex items-center font-[300] text-[3vh] leading-none">
               <NavbarItem text={"Quotes"} />
             </li>
-            <li className="navbar-item">
+            <li className="navbar-item font-[300] text-[3vh]">
               <a
                 href="https://drive.google.com/file/d/1Opg8P9ej8cd1tPoKEsSkcYo7F4J3Uz63/view?usp=sharing"
                 target="_blank"

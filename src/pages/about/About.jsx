@@ -22,7 +22,7 @@ const About = () => {
             Neel Khare
           </a>
         </div>
-        <div className="about-bio-content flex-col w-full text-almostBlack font-inter font-[400] leading-snug overflow-y-auto">
+        <div className="about-bio-content overflow-x-hidden flex-col w-full text-almostBlack font-inter font-[400] leading-snug overflow-y-auto">
           <p className="p1 mb-[5vh] font-[500]">
             Hello! I'm a junior at the University of Illinois, Urbana-Champaign,
             where I spend most of the year studying computer science and writing
@@ -79,9 +79,10 @@ const About = () => {
               other things.
             </p>
             <p className="p1 mb-[3vh]">
-              I love connecting with and meeting new people, so please feel free
-              to reach out to me through any of the social links that you see on
-              the left! I would <em>especially</em> love to hear from you if:
+              I'm always looking to connect with and meet new people, so please
+              feel free to reach out to me through any of the social links that
+              you see on the left! I would <em>especially</em> love to hear from
+              you if:
               <div className="list mt-[3vh]">
                 <p className="about-cat-1 ml-[5%] mb-[1vh]">
                   {" "}

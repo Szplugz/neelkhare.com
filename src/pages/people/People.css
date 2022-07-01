@@ -1,6 +1,24 @@
 @media screen and (max-width: 767px) {
+  .people-page {
+    height: 100%;
+  }
+
   .people-content {
     width: 80%;
+    height: 100%;
     margin-left: 0;
+  }
+
+  .header {
+    display: none;
+  }
+
+  .people-content {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+
+  .people-content::-webkit-scrollbar {
+    display: none; /* Chrome */
   }
 }
