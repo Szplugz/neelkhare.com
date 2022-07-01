@@ -403,7 +403,7 @@ const Navmobile = () => {
             </li>
             <li className="navbar-twitter text-almostBlack font-forma relative flex items-center font-[300] text-[3vh] leading-none hover:text-twitterBlue transition duration-500 ease-in-out">
               <a
-                href="https://www.instagram.com/secondhandneel/"
+                href="https://www.twitter.com/szplugz/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -412,7 +412,7 @@ const Navmobile = () => {
             </li>
             <li className="navbar-youtube text-almostBlack font-forma relative flex items-center font-[300] text-[3vh] leading-none hover:text-youtubeRed transition duration-500 ease-in-out">
               <a
-                href="https://www.instagram.com/secondhandneel/"
+                href="https://www.youtube.com/kiltoch/"
                 target="_blank"
                 rel="noreferrer"
               >
