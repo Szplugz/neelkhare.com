@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Helmet } from "react-helmet";
-import Navbar from "../../components/Navbar";
+import Navbar from "../../components/navbar/Navbar";
 import "./People.css";
 import IconButton from "@mui/material/IconButton";
 import AddIcon from "@mui/icons-material/Add";
@@ -360,9 +360,6 @@ const Navmobile = () => {
             <li className="navbar-photography text-gray-600 font-forma relative flex items-center font-[300] text-[3vh] leading-none">
               <NavbarItem text={"Photography"} />
             </li>
-            <li className="navbar-projects text-gray-600 font-forma relative flex items-center font-[300] text-[3vh] leading-none">
-              <NavbarItem text={"Projects"} />
-            </li>
             <li className="navbar-quotes text-gray-600 font-forma relative flex items-center font-[300] text-[3vh] leading-none">
               <NavbarItem text={"Quotes"} />
             </li>
@@ -375,11 +372,14 @@ const Navmobile = () => {
                 <NavbarItem text={"Resumé"} />
               </a>
             </li>
+            <li className="navbar-bits text-gray-600 font-forma relative flex items-center font-[300] text-[3vh] leading-none">
+              <NavbarItem text={"Tapas"} />
+            </li>
             <li className="navbar-websites text-gray-600 font-forma relative flex items-center font-[300] text-[3vh] leading-none">
               <NavbarItem text={"Websites"} />
             </li>
-            <li className="navbar-bits text-gray-600 font-forma relative flex items-center font-[300] text-[3vh] leading-none">
-              <NavbarItem text={"Tapas"} />
+            <li className="navbar-work text-gray-600 font-forma relative flex items-center font-[300] text-[3vh] leading-none">
+              <NavbarItem text={"Work"} />
             </li>
           </div>
           <div className="navbar-external flex flex-col justify-start align-top">

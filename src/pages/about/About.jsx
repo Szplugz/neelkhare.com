@@ -36,7 +36,7 @@ const About = () => {
             What keeps me busy these days:
           </h1>
           <div>
-            <li className="bullet ml-[4vh] mb-[1vh]">
+            <li className="bullet mb-[1vh]">
               <span className="p1">
                 At college, I am a software developer at{" "}
                 <a
@@ -51,13 +51,13 @@ const About = () => {
                 make films and documentaries.
               </span>
             </li>
-            <li className="bullet ml-[4vh] mb-[1vh]">
+            <li className="bullet mb-[1vh]">
               <span className="p2">
                 I build and maintain side projects that mostly consist of
                 websites and handy web-applications.
               </span>
             </li>
-            <li className="bullet ml-[4vh] mb-[3vh]">
+            <li className="bullet mb-[3vh]">
               <span className="p2">
                 I'm a full-stack engineering intern at{" "}
                 <a
