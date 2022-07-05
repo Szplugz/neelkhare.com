@@ -1,0 +1,19 @@
+@media screen and (max-width: 767px) {
+  .work-page {
+    height: 100%;
+  }
+
+  .work-content {
+    width: 80%;
+    height: 100%;
+    margin-left: 0;
+  }
+}
+
+.work-content {
+  scrollbar-width: none;
+}
+
+.work-content::-webkit-scrollbar {
+  display: none;
+}
