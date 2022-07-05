@@ -3,10 +3,46 @@
     height: 100%;
   }
 
+  .work-header {
+    display: none;
+  }
+
   .work-content {
     width: 80%;
     height: 100%;
     margin-left: 0;
+  }
+
+  .work-roles {
+    flex-direction: column;
+  }
+
+  .roles-left {
+    margin-bottom: 5vh;
+    width: 100%;
+  }
+
+  .roles-right {
+    width: 100%;
+  }
+
+  .work-projects {
+    flex-direction: column;
+  }
+
+  .projects-left {
+    margin-bottom: 5vh;
+    width: 100%;
+  }
+
+  .projects-right {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .line-top {
+    display: none;
   }
 }
 

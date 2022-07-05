@@ -378,8 +378,10 @@ const Navmobile = () => {
             <li className="navbar-websites text-gray-600 font-forma relative flex items-center font-[300] text-[3vh] leading-none">
               <NavbarItem text={"Websites"} />
             </li>
-            <li className="navbar-work text-gray-600 font-forma relative flex items-center font-[300] text-[3vh] leading-none">
-              <NavbarItem text={"Work"} />
+            <li className="navbar-item font-[300] text-[3vh]">
+              <a href="/work">
+                <NavbarItem text={"Work"} />
+              </a>
             </li>
           </div>
           <div className="navbar-external flex flex-col justify-start align-top">

@@ -23,10 +23,18 @@
   .desktop-head {
     display: none;
   }
+
+  .bullets {
+    margin-bottom: 5vh;
+  }
 }
 
 @media screen and (min-width: 767px) {
   .home-button {
+    display: none;
+  }
+
+  .picture-mobile {
     display: none;
   }
 

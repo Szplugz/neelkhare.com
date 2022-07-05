@@ -3,6 +3,7 @@ import HomeNav from "../../components/navbar/HomeNav";
 import Navmobile from "../../components/navbar/Navmobile";
 import biopic from "../../utils/biopic.jpg";
 import { Helmet } from "react-helmet";
+import fallpic from "../../utils/fallrl2square.jpg";
 import "./About.css";
 
 const About = () => {
@@ -35,7 +36,7 @@ const About = () => {
           <h1 className="h1 mb-[3vh] text-lightpink font-[400]">
             What keeps me busy these days:
           </h1>
-          <div>
+          <div className="bullets">
             <li className="bullet mb-[1vh]">
               <span className="p1">
                 At college, I am a software developer at{" "}
@@ -109,6 +110,10 @@ const About = () => {
             </p>
           </div>
         </div>
+        <img
+          className="picture-mobile rounded w-[100%] mb-[1vh]"
+          src={fallpic}
+        ></img>
       </div>
     </div>
   );

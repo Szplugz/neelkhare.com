@@ -8,6 +8,17 @@ import { createTheme, ThemeProvider } from "@mui/material/styles";
 import { Title } from "@mui/icons-material";
 import "./Work.css";
 
+const theme = createTheme({
+  palette: {
+    lightPink: {
+      main: "#EE9B86",
+    },
+    navy: {
+      main: "#003547",
+    },
+  },
+});
+
 export const Work = () => {
   return (
     <div className="work-page bg-skyBlue h-screen w-screen flex flex-row justify-center selection:bg-mangoHighlight">
@@ -17,10 +28,12 @@ export const Work = () => {
       <Navbar />
       <div className="work-content float flex-col w-[40%] pt-[10vh] ml-[7.5vw] overflow-y-auto font-inter">
         <div className="work-header text-candy mb-[5vh]">Work</div>
+        <Navmobile />
         <div className="p1 mb-[5vh]">
           Ultimately, I want to make beautiful things. I define <em>Work</em> as
           experiences that count towards that goal.
         </div>
+        <hr className="line-top border-dotted my-[5vh] h-[1px] border-navy"></hr>
         <div className="work-roles flex flex-row mb-[5vh]">
           <div className="roles-left w-[25%] font-[500]">Roles</div>
           <div className="roles-right flex flex-col w-[80%]">
@@ -135,6 +148,130 @@ export const Work = () => {
           </div>
         </div>
       </div>
+    </div>
+  );
+};
+
+const Navmobile = () => {
+  const [open, setOpen] = useState(false);
+  return (
+    <div className="navbar-mobile">
+      <div className="flexibleHead flex justify-between">
+        <p className="navbar-neel text-candy relative flex items-center font-[400] font-inter mb-[10vh]">
+          Work
+        </p>
+        <div>
+          {open ? (
+            <ThemeProvider theme={theme}>
+              <IconButton
+                className="button rounded-[50%] h-[3vh] w-[3vh]"
+                aria-label="close"
+                color="navy"
+                onClick={() => setOpen(false)}
+              >
+                <CloseIcon />
+              </IconButton>
+            </ThemeProvider>
+          ) : (
+            <ThemeProvider theme={theme}>
+              <IconButton
+                className="button rounded-[50%] h-[3vh] w-[3vh]"
+                aria-label="open"
+                color="navy"
+                onClick={() => setOpen(true)}
+              >
+                <AddIcon />
+              </IconButton>
+            </ThemeProvider>
+          )}
+        </div>
+      </div>
+      {open && (
+        <div className="dropdown flex flex-col h-[100vh] w-[100vw]">
+          <div className="navbar-menu mb-[5vh] flex flex-col">
+            <li className="navbar-item font-[300] text-[3vh]">
+              <a href="/about">
+                <NavbarItem text={"Home"} />
+              </a>
+            </li>
+            <li className="navbar-intrigue text-gray-600 font-forma relative flex items-center font-[300] text-[3vh] leading-none">
+              <NavbarItem text={"Intrigue"} />
+            </li>
+            <li className="navbar-lyrics text-gray-600 font-forma relative flex items-center font-[300] text-[3vh] leading-none">
+              <NavbarItem text={"Lyrics"} />
+            </li>
+            <li className="navbar-item font-[300] text-[3vh]">
+              <a href="/people">
+                <NavbarItem text={"People"} />
+              </a>
+            </li>
+            <li className="navbar-photography text-gray-600 font-forma relative flex items-center font-[300] text-[3vh] leading-none">
+              <NavbarItem text={"Photography"} />
+            </li>
+            <li className="navbar-quotes text-gray-600 font-forma relative flex items-center font-[300] text-[3vh] leading-none">
+              <NavbarItem text={"Quotes"} />
+            </li>
+            <li className="navbar-item font-[300] text-[3vh]">
+              <a
+                href="https://drive.google.com/file/d/1Opg8P9ej8cd1tPoKEsSkcYo7F4J3Uz63/view?usp=sharing"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <NavbarItem text={"Resumé"} />
+              </a>
+            </li>
+            <li className="navbar-bits text-gray-600 font-forma relative flex items-center font-[300] text-[3vh] leading-none">
+              <NavbarItem text={"Tapas"} />
+            </li>
+            <li className="navbar-websites text-gray-600 font-forma relative flex items-center font-[300] text-[3vh] leading-none">
+              <NavbarItem text={"Websites"} />
+            </li>
+            <li className="navbar-item font-[300] text-[3vh]">
+              <a href="/work">
+                <NavbarItem text={"Work"} />
+              </a>
+            </li>
+          </div>
+          <div className="navbar-external flex flex-col justify-start align-top">
+            <li className="navbar-email text-almostBlack font-forma relative flex items-center font-[300] text-[3vh] leading-none hover:text-blue transition duration-500 ease-in-out">
+              <a
+                href="mailto:neelk2@illinois.edu"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <NavbarItem text={"email"} />
+              </a>
+            </li>
+            <li className="navbar-github text-almostBlack font-forma relative flex items-center font-[300] text-[3vh] leading-none hover:text-githubGrey transition duration-500 ease-in-out">
+              <a
+                href="https://github.com/Szplugz"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <NavbarItem text={"github"} />
+              </a>
+            </li>
+            <li className="navbar-twitter text-almostBlack font-forma relative flex items-center font-[300] text-[3vh] leading-none hover:text-twitterBlue transition duration-500 ease-in-out">
+              <a
+                href="https://www.twitter.com/szplugz/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <NavbarItem text={"twitter"} />
+              </a>
+            </li>
+            <li className="navbar-youtube text-almostBlack font-forma relative flex items-center font-[300] text-[3vh] leading-none hover:text-youtubeRed transition duration-500 ease-in-out">
+              <a
+                href="https://www.youtube.com/kiltoch/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <NavbarItem text={"youtube"} />
+              </a>
+            </li>
+          </div>
+        </div>
+      )}
     </div>
   );
 };
