@@ -4,7 +4,9 @@
   }
 
   .people-content {
-    width: 80%;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
     height: 100%;
     margin-left: 0;
   }
@@ -19,5 +21,11 @@
 
   .people-content::-webkit-scrollbar {
     display: none; /* Chrome */
+  }
+
+  .header {
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
   }
 }

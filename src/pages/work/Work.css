@@ -8,7 +8,9 @@
   }
 
   .work-content {
-    width: 80%;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
     height: 100%;
     margin-left: 0;
   }
