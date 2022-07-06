@@ -53,8 +53,8 @@ const Navmobile = () => {
       {open && (
         <div className="dropdown flex flex-col h-[100vh] w-[100vw]">
           <div className="navbar-menu mb-[5vh] flex flex-col">
-            <li className="navbar-intrigue text-gray-600 font-forma relative flex items-center font-[300] text-[3vh] leading-none">
-              <NavbarItem text={"Intrigue"} />
+            <li className="navbar-index text-gray-600 font-forma relative flex items-center font-[300] text-[3vh] leading-none">
+              <NavbarItem text={"Index"} />
             </li>
             <li className="navbar-lyrics text-gray-600 font-forma relative flex items-center font-[300] text-[3vh] leading-none">
               <NavbarItem text={"Lyrics"} />
@@ -141,8 +141,8 @@ const Navmobile = () => {
 const Dropdown = () => {
   <div className="dropdown h-[100vh] w-[100vw]">
     <div className="navbar-menu flex flex-col">
-      <li className="navbar-intrigue text-almostBlack font-forma relative flex items-center font-[300] text-[3vh] leading-none">
-        <NavbarItem text={"Intrigue"} />
+      <li className="navbar-index text-almostBlack font-forma relative flex items-center font-[300] text-[3vh] leading-none">
+        <NavbarItem text={"Index"} />
       </li>
       <li className="navbar-lyrics text-almostBlack font-forma relative flex items-center font-[300] text-[3vh] leading-none">
         <NavbarItem text={"Lyrics"} />

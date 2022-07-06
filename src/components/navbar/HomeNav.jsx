@@ -7,8 +7,8 @@ const HomeNav = () => {
   return (
     <div className="navbar-box flex flex-col fixed left-[15vw] justify-between h-[85vh] align-top w-[15%] min-w-480 my-[10vh] mr-[7.5vw]">
       <div className="navbar-menu flex flex-col">
-        <li className="navbar-intrigue text-gray-600 font-forma relative flex items-center font-[300] text-[2.5vh] leading-tight">
-          <NavbarItem text={"Intrigue"} />
+        <li className="navbar-index text-gray-600 font-forma relative flex items-center font-[300] text-[2.5vh] leading-tight">
+          <NavbarItem text={"Index"} />
         </li>
         <li className="navbar-lyrics text-gray-600 font-forma relative flex items-center font-[300] text-[2.5vh] leading-tight">
           <NavbarItem text={"Lyrics"} />
