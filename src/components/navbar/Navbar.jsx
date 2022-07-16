@@ -12,6 +12,9 @@ const Navbar = () => {
         <li className="navbar-index text-gray-600 font-forma relative flex items-center font-[300] text-[2.5vh] leading-tight">
           <NavbarItem text={"Index"} />
         </li>
+        <li className="navbar-lyrics text-gray-600 font-forma relative flex items-center font-[300] text-[2.5vh] leading-tight">
+          <NavbarItem text={"Lyrics"} />
+        </li>
         <li className="navbar-item">
           <a href="/people">
             <NavbarItem text={"People"} />
@@ -19,6 +22,9 @@ const Navbar = () => {
         </li>
         <li className="navbar-photography text-gray-600 font-forma relative flex items-center font-[300] text-[2.5vh] leading-tight">
           <NavbarItem text={"Photography"} />
+        </li>
+        <li className="navbar-quotes text-gray-600 font-forma relative flex items-center font-[300] text-[2.5vh] leading-tight">
+          <NavbarItem text={"Quotes"} />
         </li>
         <li className="navbar-item">
           <a
@@ -31,6 +37,9 @@ const Navbar = () => {
         </li>
         <li className="navbar-bits text-gray-600 font-forma relative flex items-center font-[300] text-[2.5vh] leading-tight">
           <NavbarItem text={"Tapas"} />
+        </li>
+        <li className="navbar-websites text-gray-600 font-forma relative flex items-center font-[300] text-[2.5vh] leading-tight">
+          <NavbarItem text={"Websites"} />
         </li>
         <li className="navbar-item">
           <a href="/work">

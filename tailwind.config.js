@@ -15,10 +15,9 @@ module.exports = {
         skyBlue: "#bac8d3",
         pastelGreen: "#c8d3ba",
         candy: "#AF818B",
-        mango: "#ffdc9c",
+        mango: "#d6893a",
         mangoHighlight: "#eecdac",
         navy: "#003547",
-        navyHighlight: "#7f9aa3",
       },
       fontFamily: {
         forma: ["forma-djr-micro", "sans-serif"],
