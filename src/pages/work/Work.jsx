@@ -197,9 +197,6 @@ const Navmobile = () => {
             <li className="navbar-index text-gray-600 font-forma relative flex items-center font-[300] text-[3vh] leading-none">
               <NavbarItem text={"Index"} />
             </li>
-            <li className="navbar-lyrics text-gray-600 font-forma relative flex items-center font-[300] text-[3vh] leading-none">
-              <NavbarItem text={"Lyrics"} />
-            </li>
             <li className="navbar-item font-[300] text-[3vh]">
               <a href="/people">
                 <NavbarItem text={"People"} />
@@ -207,9 +204,6 @@ const Navmobile = () => {
             </li>
             <li className="navbar-photography text-gray-600 font-forma relative flex items-center font-[300] text-[3vh] leading-none">
               <NavbarItem text={"Photography"} />
-            </li>
-            <li className="navbar-quotes text-gray-600 font-forma relative flex items-center font-[300] text-[3vh] leading-none">
-              <NavbarItem text={"Quotes"} />
             </li>
             <li className="navbar-item font-[300] text-[3vh]">
               <a
@@ -222,9 +216,6 @@ const Navmobile = () => {
             </li>
             <li className="navbar-bits text-gray-600 font-forma relative flex items-center font-[300] text-[3vh] leading-none">
               <NavbarItem text={"Tapas"} />
-            </li>
-            <li className="navbar-websites text-gray-600 font-forma relative flex items-center font-[300] text-[3vh] leading-none">
-              <NavbarItem text={"Websites"} />
             </li>
             <li className="navbar-item font-[300] text-[3vh]">
               <a href="/work">
