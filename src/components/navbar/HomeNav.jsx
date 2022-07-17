@@ -15,8 +15,10 @@ const HomeNav = () => {
             <NavbarItem text={"People"} />
           </a>
         </li>
-        <li className="navbar-photography text-gray-600 font-forma relative flex items-center font-[300] text-[2.5vh] leading-tight">
-          <NavbarItem text={"Photography"} />
+        <li className="navbar-item">
+          <a href="/photography">
+            <NavbarItem text={"Photography"} />
+          </a>
         </li>
         <li className="navbar-item">
           <a
