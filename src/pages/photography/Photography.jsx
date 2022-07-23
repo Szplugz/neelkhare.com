@@ -18,6 +18,27 @@ import styles from "./Photography.css";
 // ];
 
 const images = [
+  "https://lh3.googleusercontent.com/ozSoDj0Q6v_r9J59uCtCRX2M5M-BfQYUJjUGyOTnz15z3TUFlWJjcr5MOE4DrC8OuApLC-JcGSdENK5AZ4f8Eq6Exx-YdrFmCnN4u2J7oNMaJ1hAo1mQ4cJTUFXOyeg2zlzWpOkfhg=w2400",
+  "https://lh3.googleusercontent.com/wEqO_ON6B9vKoun2tDhj5xJmm9RVXPrNPoaoFFLgIwO4qvznjLKK9lpayBbK800LB3vSm0H51Y_IhdTJPHWVDjPLKRoRGxh2DYC6iJ7lEQ-Ar7g8RY6ZmitjcBMYUMzy6zxH9CeNtA=w2400",
+  "https://lh3.googleusercontent.com/vV1Q7nT1E3-7HowMloptwvLNwKJpSg2hijZjTe6Ma9ad56aGG0RB8KVfzIU-VS-M7mLZhWdrlfUiBNQuVS6FgFD7IYsgVN6I7pLYcmXrRxY95BQRRA7rkyLzEFvmUaW6-iWK8GXSLA=w2400",
+  "https://lh3.googleusercontent.com/eu3cWgym7m7hQjKg0oi3RN9PdwJj9F08kbJrcRsrmeeDIz3lABLj39ayMO7KED104R3RUIU0Xo-4PAbymdrEbGjTvrYIDZBecmBa2z4i5MxsIBZGpmCRagV7afOMzMzbUU7KFImwGw=w2400",
+  "https://lh3.googleusercontent.com/NRRzDf7TflKBsIbESdmLENhmic2YfNSz_wImPKamDdXSX2JlWuGfd8DKt_fGOcpfnn7XvUR6A6da1pes0MVvEjQgSx1Z4-TN9cEQimiU9hmvVfhfrbzObzPlfT5Xx-vOz0ZR8HBqJw=w2400",
+  "https://lh3.googleusercontent.com/TufqwGG139GsrnSNE0lr3WJPufFfJkengONADoG-jAQa1Z2ewhBrQJS0RxCo9Cxzjjhvc3nzNLhZVQ3qfMG4Zd0yDX4ci1EI9WNveEnucyyLoU-_R2cb4IBM6oE2P3ZDNRt7MUBoAA=w2400",
+  "https://lh3.googleusercontent.com/7HsWvwq3O3sN_u2wxgPRjVB172JL3VZXuM0rV9I_xkW1dR4B1frJOadV-5gidbFrNv6X-UKgtfa7P4LeqNN4PbQ8YijpYvSv8PYfIcuS-0TFs5SoG4l0aMqhEOQV5b4Qxhl3e4IhqQ=w2400",
+  "https://lh3.googleusercontent.com/C8Vi7mXxJVtebAjgD4K9iK_tCEeK9K3z1VOMJ3R5vbMcNU1vLjRbZ3J7E-_dqYzhkroLRPW08NKhwakL-iBMaXe0881KysxKrAe2Kvmgzo6o05EAPNRLjQRHNrx_oIvxuPgSGMdbFA=w2400",
+  "https://lh3.googleusercontent.com/NNb19P1YBI_UqWommw-vxOR2lNcsUO2K0M_ZWlndb7afeN25UPnHQ8-zBJxspyEWhod6yWicnCmfRcKuq6JdtPz-Tff-2zJdWhkYXCPBT7Fr5yrnAbCnxgVMZX3323paaOI0Qzy6KA=w2400",
+  "https://lh3.googleusercontent.com/e_ZUWiZN8fuO--vKY73cJsEa9fpUmhj55-XkVWzSWOjiNl-gMqsTGsE0SR9PQc2frG3wNsdch_yYpqou3Llv9G0Vrw0jCnSpAEkGfhFxDkMCJqu2TVnQWdk8iYNdzhRC2VrNEHoAyg=w2400",
+  "https://lh3.googleusercontent.com/tt0OS306wcqq4WI4A_HkolCubPtY698UGeNPLFIuMDRgruK1KUpRByczM8MTWksmzCJZ6w_XS6_aJ5MwGXBr_25S5_XIaqgdTZMcF_OFQtyBn7qLLfghtcqC27-kxozvYCTzWVrBvA=w2400",
+  "https://lh3.googleusercontent.com/NNkHmUuH6Bx62TG3ff7SgWxScPZacfHa5WNgsegI4EzYV68tRv-qUCBWLb_Lm8UPAElr9qvAjrOwzSPNahij8JffnsXmL6HZ-h5fegmbYylySRu2LANu-8P7aL52AEd4vrpTqO0Mug=w2400",
+  "https://lh3.googleusercontent.com/l0j_aMqG-vvmEcy5YbLkou2_2rLhIkU1ClsMqjKjZf-UtDFZ0xu5FU6GUB2ouFfNMgRYj5dKwvWHRpqpzwqSkEJm9Z-yH78r9mHuD_mt3WN-DQGuDz6VEh-NUkir8CrEfuqDQGFLDQ=w2400",
+  "https://lh3.googleusercontent.com/BbAKMgy8-UUSiagc8GJtiycU9XrgVTkamUVkgfn7d_PXcNtp7yZDTG6c2dy7NMIEGWTdoFfDgd9-btVXnzC-Imlbo3OybVwDparzZ4QLPh4IRuCKCCW-NDduxO67R9GMWzf3L4daTA=w2400",
+  "https://lh3.googleusercontent.com/0R5Kx0BFZneeYSMxZ_FbwucRnZ7QAuBStEOS10DzNLJTKnkY-vJdmWhwS0SSpxrPHCFsqlsvjZf0xzjZ1O5UomaeGK_scndSnnyZmWwuYB2mwru8SlcEggPLEwTWI47Ewi8S4rWnQA=w2400",
+  "https://lh3.googleusercontent.com/k_9KqlqbDe6F-CCh2XQu23vylGP44c2ZRTlNOwqsArZHKLBSnHl_CdsqXzyb73HE1bN4Rwc_AuKrTz0n5QcL-1tqQSoQzChFtJIysTiCoesiMM6lTqlLroCxyVWZAH9PsecIcguOrw=w2400",
+  "https://lh3.googleusercontent.com/wmNAf9ljJ8ramEW3ghpF71-2PJPmSQjqG96Cr9Hm9qcIKvf6U_fBCugsgY6dn5x1F1idDpI_mQbe_PrgKyZJrwFDa-eDRm7pm71FziIPLpDvtdO7W0c6Ndc2uMGCUIQNdooDfCDpkA=w2400",
+  "https://lh3.googleusercontent.com/teh6A5_pfz_2HydEtbzwlFYDJDNlO1lNa3jokR-prABrNGIHHPN4WuZ-l-ZAbtrwp73Xn9Hbz7MVTdXkJ9EYKqoDZ5jplTZB3wuZ8ZhCEGH42cu0QrnGDukFK5Uc_Ot5S9uKqrJoTg=w2400",
+  "https://lh3.googleusercontent.com/AqyguS9yEWs7PehmypHypJHVyKaAtsYxCHKoTR-xcdqz187x_7P1VMm4VlwkRERUTb-pgMtXj9Fik0w1-oNjbdUqGl62tRKlb4MI5uf1Pxhs1SLgep5TNa38ou3zp4QY5P_psBIEpQ=w2400",
+  "https://lh3.googleusercontent.com/gAHfTgIdPkSgABX-sxfTuH0GvaOwe8_ie_nVXiNLe6zjEJtWqU8pQJXVLpFrMQ6M5GsDUr0b_9hCMPBOH_fgv3Q6Cbi74FOHJFvnJMW3GN12Oun7nDJOOP8jlfyU2SX7oMDizr0jbw=w2400",
+
   "https://lh3.googleusercontent.com/3W4t10o4KNvqGdsngkx4ewtuzLXU6aeSz99S6PINLZdbOfCG-fxPfJubq7PE8iApddu7cJEIuq1Ry2D2jZiHJn5n_Yq7j2L0zc0mUDFMSiJhJQ3J7776tNE2WwSA9PHqtUN8riqqpQ=w2400",
   "https://lh3.googleusercontent.com/lcK4G7A1BF9hUxZ2z418nytbJBzd207B81Xqncde8uX00bSOLh_At_RBHOQxn-di389bUueYMpOONGHZPYTbOaP2iyikxcNMAfAtvU382WdvdgyFXXZ7pC6sSrlbaekNTh9al7R-qQ=w2400",
 ];
@@ -25,7 +46,6 @@ const images = [
 const variants = {
   enter: (direction) => {
     return {
-      x: direction > 0 ? 1000 : -1000,
       opacity: 0,
     };
   },
@@ -37,7 +57,6 @@ const variants = {
   exit: (direction) => {
     return {
       zIndex: 0,
-      x: direction < 0 ? 1000 : -1000,
       opacity: 0,
     };
   },
@@ -53,27 +72,27 @@ const Photography = () => {
   const imageIndex = wrap(0, images.length, page);
   const paginate = (newDirection) => {
     setPage([page + newDirection, newDirection]);
+    console.log(page, direction);
   };
 
   return (
     <div className="photography-page flex flex-col bg-eggshell min-h-screen w-screen">
-      <div className="photography-navbar flex flex-row h-[10%] font-forma text-lg justify-between py-[5vh] px-[5vw]">
+      <div className="photography-navbar flex flex-row h-[10vh] font-inter font-[500] text-lg justify-between items-center py-[5vh] px-[5vw]">
         <p className="photography-navbar-item">Home</p>
         <p className="photography-navbar-item">Instagram</p>
         <p className="photography-navbar-item">Contact</p>
       </div>
-      <div className="photography-header flex h-[75vh] max-w-[100vw]">
+      <div className="photography-header flex justify-center items-center h-[90vh] px-[10vw] pb-[5vh]">
         <div
-          className="left fixed h-screen w-[25vw] left-0 z-10 bg-transparent"
+          className="left fixed h-[75vw] w-[25vw] left-0 z-10 bg-transparent"
           onClick={() => paginate(-1)}
         ></div>
         <div
-          className="right fixed h-screen w-[25vw] right-0 z-10 bg-transparent"
+          className="right fixed h-[75vh] w-[25vw] right-0 z-10 bg-transparent"
           onClick={() => paginate(1)}
         ></div>
-        <AnimatePresence initial={false} custom={direction}>
+        <AnimatePresence initial={true} custom={direction}>
           <motion.img
-            className="w-auto max-w-[300px]"
             key={page}
             src={images[imageIndex]}
             custom={direction}
@@ -82,12 +101,12 @@ const Photography = () => {
             animate="center"
             exit="exit"
             transition={{
-              x: { type: "spring", stiffness: 300, damping: 30 },
+              x: { type: "spring", stiffness: 0, damping: 0 },
               opacity: { duration: 0.3 },
             }}
             drag="x"
             dragConstraints={{ left: 0, right: 0 }}
-            dragElastic={1}
+            dragElastic={false}
             onDragEnd={(e, { offset, velocity }) => {
               const swipe = swipePower(offset.x, velocity.x);
 
