@@ -4,6 +4,10 @@
     align-items: center;
   }
 
+  .navbar-neel {
+    width: 80%;
+  }
+
   .about-bio {
     width: 100%;
     padding-left: 10%;

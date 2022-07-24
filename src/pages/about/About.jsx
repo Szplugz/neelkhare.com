@@ -5,6 +5,7 @@ import biopic from "../../utils/biopic.jpg";
 import { Helmet } from "react-helmet";
 import fallpic from "../../utils/fallrl2square.jpg";
 import "./About.css";
+import chistar from "../../utils/CHISTARCHISTAR.svg";
 
 const About = () => {
   return (
@@ -17,21 +18,19 @@ const About = () => {
         <Navmobile />
         <div className="desktop-head flex justify-between">
           <div className="navbar-neel text-navy relative flex items-center text-4xl font-[500] font-inter mb-[5vh]">
-            Hello
+            Hello, I'm Neel.
           </div>
         </div>
         <div className="about-bio-content overflow-x-hidden flex-col w-full text-almostBlack font-inter font-[400] text-xl leading-snug overflow-y-auto">
+          <img className="mb-[5vh]" src={chistar}></img>
           <p className="about-bio-main mb-[5vh]">
-            I'm Neel Khare, a junior at the{" "}
+            I study computer science and economics at the{" "}
             <span className="text-[#ff6541]">
               University of Illinois, Urbana-Champaign
             </span>
-            , where I spend most of the year studying computer science and
-            writing code. What matters to me the most is consistent personal
-            growth and sharing my knowledge with the world in the hope of
-            lifting others up. At the moment, I'm quite interested in full-stack
-            development and product design, and I am always looking to involve
-            myself in projects that improve people’s quality of life.
+            . I’m a creator; most of my time is spent building programs, making
+            videos, and writing essays. The rest of it is spent being pedantic
+            (this website took way longer than it should have).
           </p>
           <div className="bullets">
             <div className="bullet mb-[5vh]">
@@ -39,7 +38,7 @@ const About = () => {
                 At college, I am a software developer at{" "}
                 <a
                   className="link text-almostBlack underline hover:decoration-solid decoration-dotted hover:decoration-lightpink transition duration-[200ms] ease-in-out"
-                  href="https://www.quantillinois.com/"
+                  href="https://uiucquant.web.illinois.edu/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -58,6 +57,7 @@ const About = () => {
                 >
                   Mediaocean
                 </a>
+                .
               </span>
             </div>
             {/* <li className="bullet mb-[1vh]">

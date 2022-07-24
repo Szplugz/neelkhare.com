@@ -3,6 +3,10 @@
     height: 100%;
   }
 
+  .person-links {
+    width: 45%;
+  }
+
   .people-content {
     width: 100%;
     padding-left: 10%;

@@ -22,13 +22,13 @@ const Navmobile = () => {
           href="/about"
           className="navbar-neel text-navy relative flex items-center text-4xl font-[500] font-inter mb-[5vh]"
         >
-          Hello
+          Hello, I'm Neel.
         </a>
         <div>
           {open ? (
             <ThemeProvider theme={theme}>
               <IconButton
-                className="button rounded-[50%] h-[3vh] w-[3vh]"
+                className="button rounded-[50%] w-[3vh] scale-150"
                 aria-label="close"
                 color="navy"
                 onClick={() => setOpen(false)}
@@ -39,7 +39,7 @@ const Navmobile = () => {
           ) : (
             <ThemeProvider theme={theme}>
               <IconButton
-                className="button rounded-[50%] h-[3vh] w-[3vh]"
+                className="button rounded-[50%] w-[3vh] scale-150"
                 aria-label="open"
                 color="navy"
                 onClick={() => setOpen(true)}
