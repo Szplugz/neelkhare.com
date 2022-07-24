@@ -15,17 +15,27 @@
     display: none;
   }
 
-  .people-content {
-    scrollbar-width: none; /* Firefox */
-  }
-
-  .people-content::-webkit-scrollbar {
-    display: none; /* Chrome */
-  }
-
   .header {
     width: 100%;
     padding-left: 10%;
     padding-right: 10%;
   }
+}
+
+.people-page {
+  -webkit-animation: fadein 0.75s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 0.75s; /* Firefox < 16 */
+  -ms-animation: fadein 0.75s; /* Internet Explorer */
+  -o-animation: fadein 0.75s; /* Opera < 12.1 */
+  animation: fadein 0.75s;
+}
+
+.people-content {
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+  overflow-y: scroll;
+}
+
+.people-content::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
 }

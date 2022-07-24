@@ -25,21 +25,23 @@ const People = () => {
         <title>People | Neel Khare</title>
       </Helmet>
       <Navbar />
-      <div className="people-content float flex-col w-[30%] my-[10vh] ml-[7.5vw] overflow-y-auto font-inter">
-        <div className="header text-navy mb-[5vh]">People</div>
+      <div className="people-content float flex-col w-[40%] py-[10vh] ml-[7.5vw] overflow-y-hidden font-inter text-xl">
+        <div className="header text-navy mb-[5vh] text-2xl font-[500]">
+          People
+        </div>
         <Navmobile />
         <div className="p1 mb-[2vh]">
           A list of cool internet people that do cool things from whom I
           regularly learn and draw inspiration. Interestingly, almost all of
           them write.
         </div>
-        <div className="subtext text-navy font-inter font-[300] text-xs mb-[5vh]">
+        <div className="subtext text-navy font-inter font-[300] text-sm mb-[5vh]">
           <em>
             Most of them are in the same "twitter-tech-entrepreneur-writer"
             network.
           </em>
         </div>
-        <div className="people-list">
+        <div className="people-list text-lg">
           <div className="person flex flex-row justify-between">
             <div className="text-navy">Paul Graham</div>
             <div className="person-links flex flex-row justify-between w-[40%]">
@@ -309,7 +311,7 @@ const Navmobile = () => {
   return (
     <div className="navbar-mobile">
       <div className="flexibleHead flex justify-between">
-        <p className="navbar-neel text-navy relative flex items-center font-[400] font-inter mb-[10vh]">
+        <p className="navbar-neel text-navy relative flex items-center font-[500] text-2xl font-inter mb-[10vh]">
           People
         </p>
         <div>
@@ -341,23 +343,25 @@ const Navmobile = () => {
       {open && (
         <div className="dropdown flex flex-col h-[100vh] w-[100vw]">
           <div className="navbar-menu mb-[5vh] flex flex-col">
-            <li className="navbar-item font-[300] text-[3vh]">
+            <li className="navbar-item font-[300] text-xl">
               <a href="/about">
                 <NavbarItem text={"Home"} />
               </a>
             </li>
-            <li className="navbar-index text-gray-600 font-forma relative flex items-center font-[300] text-[3vh] leading-none">
+            <li className="navbar-index text-gray-600 font-forma relative flex items-center font-[300] text-xl">
               <NavbarItem text={"Index"} />
             </li>
-            <li className="navbar-item font-[300] text-[3vh]">
+            <li className="navbar-item font-[300] text-xl">
               <a href="/people">
                 <NavbarItem text={"People"} />
               </a>
             </li>
-            <li className="navbar-photography text-gray-600 font-forma relative flex items-center font-[300] text-[3vh] leading-none">
-              <NavbarItem text={"Photography"} />
+            <li className="navbar-item font-[300] text-xl">
+              <a href="/photography">
+                <NavbarItem text={"Photography"} />
+              </a>
             </li>
-            <li className="navbar-item font-[300] text-[3vh]">
+            <li className="navbar-item font-[300] text-xl">
               <a
                 href="https://drive.google.com/file/d/1Opg8P9ej8cd1tPoKEsSkcYo7F4J3Uz63/view?usp=sharing"
                 target="_blank"
@@ -366,17 +370,17 @@ const Navmobile = () => {
                 <NavbarItem text={"Resumé"} />
               </a>
             </li>
-            <li className="navbar-bits text-gray-600 font-forma relative flex items-center font-[300] text-[3vh] leading-none">
+            <li className="navbar-bits text-gray-600 font-forma relative flex items-center font-[300] text-xl">
               <NavbarItem text={"Tapas"} />
             </li>
-            <li className="navbar-item font-[300] text-[3vh]">
+            <li className="navbar-item font-[300] text-xl">
               <a href="/work">
                 <NavbarItem text={"Work"} />
               </a>
             </li>
           </div>
           <div className="navbar-external flex flex-col justify-start align-top">
-            <li className="navbar-email text-almostBlack font-forma relative flex items-center font-[300] text-[3vh] leading-none hover:text-blue transition duration-500 ease-in-out">
+            <li className="navbar-email text-almostBlack font-forma relative flex items-center font-[300] text-xl hover:text-blue transition duration-500 ease-in-out">
               <a
                 href="mailto:neelk2@illinois.edu"
                 target="_blank"
@@ -385,7 +389,7 @@ const Navmobile = () => {
                 <NavbarItem text={"email"} />
               </a>
             </li>
-            <li className="navbar-github text-almostBlack font-forma relative flex items-center font-[300] text-[3vh] leading-none hover:text-githubGrey transition duration-500 ease-in-out">
+            <li className="navbar-github text-almostBlack font-forma relative flex items-center font-[300] text-xl hover:text-githubGrey transition duration-500 ease-in-out">
               <a
                 href="https://github.com/Szplugz"
                 target="_blank"
@@ -394,7 +398,7 @@ const Navmobile = () => {
                 <NavbarItem text={"github"} />
               </a>
             </li>
-            <li className="navbar-twitter text-almostBlack font-forma relative flex items-center font-[300] text-[3vh] leading-none hover:text-twitterBlue transition duration-500 ease-in-out">
+            <li className="navbar-twitter text-almostBlack font-forma relative flex items-center font-[300] text-xl hover:text-twitterBlue transition duration-500 ease-in-out">
               <a
                 href="https://www.twitter.com/szplugz/"
                 target="_blank"
@@ -403,7 +407,7 @@ const Navmobile = () => {
                 <NavbarItem text={"twitter"} />
               </a>
             </li>
-            <li className="navbar-youtube text-almostBlack font-forma relative flex items-center font-[300] text-[3vh] leading-none hover:text-youtubeRed transition duration-500 ease-in-out">
+            <li className="navbar-youtube text-almostBlack font-forma relative flex items-center font-[300] text-xl hover:text-youtubeRed transition duration-500 ease-in-out">
               <a
                 href="https://www.youtube.com/kiltoch/"
                 target="_blank"

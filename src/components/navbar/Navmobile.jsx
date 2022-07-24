@@ -7,7 +7,7 @@ import { createTheme, ThemeProvider } from "@mui/material/styles";
 
 const theme = createTheme({
   palette: {
-    lightPink: {
+    navy: {
       main: "#EE9B86",
     },
   },
@@ -20,9 +20,9 @@ const Navmobile = () => {
       <div className="flexibleHead flex justify-between">
         <a
           href="/about"
-          className="navbar-neel text-lightpink relative flex items-center font-[400] font-inter mb-[10vh]"
+          className="navbar-neel text-navy relative flex items-center text-4xl font-[500] font-inter mb-[5vh]"
         >
-          Neel Khare
+          Hello
         </a>
         <div>
           {open ? (
@@ -30,7 +30,7 @@ const Navmobile = () => {
               <IconButton
                 className="button rounded-[50%] h-[3vh] w-[3vh]"
                 aria-label="close"
-                color="lightPink"
+                color="navy"
                 onClick={() => setOpen(false)}
               >
                 <CloseIcon />
@@ -41,7 +41,7 @@ const Navmobile = () => {
               <IconButton
                 className="button rounded-[50%] h-[3vh] w-[3vh]"
                 aria-label="open"
-                color="lightPink"
+                color="navy"
                 onClick={() => setOpen(true)}
               >
                 <AddIcon />

@@ -18,6 +18,8 @@ module.exports = {
         mango: "#d6893a",
         mangoHighlight: "#eecdac",
         navy: "#003547",
+        pink: "#ffd1d9",
+        sunsetPink: "#FF7B81",
       },
       fontFamily: {
         forma: ["forma-djr-micro", "sans-serif"],

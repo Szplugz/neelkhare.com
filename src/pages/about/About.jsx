@@ -13,35 +13,32 @@ const About = () => {
         <title>About | Neel Khare</title>
       </Helmet>
       <HomeNav />
-      <div className="about-bio float flex-col w-[30%] my-[10vh] ml-[7.5vw] overflow-y-auto">
+      <div className="about-bio float flex-col w-[40%] my-[10vh] ml-[15vw] overflow-y-auto">
         <Navmobile />
         <div className="desktop-head flex justify-between">
-          <a
-            href="/about"
-            className="navbar-neel text-lightpink relative flex items-center font-[400] font-inter mb-[5vh]"
-          >
-            Neel Khare
-          </a>
+          <div className="navbar-neel text-navy relative flex items-center text-4xl font-[500] font-inter mb-[5vh]">
+            Hello
+          </div>
         </div>
-        <div className="about-bio-content overflow-x-hidden flex-col w-full text-almostBlack font-inter font-[400] leading-snug overflow-y-auto">
-          <p className="p1 mb-[5vh] font-[500]">
-            Hello! I'm a junior at the University of Illinois, Urbana-Champaign,
-            where I spend most of the year studying computer science and writing
-            code. What matters to me the most is consistent personal growth and
-            sharing my knowledge with the world in the hope of lifting others
-            up. At the moment, I'm quite interested in full-stack development
-            and product design, and I am always looking to involve myself in
-            projects that improve people’s quality of life.
+        <div className="about-bio-content overflow-x-hidden flex-col w-full text-almostBlack font-inter font-[400] text-xl leading-snug overflow-y-auto">
+          <p className="about-bio-main mb-[5vh]">
+            I'm Neel Khare, a junior at the{" "}
+            <span className="text-[#ff6541]">
+              University of Illinois, Urbana-Champaign
+            </span>
+            , where I spend most of the year studying computer science and
+            writing code. What matters to me the most is consistent personal
+            growth and sharing my knowledge with the world in the hope of
+            lifting others up. At the moment, I'm quite interested in full-stack
+            development and product design, and I am always looking to involve
+            myself in projects that improve people’s quality of life.
           </p>
-          <h1 className="h1 mb-[3vh] text-lightpink font-[400]">
-            What keeps me busy these days:
-          </h1>
           <div className="bullets">
-            <li className="bullet mb-[1vh]">
+            <div className="bullet mb-[5vh]">
               <span className="p1">
                 At college, I am a software developer at{" "}
                 <a
-                  className="link text-almostBlack underline hover:decoration-solid decoration-dotted hover:text-lightpink transition duration-[200ms] ease-in-out"
+                  className="link text-almostBlack underline hover:decoration-solid decoration-dotted hover:decoration-lightpink transition duration-[200ms] ease-in-out"
                   href="https://www.quantillinois.com/"
                   target="_blank"
                   rel="noreferrer"
@@ -49,12 +46,23 @@ const About = () => {
                   Quant
                 </a>
                 , and co-founder and President at August Productions, where we
-                make films and documentaries.
+                make films and documentaries. I also build and maintain side
+                projects that mostly consist of websites and handy
+                web-applications. This summer, I'm interning as a full-stack
+                developer at{" "}
+                <a
+                  className="link text-almostBlack underline hover:decoration-solid decoration-dotted hover:decoration-lightpink transition duration-[200ms] ease-in-out"
+                  href="https://www.mediaocean.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Mediaocean
+                </a>
               </span>
-            </li>
-            <li className="bullet mb-[1vh]">
+            </div>
+            {/* <li className="bullet mb-[1vh]">
               <span className="p2">
-                I build and maintain side projects that mostly consist of
+                I also build and maintain side projects that mostly consist of
                 websites and handy web-applications.
               </span>
             </li>
@@ -71,34 +79,34 @@ const About = () => {
                 </a>
                 .
               </span>
-            </li>
-            <p className="p1 mb-[3vh]">
+            </li> */}
+            <p className="p1 mb-[5vh]">
               {" "}
               In my free time, I like roaming around Chicago, exploring cafés,
               watching trains, taking pictures, and reading. I love learning
               about human behavior, transportation, and startups, among many
               other things.
             </p>
-            <p className="p1 mb-[3vh]">
+            <p className="p1 mb-[5vh]">
               I'm always looking to connect with and meet new people, so please
               feel free to reach out to me through any of the social links that
               you see on the left! I would <em>especially</em> love to hear from
               you if:
-              <div className="list mt-[3vh]">
-                <p className="about-cat-1 ml-[5%] mb-[1vh]">
+              <div className="list mt-[5vh]">
+                <p className="about-cat-1 mb-[1vh]">
                   {" "}
-                  <span className="1 text-lightpink font-tablet">1.&nbsp;</span>
+                  <span className="1 text-navy font-tablet">1.&nbsp;</span>
                   You are a recruiter looking for a software engineering intern.
                 </p>
-                <p className="about-cat-2 ml-[5%] mb-[1vh]">
+                <p className="about-cat-2 mb-[1vh]">
                   {" "}
-                  <span className="2 text-lightpink font-tablet">2.&nbsp;</span>
+                  <span className="2 text-navy font-tablet">2.&nbsp;</span>
                   You are a developer/filmmaker/photographer looking to
                   collaborate on a project.
                 </p>
-                <p className="about-cat-3 ml-[5%] mb-[1vh]">
+                <p className="about-cat-3 mb-[1vh]">
                   {" "}
-                  <span className="3 text-lightpink font-tablet">3.&nbsp;</span>
+                  <span className="3 text-navy font-tablet">3.&nbsp;</span>
                   If you would like to talk to (or argue with) me about one of
                   my many{" "}
                   <span className="link text-almostBlack underline hover:decoration-solid decoration-dotted">

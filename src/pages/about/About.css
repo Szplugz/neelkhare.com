@@ -12,6 +12,15 @@
     margin-left: 0;
   }
 
+  .about-bio-content {
+    font-size: 1.125rem; /* 18px */
+    line-height: 1.5rem; /* 28px */
+  }
+
+  .about-bio-main {
+    font-weight: 500;
+  }
+
   .about-pictures {
     width: 80%;
     margin-top: 0;
@@ -48,11 +57,11 @@
 }
 
 .about-page {
-  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-  -moz-animation: fadein 2s; /* Firefox < 16 */
-  -ms-animation: fadein 2s; /* Internet Explorer */
-  -o-animation: fadein 2s; /* Opera < 12.1 */
-  animation: fadein 2s;
+  -webkit-animation: fadein 0.75s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 0.75s; /* Firefox < 16 */
+  -ms-animation: fadein 0.75s; /* Internet Explorer */
+  -o-animation: fadein 0.75s; /* Opera < 12.1 */
+  animation: fadein 0.75s;
 }
 
 @keyframes fadein {

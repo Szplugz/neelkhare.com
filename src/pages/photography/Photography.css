@@ -3,3 +3,24 @@
   max-width: 80vw;
   max-height: 80vh;
 }
+
+.photography-navbar-item {
+  display: none;
+}
+
+.photography-navbar-item {
+  display: flex;
+}
+
+.marquee {
+  animation: marquee 15s linear infinite;
+}
+
+@keyframes marquee {
+  0% {
+    -webkit-transform: translateX(100vw);
+  }
+  100% {
+    -webkit-transform: translateX(-100vw);
+  }
+}
