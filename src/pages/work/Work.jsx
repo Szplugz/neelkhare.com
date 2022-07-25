@@ -8,6 +8,7 @@ import { createTheme, ThemeProvider } from "@mui/material/styles";
 import { Title } from "@mui/icons-material";
 import "./Work.css";
 import chistar from "../../utils/CHISTAR.svg";
+import newlogo from "../../utils/StarLogoNeel.svg";
 
 const theme = createTheme({
   palette: {
@@ -160,7 +161,7 @@ export const Work = () => {
             </div>
           </div>
         </div>
-        <img className="footerstar h-[5vh] mb-[5vh]" src={chistar}></img>
+        <img className="footerstar h-[5vh] mb-[5vh]" src={newlogo}></img>
       </div>
     </div>
   );

@@ -7,6 +7,7 @@ import AddIcon from "@mui/icons-material/Add";
 import CloseIcon from "@mui/icons-material/Close";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import chistar from "../../utils/CHISTAR.svg";
+import newlogo from "../../utils/StarLogoNeel.svg";
 
 const theme = createTheme({
   palette: {
@@ -303,7 +304,7 @@ const People = () => {
             </div>
           </div>
         </div>
-        <img className="footerstar h-[5vh] mb-[5vh]" src={chistar}></img>
+        <img className="footerstar h-[5vh] mb-[5vh]" src={newlogo}></img>
       </div>
     </div>
   );

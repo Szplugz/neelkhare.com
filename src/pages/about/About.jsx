@@ -28,9 +28,26 @@ const About = () => {
             <span className="text-[#ff6541]">
               University of Illinois, Urbana-Champaign
             </span>
-            . I’m a creator; most of my time is spent building programs, making
-            videos, and writing essays. The rest of it is spent being pedantic
-            (this website took way longer than it should have).
+            . I’m a creator; most of my time is spent building{" "}
+            <a
+              className="link text-almostBlack underline hover:decoration-solid decoration-dotted hover:decoration-lightpink transition duration-[200ms] ease-in-out"
+              href="https://github.com/szplugz"
+              target="_blank"
+              rel="noreferrer"
+            >
+              programs
+            </a>
+            , making&nbsp;
+            <a
+              className="link text-almostBlack underline hover:decoration-solid decoration-dotted hover:decoration-lightpink transition duration-[200ms] ease-in-out"
+              href="https://youtube.com/kiltoch"
+              target="_blank"
+              rel="noreferrer"
+            >
+              videos
+            </a>
+            , and writing essays. The rest of it is spent being pedantic (this
+            website took way longer than it should have).
           </p>
           <div className="bullets">
             <div className="bullet mb-[5vh]">
@@ -71,21 +88,24 @@ const About = () => {
               human behavior, transportation, and cities.
             </p>
             <hr className="line border-dotted my-[5vh] h-[1px] border-navy"></hr>
-            <p className="p1 mb-[5vh]">
+            <p className="p-last mb-[5vh]">
               I built this website because I wanted a single platform where
               people (and recruiters) could find everything they need to know
               about me. I'd love to hear from you if you're a video creator or
               programmer and you'd like to work on a project together. And even
               if you're not, the internet is a great way to meet people, in my
               opinion, so if you find something here that's worth talking about,
-              please reach out to me! I haven't set up a contact page yet, but
-              you can use any of the social links you see to get in touch with
-              me in the meantime.
+              or if you just want to praise me and tell me how elegant my
+              website is and how you want to pay me a lot of money to build a
+              similar one for you, please reach out to me! I haven't set up a
+              contact page yet, but you can use any of the social links you see
+              to get in touch with me in the meantime.
             </p>
-            <p className="subtext text-slate-600 font-inter font-[300] text-sm mb-[5vh]">
+            <p className="subtext text-slate-600 font-inter font-[300] text-sm mb-[6vh]">
               Btw, a personal website comes in handy when you're on a date with
-              someone and you lose your wits. Just show them your website and
-              watch them invariably fall for you.
+              someone and you forget who you are. Just open your website and
+              watch the confidence start flowing through you like fuel through a
+              jet engine.
             </p>
           </div>
         </div>
