@@ -5,15 +5,27 @@ module.exports = {
     extend: {
       colors: {
         lightpink: "#EE9B86",
-        eggshell: "#FFF9EF",
+        eggshell: "#f9f5f1",
         githubGrey: "#333333",
         instagramRed: "#C13584",
         twitterBlue: "#1DA1F2",
         youtubeRed: "#FF0000",
         almostBlack: "#08090A",
+        almostBlackFaded: "#4B5563",
+        skyBlue: "#bac8d3",
+        pastelGreen: "#c8d3ba",
+        candy: "#AF818B",
+        mango: "#d6893a",
+        mangoHighlight: "#eecdac",
+        navy: "#003547",
+        pink: "#ffd1d9",
+        sunsetPink: "#FF7B81",
       },
       fontFamily: {
         forma: ["forma-djr-micro", "sans-serif"],
+        garamond: ["adobe-garamond-pro", "serif"],
+        tablet: ["tablet-gothic", "sans-serif"],
+        inter: ["Inter", "sans-serif"],
       },
       fontSize: {
         84: "84px",

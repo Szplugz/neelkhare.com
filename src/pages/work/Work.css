@@ -1,0 +1,69 @@
+@media screen and (max-width: 767px) {
+  .work-page {
+    height: 100%;
+  }
+
+  .work-header {
+    display: none;
+  }
+
+  .work-content {
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 100%;
+    margin-left: 0;
+  }
+
+  .work-roles {
+    flex-direction: column;
+  }
+
+  .roles-left {
+    margin-bottom: 5vh;
+    width: 100%;
+  }
+
+  .roles-right {
+    width: 100%;
+  }
+
+  .work-projects {
+    flex-direction: column;
+  }
+
+  .projects-left {
+    margin-bottom: 5vh;
+    width: 100%;
+  }
+
+  .projects-right {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .line-top {
+    display: none;
+  }
+
+  .footerstar {
+    display: none;
+  }
+}
+
+.work-content {
+  scrollbar-width: none;
+}
+
+.work-content::-webkit-scrollbar {
+  display: none;
+}
+
+.work-page {
+  -webkit-animation: fadein 0.75s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 0.75s; /* Firefox < 16 */
+  -ms-animation: fadein 0.75s; /* Internet Explorer */
+  -o-animation: fadein 0.75s; /* Opera < 12.1 */
+  animation: fadein 0.75s;
+}
