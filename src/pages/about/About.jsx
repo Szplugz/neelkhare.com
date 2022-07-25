@@ -66,39 +66,26 @@ const About = () => {
             </div>
             <p className="p1 mb-[5vh]">
               {" "}
-              In my free time, I like roaming around Chicago, exploring cafés,
-              watching trains, taking pictures, and reading. I love learning
-              about human behavior, transportation, and startups, among many
-              other things.
+              In my free time, I like roaming around Chicago, visiting cafés,
+              watching trains, taking pictures, and reading. I think a lot about
+              human behavior, transportation, and cities.
             </p>
+            <hr className="line border-dotted my-[5vh] h-[1px] border-navy"></hr>
             <p className="p1 mb-[5vh]">
-              I'm always looking to connect with and meet new people, so please
-              feel free to reach out to me through any of the social links that
-              you see on the left! I would <em>especially</em> love to hear from
-              you if:
-              <div className="list mt-[5vh]">
-                <p className="about-cat-1 mb-[1vh]">
-                  {" "}
-                  <span className="1 text-navy font-tablet">1.&nbsp;</span>
-                  You are a recruiter looking for a software engineering intern.
-                </p>
-                <p className="about-cat-2 mb-[1vh]">
-                  {" "}
-                  <span className="2 text-navy font-tablet">2.&nbsp;</span>
-                  You are a developer/filmmaker/photographer looking to
-                  collaborate on a project.
-                </p>
-                <p className="about-cat-3 mb-[1vh]">
-                  {" "}
-                  <span className="3 text-navy font-tablet">3.&nbsp;</span>
-                  If you would like to talk to (or argue with) me about one of
-                  my many{" "}
-                  <span className="link text-almostBlack underline hover:decoration-solid decoration-dotted">
-                    interests
-                  </span>{" "}
-                  .
-                </p>
-              </div>
+              I built this website because I wanted a single platform where
+              people (and recruiters) could find everything they need to know
+              about me. I'd love to hear from you if you're a video creator or
+              programmer and you'd like to work on a project together. And even
+              if you're not, the internet is a great way to meet people, in my
+              opinion, so if you find something here that's worth talking about,
+              please reach out to me! I haven't set up a contact page yet, but
+              you can use any of the social links you see to get in touch with
+              me in the meantime.
+            </p>
+            <p className="subtext text-slate-600 font-inter font-[300] text-sm mb-[5vh]">
+              Btw, a personal website comes in handy when you're on a date with
+              someone and you lose your wits. Just show them your website and
+              watch them invariably fall for you.
             </p>
           </div>
         </div>

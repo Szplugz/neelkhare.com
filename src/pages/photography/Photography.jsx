@@ -86,26 +86,16 @@ const Photography = () => {
 
   return (
     <div className="photography-page flex flex-col bg-eggshell min-h-screen w-screen">
-      <div className="photography-navbar flex flex-row h-[10vh] font-inter font-[500] text-xl justify-evenly items-center">
-        <div className="photography-navbar-item px-1 hover:rounded hover:bg-sunsetPink transition-all">
-          <a href="/about">Home</a>
+      <div className="photography-navbar flex flex-row h-[10vh] font-inter font-[500] text-xl justify-center items-center">
+        <div className="photography-menu flex flex-row w-[50vw] justify-evenly items-center">
+          <div className="photography-navbar-item px-1 hover:rounded hover:bg-sunsetPink transition-all">
+            <a href="/about">Home</a>
+          </div>
+          <img className="chistar h-[3rem]" src={newlogo}></img>
+          <div className="photography-navbar-item px-1 hover:rounded hover:bg-sunsetPink transition-all z-0">
+            Contact
+          </div>
         </div>
-        <img className="chistar h-[6vh]" src={newlogo}></img>
-        {/* <div className="photography-navbar-item px-1 hover:rounded hover:bg-sunsetPink transition-all z-0">
-          <a
-            href="https://www.instagram.com/secondhandneel/"
-            target="_blank"
-            rel="norefferer"
-          >
-            Instagram
-          </a>
-        </div> */}
-        <div className="photography-navbar-item px-1 hover:rounded hover:bg-sunsetPink transition-all z-0">
-          Contact
-        </div>
-        {/* <div className="marquee text-4xl font-inter text-navy">
-          THE POETRY IS IN THE STREETS IN FULL LIVING COLOR.
-        </div> */}
       </div>
       <div className="photography-header flex justify-center items-center h-[90vh] px-[10vw] pb-[5vh]">
         <div

@@ -33,9 +33,12 @@ export const Work = () => {
           <img className="star h-[4vh]" src={chistar}></img>
         </div>
         <Navmobile />
-        <div className="p1 mb-[5vh]">
+        <div className="p1 mb-[2vh]">
           Ultimately, I want to make beautiful things. I define <em>Work</em> as
           experiences that count towards that goal.
+        </div>
+        <div className="subtext text-slate-600 font-inter font-[300] text-sm mb-[5vh]">
+          <em>This list is incomplete, you can help by hiring me.</em>
         </div>
         <hr className="line-top border-dotted my-[5vh] h-[1px] border-navy"></hr>
         <div className="work-roles flex flex-row mb-[5vh]">

@@ -1,4 +1,18 @@
-.photography-page img {
+@media screen and (max-width: 767px) {
+  .photography-menu {
+    width: 80vw;
+  }
+
+  .photography-header {
+    height: 90vw;
+  }
+
+  .chistar {
+    height: 2rem;
+  }
+}
+
+.photography-header img {
   position: absolute;
   max-width: 80vw;
   max-height: 80vh;
