@@ -30,19 +30,13 @@ const People = () => {
       <div className="people-content float flex-col w-[40%] py-[10vh] ml-[7.5vw] overflow-y-hidden font-inter text-xl">
         <div className="header flex flex-row justify-between items-center text-navy mb-[5vh] text-2xl font-[500]">
           <div className="title">People</div>
-          <img className="stars h-[4vh]" src={chistar}></img>
+          <img className="stars h-[4vh]" src={newlogo}></img>
         </div>
         <Navmobile />
         <div className="p1 mb-[2vh]">
           A list of cool internet people that do cool things from whom I
           regularly learn and draw inspiration. Interestingly, almost all of
           them write.
-        </div>
-        <div className="subtext text-navy font-inter font-[300] text-sm mb-[5vh]">
-          <em>
-            Most of them are in the same "twitter-tech-entrepreneur-writer"
-            network.
-          </em>
         </div>
         <div className="people-list text-lg">
           <div className="person flex flex-row justify-between">

@@ -86,7 +86,7 @@ const Photography = () => {
 
   return (
     <div className="photography-page flex flex-col bg-eggshell min-h-screen w-screen">
-      <div className="photography-navbar flex flex-row h-[10vh] font-inter font-[500] text-xl justify-center items-center">
+      <div className="photography-navbar flex flex-row h-[10vh] mt-[5vh] font-inter font-[500] text-xl justify-center items-center">
         <div className="photography-menu flex flex-row w-[50vw] justify-evenly items-center">
           <div className="photography-navbar-item px-1 hover:rounded hover:bg-sunsetPink transition-all">
             <a href="/about">Home</a>

@@ -31,7 +31,7 @@ export const Work = () => {
       <div className="work-content float flex-col w-[40%] pt-[10vh] ml-[7.5vw] overflow-y-auto font-inter text-xl">
         <div className="work-header flex flex-row justify-between items-center text-candy mb-[5vh] font-[500] text-2xl">
           <div>Work</div>
-          <img className="star h-[4vh]" src={chistar}></img>
+          <img className="star h-[4vh]" src={newlogo}></img>
         </div>
         <Navmobile />
         <div className="p1 mb-[2vh]">
