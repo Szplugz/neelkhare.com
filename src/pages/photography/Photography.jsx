@@ -4,6 +4,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { wrap } from "popmotion";
 import styles from "./Photography.css";
 import chistar from "../../utils/CHISTARCHISTAR.svg";
+import newlogo from "../../utils/StarLogoNeel.svg";
 
 // const gallery = [
 //   {
@@ -89,7 +90,7 @@ const Photography = () => {
         <div className="photography-navbar-item px-1 hover:rounded hover:bg-sunsetPink transition-all">
           <a href="/about">Home</a>
         </div>
-        <img className="chistar h-[6vh]" src={chistar}></img>
+        <img className="chistar h-[6vh]" src={newlogo}></img>
         {/* <div className="photography-navbar-item px-1 hover:rounded hover:bg-sunsetPink transition-all z-0">
           <a
             href="https://www.instagram.com/secondhandneel/"

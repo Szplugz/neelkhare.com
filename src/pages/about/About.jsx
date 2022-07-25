@@ -5,7 +5,7 @@ import biopic from "../../utils/biopic.jpg";
 import { Helmet } from "react-helmet";
 import fallpic from "../../utils/fallrl2square.jpg";
 import "./About.css";
-import chistar from "../../utils/CHISTARCHISTAR.svg";
+import newlogo from "../../utils/StarLogoNeel.svg";
 
 const About = () => {
   return (
@@ -22,7 +22,7 @@ const About = () => {
           </div>
         </div>
         <div className="about-bio-content overflow-x-hidden flex-col w-full text-almostBlack font-inter font-[400] text-xl leading-snug overflow-y-auto">
-          <img className="mb-[5vh]" src={chistar}></img>
+          <img className="mb-[5vh] h-[17vh]" src={newlogo}></img>
           <p className="about-bio-main mb-[5vh]">
             I study computer science and economics at the{" "}
             <span className="text-[#ff6541]">
