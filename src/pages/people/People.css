@@ -26,6 +26,12 @@
   }
 }
 
+@media screen and (min-width: 768px) {
+  .footerstar {
+    display: none;
+  }
+}
+
 .people-page {
   -webkit-animation: fadein 0.75s; /* Safari, Chrome and Opera > 12.1 */
   -moz-animation: fadein 0.75s; /* Firefox < 16 */

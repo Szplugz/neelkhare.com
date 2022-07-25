@@ -6,6 +6,7 @@ import IconButton from "@mui/material/IconButton";
 import AddIcon from "@mui/icons-material/Add";
 import CloseIcon from "@mui/icons-material/Close";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
+import chistar from "../../utils/CHISTAR.svg";
 
 const theme = createTheme({
   palette: {
@@ -26,8 +27,9 @@ const People = () => {
       </Helmet>
       <Navbar />
       <div className="people-content float flex-col w-[40%] py-[10vh] ml-[7.5vw] overflow-y-hidden font-inter text-xl">
-        <div className="header text-navy mb-[5vh] text-2xl font-[500]">
-          People
+        <div className="header flex flex-row justify-between items-center text-navy mb-[5vh] text-2xl font-[500]">
+          <div className="title">People</div>
+          <img className="stars h-[4vh]" src={chistar}></img>
         </div>
         <Navmobile />
         <div className="p1 mb-[2vh]">
@@ -288,7 +290,7 @@ const People = () => {
           <hr className="line border-dotted my-[0.5vh] h-[1px] border-navy"></hr>
           <div className="person flex flex-row justify-between">
             <div className="text-navy">Tim Kellner</div>
-            <div className="person-links flex flex-row justify-between w-[40%]">
+            <div className="person-links flex flex-row justify-between w-[40%] mb-[5vh]">
               <div></div>
               <a
                 className="people-link text-candy"
@@ -301,6 +303,7 @@ const People = () => {
             </div>
           </div>
         </div>
+        <img className="footerstar h-[5vh] mb-[5vh]" src={chistar}></img>
       </div>
     </div>
   );

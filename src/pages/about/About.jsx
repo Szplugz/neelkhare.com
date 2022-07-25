@@ -34,6 +34,11 @@ const About = () => {
           </p>
           <div className="bullets">
             <div className="bullet mb-[5vh]">
+              I’m interested in technology that facilitates human connection.
+              I'm working to become a full-stack developer, hopefully making
+              beautiful products with high utility to people.
+            </div>
+            <div className="bullet mb-[5vh]">
               <span className="p1">
                 At college, I am a software developer at{" "}
                 <a
@@ -44,11 +49,10 @@ const About = () => {
                 >
                   Quant
                 </a>
-                , and co-founder and President at August Productions, where we
-                make films and documentaries. I also build and maintain side
-                projects that mostly consist of websites and handy
-                web-applications. This summer, I'm interning as a full-stack
-                developer at{" "}
+                , UIUC's premier quantitative finance organization, and
+                co-founder and president at August Productions, where we make
+                films and documentaries. This summer, I'm interning as a
+                full-stack developer at{" "}
                 <a
                   className="link text-almostBlack underline hover:decoration-solid decoration-dotted hover:decoration-lightpink transition duration-[200ms] ease-in-out"
                   href="https://www.mediaocean.com/"
@@ -60,26 +64,6 @@ const About = () => {
                 .
               </span>
             </div>
-            {/* <li className="bullet mb-[1vh]">
-              <span className="p2">
-                I also build and maintain side projects that mostly consist of
-                websites and handy web-applications.
-              </span>
-            </li>
-            <li className="bullet mb-[3vh]">
-              <span className="p2">
-                I'm a full-stack engineering intern at{" "}
-                <a
-                  className="link text-almostBlack underline hover:decoration-solid decoration-dotted hover:text-lightpink transition duration-[200ms] ease-in-out"
-                  href="https://www.mediaocean.com/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Mediaocean
-                </a>
-                .
-              </span>
-            </li> */}
             <p className="p1 mb-[5vh]">
               {" "}
               In my free time, I like roaming around Chicago, exploring cafés,

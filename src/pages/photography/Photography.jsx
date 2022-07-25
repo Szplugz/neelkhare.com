@@ -3,6 +3,7 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { wrap } from "popmotion";
 import styles from "./Photography.css";
+import chistar from "../../utils/CHISTARCHISTAR.svg";
 
 // const gallery = [
 //   {
@@ -84,11 +85,12 @@ const Photography = () => {
 
   return (
     <div className="photography-page flex flex-col bg-eggshell min-h-screen w-screen">
-      <div className="photography-navbar flex flex-row h-[10vh] font-inter font-[500] text-lg justify-evenly items-center py-[5vh] px-[5vw]">
+      <div className="photography-navbar flex flex-row h-[10vh] font-inter font-[500] text-xl justify-evenly items-center">
         <div className="photography-navbar-item px-1 hover:rounded hover:bg-sunsetPink transition-all">
           <a href="/about">Home</a>
         </div>
-        <div className="photography-navbar-item px-1 hover:rounded hover:bg-sunsetPink transition-all">
+        <img className="chistar h-[6vh]" src={chistar}></img>
+        {/* <div className="photography-navbar-item px-1 hover:rounded hover:bg-sunsetPink transition-all z-0">
           <a
             href="https://www.instagram.com/secondhandneel/"
             target="_blank"
@@ -96,8 +98,8 @@ const Photography = () => {
           >
             Instagram
           </a>
-        </div>
-        <div className="photography-navbar-item px-1 hover:rounded hover:bg-sunsetPink transition-all">
+        </div> */}
+        <div className="photography-navbar-item px-1 hover:rounded hover:bg-sunsetPink transition-all z-0">
           Contact
         </div>
         {/* <div className="marquee text-4xl font-inter text-navy">

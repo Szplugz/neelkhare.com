@@ -7,6 +7,7 @@ import CloseIcon from "@mui/icons-material/Close";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import { Title } from "@mui/icons-material";
 import "./Work.css";
+import chistar from "../../utils/CHISTAR.svg";
 
 const theme = createTheme({
   palette: {
@@ -27,8 +28,9 @@ export const Work = () => {
       </Helmet>
       <Navbar />
       <div className="work-content float flex-col w-[40%] pt-[10vh] ml-[7.5vw] overflow-y-auto font-inter text-xl">
-        <div className="work-header text-candy mb-[5vh] font-[500] text-2xl">
-          Work
+        <div className="work-header flex flex-row justify-between items-center text-candy mb-[5vh] font-[500] text-2xl">
+          <div>Work</div>
+          <img className="star h-[4vh]" src={chistar}></img>
         </div>
         <Navmobile />
         <div className="p1 mb-[5vh]">
@@ -78,7 +80,7 @@ export const Work = () => {
           </div>
         </div>
         <hr className="line border-dotted my-[5vh] h-[1px] border-navy"></hr>
-        <div className="work-projects flex flex-row mb-[3vh]">
+        <div className="work-projects flex flex-row mb-[5vh]">
           <div className="projects-left w-[25%] font-[500]">Projects</div>
           <div className="projects-right flex flex-col w-[80%]">
             <div className="project-title flex flex-col mb-[5vh]">
@@ -155,6 +157,7 @@ export const Work = () => {
             </div>
           </div>
         </div>
+        <img className="footerstar h-[5vh] mb-[5vh]" src={chistar}></img>
       </div>
     </div>
   );

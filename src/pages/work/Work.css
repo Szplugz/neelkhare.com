@@ -46,6 +46,10 @@
   .line-top {
     display: none;
   }
+
+  .footerstar {
+    display: none;
+  }
 }
 
 .work-content {
