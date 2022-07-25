@@ -107,6 +107,7 @@ const About = () => {
               watch the confidence start flowing through you like fuel through a
               jet engine.
             </p>
+            <hr className="line-2 border-dotted mb-[8vh] h-[1px] border-navy"></hr>
           </div>
         </div>
         <img
