@@ -6,19 +6,6 @@ import styles from "./Photography.css";
 import chistar from "../../utils/CHISTARCHISTAR.svg";
 import newlogo from "../../utils/StarLogoNeel.svg";
 
-// const gallery = [
-//   {
-//     id: 0,
-//     url: "https://lh3.googleusercontent.com/3W4t10o4KNvqGdsngkx4ewtuzLXU6aeSz99S6PINLZdbOfCG-fxPfJubq7PE8iApddu7cJEIuq1Ry2D2jZiHJn5n_Yq7j2L0zc0mUDFMSiJhJQ3J7776tNE2WwSA9PHqtUN8riqqpQ=w2400",
-//     content: "Image 1",
-//   },
-//   {
-//     id: 1,
-//     url: "https://lh3.googleusercontent.com/lcK4G7A1BF9hUxZ2z418nytbJBzd207B81Xqncde8uX00bSOLh_At_RBHOQxn-di389bUueYMpOONGHZPYTbOaP2iyikxcNMAfAtvU382WdvdgyFXXZ7pC6sSrlbaekNTh9al7R-qQ=w2400",
-//     content: "Image 2",
-//   },
-// ];
-
 const images = [
   "https://lh3.googleusercontent.com/ozSoDj0Q6v_r9J59uCtCRX2M5M-BfQYUJjUGyOTnz15z3TUFlWJjcr5MOE4DrC8OuApLC-JcGSdENK5AZ4f8Eq6Exx-YdrFmCnN4u2J7oNMaJ1hAo1mQ4cJTUFXOyeg2zlzWpOkfhg=w2400",
   "https://lh3.googleusercontent.com/wEqO_ON6B9vKoun2tDhj5xJmm9RVXPrNPoaoFFLgIwO4qvznjLKK9lpayBbK800LB3vSm0H51Y_IhdTJPHWVDjPLKRoRGxh2DYC6iJ7lEQ-Ar7g8RY6ZmitjcBMYUMzy6zxH9CeNtA=w2400",
