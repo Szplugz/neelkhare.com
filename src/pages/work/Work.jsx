@@ -224,7 +224,7 @@ const Navmobile = () => {
             </li>
             <li className="navbar-item font-[300] text-xl">
               <a
-                href="https://drive.google.com/file/d/1Opg8P9ej8cd1tPoKEsSkcYo7F4J3Uz63/view?usp=sharing"
+                href="https://read.cv/szplugz"
                 target="_blank"
                 rel="noreferrer"
               >

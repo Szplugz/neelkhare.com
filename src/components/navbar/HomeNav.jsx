@@ -21,11 +21,7 @@ const HomeNav = () => {
           </a>
         </li>
         <li className="navbar-item">
-          <a
-            href="https://drive.google.com/file/d/1Opg8P9ej8cd1tPoKEsSkcYo7F4J3Uz63/view?usp=sharing"
-            target="_blank"
-            rel="noreferrer"
-          >
+          <a href="https://read.cv/szplugz" target="_blank" rel="noreferrer">
             <NavbarItem text={"Resumé"} />
           </a>
         </li>
