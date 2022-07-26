@@ -33,7 +33,7 @@ const People = () => {
           <img className="stars h-[4vh]" src={newlogo}></img>
         </div>
         <Navmobile />
-        <div className="p1 mb-[2vh]">
+        <div className="p1 mb-[5vh]">
           A list of cool internet people that do cool things from whom I
           regularly learn and draw inspiration. Interestingly, almost all of
           them write.
