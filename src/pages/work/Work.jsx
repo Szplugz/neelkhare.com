@@ -35,8 +35,9 @@ export const Work = () => {
         </div>
         <Navmobile />
         <div className="p1 mb-[2vh]">
-          Ultimately, I want to make beautiful things. I define <em>Work</em> as
-          experiences that count towards that goal.
+          Ultimately, I want to make beautiful things with high utility to
+          people. I define <em>Work</em> as experiences that count towards that
+          goal.
         </div>
         <div className="subtext text-slate-600 font-inter font-[300] text-sm mb-[5vh]">
           <em>This list is incomplete, you can help by hiring me.</em>

@@ -51,9 +51,14 @@ const About = () => {
           </p>
           <div className="bullets">
             <div className="bullet mb-[5vh]">
-              I’m interested in technology that facilitates human connection.
-              I'm working to become a full-stack developer, hopefully making
-              beautiful products with high utility to people.
+              I’m interested in technology that explores and enhances the human
+              condition at the neuro-psychological level. I believe that there
+              is a lot of untapped insight at the intersection of computer
+              sceicne and neuroscience, which, once realized, will enable us to
+              live in a more fulfilling manner. Ultimately, I would like to
+              leverage scientific literature, historical data, and machine
+              learning to build products that help people optimize their mental
+              performance and build deeper social connctions.
             </div>
             <div className="bullet mb-[5vh]">
               <span className="p1">
@@ -68,8 +73,8 @@ const About = () => {
                 </a>
                 , UIUC's premier quantitative finance organization, and
                 co-founder and president at August Productions, where we make
-                films and documentaries. This summer, I'm interning as a
-                full-stack developer at{" "}
+                films and documentaries. Over the past summer, I was full-stack
+                developer intern at{" "}
                 <a
                   className="link text-almostBlack underline hover:decoration-solid decoration-dotted hover:decoration-lightpink transition duration-[200ms] ease-in-out"
                   href="https://www.mediaocean.com/"
