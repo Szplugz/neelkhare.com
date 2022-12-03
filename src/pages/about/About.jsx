@@ -54,11 +54,11 @@ const About = () => {
               I’m interested in technology that explores and enhances the human
               condition at the neuro-psychological level. I believe that there
               is a lot of untapped insight at the intersection of computer
-              sceicne and neuroscience, which, once realized, will enable us to
-              live in a more fulfilling manner. Ultimately, I would like to
-              leverage scientific literature, historical data, and machine
-              learning to build products that help people optimize their mental
-              performance and build deeper social connctions.
+              science and neuroscience, which, once realized, will enable us to
+              live more fulfilling lives. Ultimately, I would like to leverage
+              scientific literature, historical data, and machine learning to
+              build products that help people optimize their mental performance
+              and build deeper social connctions.
             </div>
             <div className="bullet mb-[5vh]">
               <span className="p1">
