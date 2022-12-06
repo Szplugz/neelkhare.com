@@ -61,6 +61,27 @@ const People = () => {
             </div>
           </div>
           <div className="person flex flex-row justify-between">
+            <div className="text-navy">Andrew Huberman</div>
+            <div className="person-links flex flex-row justify-between w-[40%]">
+              <a
+                className="people-link text-candy"
+                href="https://hubermanlab.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                website
+              </a>
+              <a
+                className="people-link text-candy"
+                href="https://twitter.com/hubermanlab"
+                target="_blank"
+                rel="noreferrer"
+              >
+                twitter
+              </a>
+            </div>
+          </div>
+          <div className="person flex flex-row justify-between">
             <div className="text-navy">Patrick Collison</div>
             <div className="person-links flex flex-row justify-between w-[40%]">
               <a
@@ -275,6 +296,27 @@ const People = () => {
               <a
                 className="people-link text-candy"
                 href="https://twitter.com/robkhenderson"
+                target="_blank"
+                rel="noreferrer"
+              >
+                twitter
+              </a>
+            </div>
+          </div>
+          <div className="person flex flex-row justify-between">
+            <div className="text-navy">Lex Fridman</div>
+            <div className="person-links flex flex-row justify-between w-[40%]">
+              <a
+                className="people-link text-candy"
+                href="https://lexfridman.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                website
+              </a>
+              <a
+                className="people-link text-candy"
+                href="https://twitter.com/lexfridman"
                 target="_blank"
                 rel="noreferrer"
               >
