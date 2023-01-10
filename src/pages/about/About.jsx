@@ -73,7 +73,7 @@ const About = () => {
                 </a>
                 , UIUC's premier quantitative finance organization, and
                 co-founder and president at August Productions, where we make
-                films and documentaries. Over the past summer, I was full-stack
+                films and documentaries. Over the past summer, I was a full-stack
                 developer intern at{" "}
                 <a
                   className="link text-almostBlack underline hover:decoration-solid decoration-dotted hover:decoration-lightpink transition duration-[200ms] ease-in-out"
