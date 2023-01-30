@@ -37,6 +37,15 @@ const Navbar = () => {
         </li>
       </div>
       <div className="navbar-external flex flex-col justify-start align-top">
+        <li className="navbar-arena text-almostBlack font-forma relative flex items-center font-[300] text-2xl leading-tight hover:text-slate transition duration-500 ease-in-out">
+          <a
+            href="https://www.are.na/neel-khare"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <NavbarItem text={"Are.na"} />
+          </a>
+        </li>
         <li className="navbar-email text-almostBlack font-forma relative flex items-center font-[300] text-2xl leading-tight hover:text-blue transition duration-500 ease-in-out">
           <a href="mailto:neelk2@illinois.edu" target="_blank" rel="noreferrer">
             <NavbarItem text={"email"} />
