@@ -20,9 +20,9 @@ const About = () => {
           <div className="navbar-neel text-navy relative flex items-center text-4xl font-[500] font-inter mb-[5vh]">
             Hello, I'm Neel.
           </div>
+          <img className="mb-[5vh] h-[2.25rem]" src={newlogo}></img>
         </div>
         <div className="about-bio-content overflow-x-hidden flex-col w-full text-almostBlack font-inter font-[400] text-xl leading-snug overflow-y-auto">
-          <img className="mb-[5vh] h-[17vh]" src={newlogo}></img>
           <p className="about-bio-main mb-[5vh]">
             I study computer science and economics at the{" "}
             <span className="text-[#ff6541]">
