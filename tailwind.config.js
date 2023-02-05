@@ -15,6 +15,7 @@ module.exports = {
         skyBlue: "#bac8d3",
         pastelGreen: "#c8d3ba",
         candy: "#AF818B",
+        chinaRose: "#9A4C5C",
         mango: "#d6893a",
         mangoHighlight: "#eecdac",
         navy: "#003547",
