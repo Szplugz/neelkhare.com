@@ -1,11 +1,11 @@
 import React from "react";
 import HomeNav from "../../components/navbar/HomeNav";
 import Navmobile from "../../components/navbar/Navmobile";
-import biopic from "../../utils/biopic.jpg";
 import { Helmet } from "react-helmet";
 import fallpic from "../../utils/fallrl2square.jpg";
 import "./About.css";
 import newlogo from "../../utils/StarLogoNeel.svg";
+import headshot from "../../utils/chiheadshot.jpg";
 
 const About = () => {
   return (
@@ -117,7 +117,7 @@ const About = () => {
         </div>
         <img
           className="picture-mobile rounded w-[100%] mb-[1vh]"
-          src={fallpic}
+          src={headshot}
         ></img>
       </div>
     </div>
