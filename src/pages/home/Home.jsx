@@ -13,7 +13,7 @@ const Home = () => {
               <h1 className="header font-forma text-max text-eggshell">
                 THE POETRY IS IN THE STREETS{" "}
                 <span className="text-lightpink">//</span>{" "}
-                <a href="/about">ENTER</a>
+                <a href="/about">CLICK TO ENTER</a>
               </h1>
             </body>
           </div>
