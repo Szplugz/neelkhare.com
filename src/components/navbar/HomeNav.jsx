@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./HomeNav.css";
 import biopic from "../../utils/biopic.jpg";
 import fallpic from "../../utils/fallrl2square.jpg";
+import headshot from "../../utils/chiheadshot.jpg";
 
 const HomeNav = () => {
   return (
@@ -73,7 +74,7 @@ const HomeNav = () => {
           </a>
         </li>
       </div>
-      <img className="picture rounded w-[100%] mb-[1vh]" src={fallpic}></img>
+      <img className="picture rounded w-[100%] mb-[1vh]" src={headshot}></img>
     </div>
   );
 };
