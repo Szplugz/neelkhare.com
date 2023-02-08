@@ -6,6 +6,7 @@ module.exports = {
       colors: {
         lightpink: "#EE9B86",
         eggshell: "#f9f5f1",
+        eggshell2: "#fffcf0",
         githubGrey: "#333333",
         instagramRed: "#C13584",
         twitterBlue: "#1DA1F2",
@@ -13,6 +14,8 @@ module.exports = {
         almostBlack: "#08090A",
         almostBlackFaded: "#4B5563",
         skyBlue: "#bac8d3",
+        clay: "#837875F9",
+        stone: "#333",
         pastelGreen: "#c8d3ba",
         candy: "#AF818B",
         chinaRose: "#9A4C5C",
