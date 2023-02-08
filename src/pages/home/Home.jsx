@@ -11,9 +11,11 @@ const Home = () => {
           <div className="menu-box flex flex-col justify-center items-center w-[100%]">
             <body>
               <h1 className="header font-forma text-max text-eggshell">
-                THE POETRY IS IN THE STREETS{" "}
-                <span className="text-lightpink">//</span>{" "}
-                <a href="/about">CLICK TO ENTER</a>
+                <span className="text-lightpink">//</span>
+                {"  "}
+                <a href="/about"> ENTER </a>
+                <span className="text-lightpink">//</span>
+                {"  "}
               </h1>
             </body>
           </div>
@@ -27,11 +29,11 @@ const Home = () => {
         </div>
       </div>
       <div className="screen-mobile h-screen bg-almostBlack flex flex-col items-center justify-center text-eggshell">
-        <div className="text-mobile flex w-[80%] justify-start mb-[2vh]">
+        <div className="text-mobile flex w-[80%] justify-center mb-[2vh]">
           <p className="header-mobile font-forma">
-            <a href="/about"> THE POETRY IS IN THE STREETS </a> <br></br>
-            <a href="/about">CLICK TO ENTER</a>{" "}
-            <span className="text-lightpink">//</span>
+            <span className="text-lightpink">//</span>{" "}
+            <a href="/about"> ENTER </a>
+            <span className="text-lightpink">//</span>{" "}
           </p>
         </div>
         <div className="img-mobile flex w-[80%] mt-[2vh]">

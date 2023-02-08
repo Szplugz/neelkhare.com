@@ -27,13 +27,13 @@ const People = () => {
         <title>People | Neel Khare</title>
       </Helmet>
       <Navbar />
-      <div className="people-content float flex-col w-[40%] py-[10vh] ml-[7.5vw] overflow-y-hidden font-inter text-xl">
+      <div className="people-content float flex-col w-[40%] pt-[10vh] ml-[7.5vw] overflow-y-hidden font-inter  sm:text-lg text-sm">
         <div className="header flex flex-row justify-between items-center text-navy mb-[5vh] text-2xl font-[500]">
           <div className="title">People</div>
           <img className="stars h-[4vh]" src={newlogo}></img>
         </div>
         <Navmobile />
-        <div className="p1 mb-[5vh]">
+        <div className="p1 mb-[5vh] sm:text-xl text-base">
           One of the reasons I love the internet is that it affords access to
           the minds of a variety of people from across the globe with
           interesting things to say. This website and many of my lifestyle
@@ -41,10 +41,10 @@ const People = () => {
           fascinating people:
         </div>
         <div className="people-technology mb-[5vh]">
-          <div className="header flex flex-row justify-between items-center text-chinaRose mb-1 text-2xl font-[500]">
+          <div className="technology-header flex flex-row justify-between items-center text-chinaRose mb-2 text-2xl font-[500]">
             Technology
           </div>
-          <div className="people-list text-lg">
+          <div className="people-list">
             <div className="person flex flex-row justify-between">
               <div className="text-navy">Paul Graham</div>
               <div className="person-links flex flex-row justify-between w-[40%]">
@@ -202,10 +202,10 @@ const People = () => {
           </div>
         </div>
         <div className="people-life mb-[5vh]">
-          <div className="life-header flex flex-row justify-between items-center text-chinaRose mb-1 text-2xl font-[500]">
+          <div className="life-header flex flex-row justify-between items-center text-chinaRose mb-2 text-2xl font-[500]">
             Life
           </div>
-          <div className="person-list text-lg">
+          <div className="person-list">
             <div className="person flex flex-row justify-between">
               <div className="text-navy">Andrew Huberman</div>
               <div className="person-links flex flex-row justify-between w-[40%]">
@@ -291,7 +291,9 @@ const People = () => {
               </div>
             </div>
             <div className="person flex flex-row justify-between">
-              <div className="text-navy">Jordan Peterson (professor era)</div>
+              <div className="text-navy w-[40%]">
+                Jordan Peterson (professor era)
+              </div>
               <div className="person-links flex flex-row justify-between w-[40%]">
                 <a
                   className="people-link text-candy"
@@ -306,10 +308,10 @@ const People = () => {
           </div>
         </div>
         <div className="people-art mb-[5vh]">
-          <div className="art-header flex flex-row justify-between items-center text-chinaRose mb-1 text-2xl font-[500]">
+          <div className="art-header flex flex-row justify-between items-center text-chinaRose mb-2 text-2xl font-[500]">
             Art
           </div>
-          <div className="person-list text-lg">
+          <div className="person-list">
             <div className="person flex flex-row justify-between">
               <div className="text-navy">Tim Kellner</div>
               <div className="person-links flex flex-row justify-between w-[40%]">
@@ -365,7 +367,7 @@ const Navmobile = () => {
   return (
     <div className="navbar-mobile">
       <div className="flexibleHead flex justify-between">
-        <p className="navbar-neel text-navy relative flex items-center font-[500] text-2xl font-inter mb-[10vh]">
+        <p className="navbar-neel text-navy relative flex items-center font-[500] text-2xl font-inter mb-[5vh]">
           People
         </p>
         <div>
