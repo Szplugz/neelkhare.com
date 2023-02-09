@@ -5,7 +5,7 @@ import Navbar from "../../components/navbar/Navbar";
 import { Helmet } from "react-helmet";
 import fallpic from "../../utils/fallrl2square.jpg";
 import "./About.css";
-import newlogo from "../../utils/StarLogoNeel.svg";
+import newlogo from "../../utils/StarLogoNeel.png";
 import headshot from "../../utils/chiheadshot.jpg";
 
 const About = () => {
@@ -21,10 +21,10 @@ const About = () => {
         <div className="about-bio float flex-col w-[40%] ml-20 mt-[10vh] overflow-y-auto">
           <Navmobile />
           <div className="desktop-head flex justify-between">
-            <div className="navbar-neel text-navy relative flex items-center text-3xl font-[500] font-inter mb-[5vh]">
+            <div className="navbar-neel text-navy relative flex items-center sm:text-3xl text-2xl font-[500] font-inter mb-5">
               Hello, I'm Neel.
             </div>
-            <img className="mb-[5vh] h-[2rem]" src={newlogo}></img>
+            <img className="mb-5 sm:h-[2rem] h-[1.75rem]" src={newlogo}></img>
           </div>
           <div className="about-bio-content overflow-x-hidden flex-col w-full text-almostBlack font-inter font-[400] text-base sm:text-base leading-snug overflow-y-auto">
             <p className="about-bio-main mb-5">
