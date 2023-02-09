@@ -10,7 +10,7 @@ module.exports = {
         githubGrey: "#333333",
         instagramRed: "#C13584",
         twitterBlue: "#1DA1F2",
-        youtubeRed: "#FF0000",
+        youtubeRed: "#9A4C5C",
         almostBlack: "#08090A",
         almostBlackFaded: "#4B5563",
         skyBlue: "#bac8d3",

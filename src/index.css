@@ -8,14 +8,14 @@
   }
 
   .navbar-item {
-    @apply text-almostBlack font-forma relative flex items-center font-[300] text-2xl hover:text-lightpink transition duration-500 ease-in-out leading-tight;
+    @apply text-almostBlack font-inter relative flex items-center font-[400] text-xl;
   }
 }
 
-.navbar-item:hover {
+/* .navbar-item:hover {
   transition: 0.5s ease-in-out;
   transform: translate(0.4rem, -0.1rem);
-}
+} */
 
 .menu-item:hover {
   transition: 0.3s ease-in-out;

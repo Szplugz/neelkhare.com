@@ -6,7 +6,7 @@ import headshot from "../../utils/chiheadshot.jpg";
 
 const HomeNav = () => {
   return (
-    <div className="navbar-box flex flex-col fixed left-[15vw] justify-between h-[85vh] align-top w-[15%] min-w-480 my-[10vh] mr-[7.5vw]">
+    <div className="navbar-box flex flex-col justify-between h-[85vh] align-top w-[15%] min-w-480 my-[10vh] mr-[7.5vw]">
       <div className="navbar-menu flex flex-col">
         <li className="navbar-index text-gray-600 font-forma relative flex items-center font-[300] text-2xl leading-tight">
           <NavbarItem text={"Index"} />
