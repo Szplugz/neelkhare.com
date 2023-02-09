@@ -41,6 +41,25 @@
   display: none; /* Chrome */
 }
 
+.about-page {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.about-page::-webkit-scrollbar {
+  display: none; /* Chrome */
+}
+
+.about-bio-content {
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+  overflow-y: scroll;
+}
+
+.about-bio-content::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
+}
+
 .screen img {
   pointer-events: none;
 }

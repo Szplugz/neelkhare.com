@@ -7,6 +7,7 @@ import fallpic from "../../utils/fallrl2square.jpg";
 import "./About.css";
 import newlogo from "../../utils/StarLogoNeel.png";
 import headshot from "../../utils/chiheadshot.jpg";
+import MobileFooter from "../../components/navbar/MobileFooter";
 
 const About = () => {
   return (
@@ -18,15 +19,18 @@ const About = () => {
         <div>
           <Navbar />
         </div>
-        <div className="about-bio float flex-col w-[40%] ml-20 mt-[10vh] overflow-y-auto">
+        <div className="about-bio float flex-col w-[40%] ml-20 mt-[10vh] overflow-y-scroll">
           <Navmobile />
+          <div className="quote-mobile text-slate-600 font-inter text-sm mb-5 flex justify-end">
+            <em>After a while, determination starts to look like talent.</em>
+          </div>
           <div className="desktop-head flex justify-between">
             <div className="navbar-neel text-navy relative flex items-center sm:text-3xl text-2xl font-[500] font-inter mb-5">
               Hello, I'm Neel.
             </div>
             <img className="mb-5 sm:h-[2rem] h-[1.75rem]" src={newlogo}></img>
           </div>
-          <div className="about-bio-content overflow-x-hidden flex-col w-full text-almostBlack font-inter font-[400] text-base sm:text-base leading-snug overflow-y-auto">
+          <div className="about-bio-content overflow-x-hidden flex-col w-full text-almostBlack font-inter font-[400] text-base sm:text-base leading-snug overflow-y-scroll">
             <p className="about-bio-main mb-5">
               I study computer science, economics, and psychology at the{" "}
               <span className="text-[#ff6541]">
@@ -112,15 +116,12 @@ const About = () => {
               </a>{" "}
               or at any of the social links you see on the side.
             </p>
-            <hr className="line-2 border-dotted mb-[8vh] h-[1px] border-navy"></hr>
-            <div className="quote text-slate-600 font-inter text-sm mb-[4.25rem] flex justify-end">
+            <hr className="line-2 border-dotted mb-5 h-[1px] border-navy"></hr>
+            <div className="quote-desktop text-slate-600 font-inter text-sm mb-[4.25rem] flex justify-end">
               <em>After a while, determination starts to look like talent.</em>
             </div>
+            <MobileFooter />
           </div>
-          <img
-            className="picture-mobile rounded w-[100%] mb-[1vh]"
-            src={headshot}
-          ></img>
         </div>
       </div>
     </div>

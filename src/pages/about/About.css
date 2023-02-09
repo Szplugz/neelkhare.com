@@ -8,6 +8,10 @@
     width: 80%;
   }
 
+  .quote-desktop {
+    display: none;
+  }
+
   .about-bio {
     width: 100%;
     padding-left: 10%;
@@ -45,6 +49,10 @@
 
 @media screen and (min-width: 767px) {
   .home-button {
+    display: none;
+  }
+
+  .quote-mobile {
     display: none;
   }
 
