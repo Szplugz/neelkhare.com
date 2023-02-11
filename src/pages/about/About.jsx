@@ -1,12 +1,9 @@
 import React from "react";
-import HomeNav from "../../components/navbar/HomeNav";
 import Navmobile from "../../components/navbar/Navmobile";
 import Navbar from "../../components/navbar/Navbar";
 import { Helmet } from "react-helmet";
-import fallpic from "../../utils/fallrl2square.jpg";
 import "./About.css";
 import newlogo from "../../utils/StarLogoNeel.png";
-import headshot from "../../utils/chiheadshot.jpg";
 import MobileFooter from "../../components/navbar/MobileFooter";
 
 const About = () => {
