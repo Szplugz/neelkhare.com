@@ -108,7 +108,8 @@ const About = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                neelk2<span className="text-chinaRose">&#123;</span>at
+                neelk2@illinois.edu
+                <span className="text-chinaRose">&#123;</span>at
                 <span className="text-chinaRose">&#125;</span>illinois.edu
               </a>{" "}
               or at any of the social links you see on the side.
