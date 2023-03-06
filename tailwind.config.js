@@ -6,7 +6,7 @@ module.exports = {
       colors: {
         lightpink: "#EE9B86",
         eggshell: "#f9f5f1",
-        eggshell2: "#fffcf0",
+        eggshell2: "#FBF9F4",
         githubGrey: "#333333",
         instagramRed: "#C13584",
         twitterBlue: "#1DA1F2",
@@ -19,11 +19,12 @@ module.exports = {
         pastelGreen: "#c8d3ba",
         candy: "#AF818B",
         chinaRose: "#9A4C5C",
-        mango: "#d6893a",
+        mango: "#F9DDA4",
         mangoHighlight: "#eecdac",
         navy: "#003547",
         pink: "#ffd1d9",
         sunsetPink: "#FF7B81",
+        blueHour: "#D4E4FD",
       },
       fontFamily: {
         forma: ["forma-djr-micro", "sans-serif"],

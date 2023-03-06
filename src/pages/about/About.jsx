@@ -14,7 +14,7 @@ const About = () => {
       </Helmet>
       <div className="about-content bg-eggshell2 w-[90%] h-screen flex flex-row justify-center">
         <div>
-          <Navbar />
+          <Navbar isHomePage={true} />
         </div>
         <div className="about-bio float flex-col w-[40%] ml-20 mt-[10vh] overflow-y-visible">
           <Navmobile />
@@ -35,16 +35,7 @@ const About = () => {
               </span>
               . Currently, I'm curious about high-frequency trading and
               computational neuroscience. Outside of class, I spend most of my
-              time taking{" "}
-              <a
-                className="link text-almostBlack underline hover:decoration-solid decoration-dotted decoration-chinaRose transition duration-[1000ms] ease-in-out"
-                href="/photography"
-                target="_blank"
-                rel="noreferrer"
-              >
-                pictures
-              </a>
-              , building websites, exercising, and socializing.
+              time creating, exercising, and enaging in rich conversations.
             </p>
             <div className="technology-header flex flex-row justify-between items-center text-chinaRose mb-3 text-xl font-[500]">
               Presently

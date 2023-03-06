@@ -21,13 +21,15 @@ const theme = createTheme({
 
 const Index = () => {
   return (
-    <div className="index-page bg-mango h-screen w-screen flex flex-row justify-center selection:bg-mangoHighlight">
+    <div className="index-page bg-eggshell2 h-screen w-screen flex flex-row justify-center selection:bg-mangoHighlight">
       <Helmet>
         <title>Index | Neel Khare</title>
       </Helmet>
       <Navbar />
       <div className="index-content float flex-col w-[30%] my-[10vh] ml-[7.5vw] overflow-y-auto font-inter">
-        <div className="header text-navy mb-[5vh]">Index</div>
+        <div className="header text-navy mb-[5vh] sm:text-3xl text-2xl">
+          Index
+        </div>
         <div className="p1 mb-[2vh]">
           An index of everything that interests me. The elements of my
           personality. If the (top-level) contents of my mind were to be
