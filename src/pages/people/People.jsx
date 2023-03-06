@@ -312,7 +312,7 @@ const People = () => {
         </div>
         <div className="people-art mb-[5vh]">
           <div className="art-header flex flex-row justify-between items-center text-chinaRose mb-3 text-xl font-[500]">
-            Art
+            Art & Design
           </div>
           <div className="people-list text-base mb-3">
             <div className="person flex flex-row justify-between">
