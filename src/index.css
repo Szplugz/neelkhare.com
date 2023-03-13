@@ -73,3 +73,12 @@
 .screen img {
   pointer-events: none;
 }
+
+.caffeine-notes {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.caffeine-notes::-webkit-scrollbar {
+  display: none; /* Chrome */
+}

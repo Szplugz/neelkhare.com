@@ -5,7 +5,7 @@ import headshot from "../../utils/chiheadshot.jpg";
 const Navbar = ({ isHomePage }) => {
   let homeImage = isHomePage ? headshot : null;
   return (
-    <div className="navbar-box flex flex-col fixed left-[15vw] h-[60vh] align-top w-[15%] min-w-480 my-[10vh] mr-[7.5vw]">
+    <div className="navbar-box flex flex-col fixed left-[15vw] h-[60vh] align-top w-[15%] min-w-480 my-20 mr-[7.5vw]">
       <div className="navbar-menu flex flex-col mb-10">
         <div className="navbar-item">
           <a href="/about">
@@ -13,7 +13,9 @@ const Navbar = ({ isHomePage }) => {
           </a>
         </div>
         <div className="navbar-item">
-          <NavbarItem text={"index"} invalid={true} />
+          <a href="/index">
+            <NavbarItem text={"index"} />
+          </a>
         </div>
       </div>
       <div className="navbar-external flex flex-col justify-start align-top mb-10">
@@ -55,7 +57,7 @@ const Navbar = ({ isHomePage }) => {
           </a>
         </div>
       </div>
-      <img src={homeImage} className="w-[80%] rounded-sm"></img>
+      {/* <img src={homeImage} className="w-[80%] rounded-sm"></img> */}
     </div>
   );
 };

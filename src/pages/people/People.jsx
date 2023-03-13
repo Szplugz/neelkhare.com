@@ -30,7 +30,7 @@ const People = () => {
       </Helmet>
       {/* Navabr is hidden on mobile because of index.css in case you get stuck on it for hours again */}
       <Navbar />
-      <div className="people-content float flex-col w-[40%] pt-[10vh] ml-[7.5vw] overflow-y-hidden font-inter  sm:text-lg text-sm">
+      <div className="people-content flex-col w-[40%] pt-[10vh] ml-[7.5vw] overflow-y-hidden font-inter sm:text-lg text-sm">
         <Navmobile />
         <div className="header flex flex-row justify-between items-center text-navy mb-5 sm:text-3xl text-2xl font-[500]">
           <div className="title">People</div>

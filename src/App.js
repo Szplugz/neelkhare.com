@@ -5,6 +5,7 @@ import Work from "./pages/work/Work";
 import Photography from "./pages/photography/Photography";
 import Portfolio from "./pages/portfolio/Portfolio";
 import Index from "./pages/index/Index";
+import Caffeine from "./notes/caffeine";
 import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Route path="/photography" element={<Photography />}></Route>
           <Route path="/portfolio" element={<Portfolio />}></Route>
           <Route path="/index" element={<Index />}></Route>
+          <Route path="/notes/caffeine" element={<Caffeine />}></Route>
         </Routes>
       </div>
     </BrowserRouter>

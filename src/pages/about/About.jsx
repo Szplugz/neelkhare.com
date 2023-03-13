@@ -12,11 +12,11 @@ const About = () => {
       <Helmet>
         <title>About | Neel Khare</title>
       </Helmet>
-      <div className="about-content bg-eggshell2 w-[90%] h-screen flex flex-row justify-center">
+      <div className="about-content bg-eggshell2 h-screen flex flex-row justify-center">
         <div>
           <Navbar isHomePage={true} />
         </div>
-        <div className="about-bio float flex-col w-[40%] ml-20 mt-[10vh] overflow-y-visible">
+        <div className="about-bio float flex-col w-[40%] mt-[10vh] overflow-y-visible">
           <Navmobile />
           <div className="quote-mobile text-slate-600 font-inter text-sm mb-5 flex justify-end">
             <em>After a while, determination starts to look like talent.</em>
