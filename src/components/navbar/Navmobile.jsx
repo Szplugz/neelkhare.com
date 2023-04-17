@@ -14,7 +14,9 @@ const Navmobile = () => {
             </a>
           </div>
           <div className="navbar-item pr-5">
-            <NavbarItem text={"index"} invalid={true} mobile={true} />
+            <a href="/index">
+              <NavbarItem text={"index"} mobile={true} />
+            </a>
           </div>
         </div>
       </div>

@@ -6,7 +6,7 @@ module.exports = {
       colors: {
         lightpink: "#EE9B86",
         eggshell: "#f9f5f1",
-        eggshell2: "#fffcf0",
+        eggshell2: "#FBF9F4",
         githubGrey: "#333333",
         instagramRed: "#C13584",
         twitterBlue: "#1DA1F2",
@@ -19,17 +19,21 @@ module.exports = {
         pastelGreen: "#c8d3ba",
         candy: "#AF818B",
         chinaRose: "#9A4C5C",
-        mango: "#d6893a",
+        mango: "#F9DDA4",
         mangoHighlight: "#eecdac",
         navy: "#003547",
         pink: "#ffd1d9",
+        pink2: "#EE9B86",
         sunsetPink: "#FF7B81",
+        blueHour: "#D4E4FD",
+        mud: "#43392E",
+        lightMud: "#93897E",
       },
       fontFamily: {
         forma: ["forma-djr-micro", "sans-serif"],
         garamond: ["adobe-garamond-pro", "serif"],
         tablet: ["tablet-gothic", "sans-serif"],
-        inter: ["Inter", "sans-serif"],
+        inter: ["Inter, sans-serif", { fontFeatureSettings: '"sups", "ss01"' }],
       },
       fontSize: {
         84: "84px",
@@ -58,6 +62,14 @@ module.exports = {
       },
       dropShadow: {
         "xl-white": ["0 20px 13px rgba(255 249 239 / 0.03)"], // fix this
+      },
+      listStyleType: {
+        none: "none",
+        disc: "disc",
+        decimal: "decimal",
+        square: "square",
+        roman: "upper-roman",
+        star: "⁕",
       },
     },
   },

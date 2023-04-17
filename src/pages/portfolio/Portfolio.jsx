@@ -20,6 +20,9 @@ const Portfolio = () => {
             <div className="title">Portfolio</div>
             <img className="portfolio-stars h-[4vh]" src={newlogo}></img>
           </div>
+          <div className="warning w-full mb-5 text-lightMud">
+            <em>This page is under construction.</em>
+          </div>
           <div className="p1 mb-5 text-base">
             For all of my visual(izable) projects.
           </div>{" "}
@@ -35,47 +38,15 @@ const Portfolio = () => {
               </a>
               <ArrowOutwardIcon sx={{ fontSize: 15 }} />
             </li>
+
             <li className="block flex justify-start">
               <a
                 className="link text-almostBlack underline hover:decoration-solid decoration-dotted decoration-chinaRose transition duration-[1000ms] ease-in-out"
-                href="https://youtu.be/34dsHW0mBrA"
+                href="https://quantillinois.com"
                 target="_blank"
                 rel="noreferrer"
               >
-                HHC Documentary (preview)
-              </a>
-              <ArrowOutwardIcon sx={{ fontSize: 15 }} />
-            </li>
-            <li className="block flex justify-start">
-              <a
-                className="link text-almostBlack underline hover:decoration-solid decoration-dotted decoration-chinaRose transition duration-[1000ms] ease-in-out"
-                href="https://youtu.be/34dsHW0mBrA"
-                target="_blank"
-                rel="noreferrer"
-              >
-                HHC Documentary (preview)
-              </a>
-              <ArrowOutwardIcon sx={{ fontSize: 15 }} />
-            </li>
-            <li className="block flex justify-start">
-              <a
-                className="link text-almostBlack underline hover:decoration-solid decoration-dotted decoration-chinaRose transition duration-[1000ms] ease-in-out"
-                href="https://www.figma.com/file/Hbk2oiju5HYHs4vH7fJ2VM/placeholder?node-id=0%3A1&t=xxni4F3Sw2sEA5J1-1"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Placeholder
-              </a>
-              <ArrowOutwardIcon sx={{ fontSize: 15 }} />
-            </li>
-            <li className="block flex justify-start">
-              <a
-                className="link text-almostBlack underline hover:decoration-solid decoration-dotted decoration-chinaRose transition duration-[1000ms] ease-in-out"
-                href="https://quantillinois-com-kfb24.ondigitalocean.app/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Quant Website (In Progress)
+                Quant Website
               </a>
               <ArrowOutwardIcon sx={{ fontSize: 15 }} />
             </li>
