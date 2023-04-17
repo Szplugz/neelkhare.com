@@ -22,36 +22,58 @@ const About = () => {
             <em>After a while, determination starts to look like talent.</em>
           </div>
           <div className="desktop-head flex justify-between">
-            <div className="navbar-neel text-navy relative flex items-center sm:text-3xl text-2xl font-[500] font-inter mb-5">
-              Hello, I'm Neel.
+            <div className="navbar-neel text-navy relative flex items-center sm:text-2xl text-xl font-[500] font-inter mb-5">
+              Hello, I'm Neel. I build beautiful things.
             </div>
             <img className="mb-5 sm:h-[2rem] h-[1.75rem]" src={newlogo}></img>
           </div>
           <div className="about-bio-content overflow-x-hidden flex-col w-full text-almostBlack font-inter font-[400] text-base sm:text-base leading-snug">
             <p className="about-bio-main mb-5">
-              I study computer science, economics, and psychology at the{" "}
-              <span className="text-[#ff6541]">
-                University of Illinois, Urbana-Champaign
-              </span>
-              . Currently, I'm curious about high-frequency trading and
-              computational neuroscience. Outside of class, I spend most of my
-              time creating, exercising, and enaging in rich conversations.
+              I study computer science and psychology at the University of
+              Illinois, Urbana-Champaign. Currently, I'm curious about
+              computational neuroscience and using design to enhance people's
+              lives. I spend most of my time writing code, learning from
+              interesting people, and strengthening my brain and body.
+              Sometimes, I go to class.
+            </p>
+            <p className="text-lightMud mb-5">
+              To learn more about me, visit my{" "}
+              <a
+                className="link text-lightMud underline hover:decoration-solid decoration-dotted decoration-mud transition duration-[1000ms] ease-in-out"
+                href="index/"
+              >
+                index
+              </a>
+              .
             </p>
             <div className="technology-header flex flex-row justify-between items-center text-chinaRose mb-3 text-xl font-[500]">
               Presently
             </div>
             <ul className="list-disc pl-5 mb-5 marker:text-chinaRose">
               <li className="list-item">
-                Building an order-matching engine at{" "}
+                Building a mobile app to augment your experience with the
+                <br></br>
                 <a
                   className="link text-almostBlack underline hover:decoration-solid decoration-dotted decoration-chinaRose transition duration-[1000ms] ease-in-out"
-                  href="https://uiucquant.web.illinois.edu/"
+                  href="https://hubermanlab.com/"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  Quant
-                </a>
-                .
+                  Huberman Lab
+                </a>{" "}
+                podcast.
+              </li>
+              <li className="list-item">
+                Setting up a{" "}
+                <a
+                  className="link text-almostBlack underline hover:decoration-solid decoration-dotted decoration-chinaRose transition duration-[1000ms] ease-in-out"
+                  href="https://steel-plain-b28.notion.site/Proposing-a-Design-Technology-Symposium-at-the-University-of-Illinois-1983d619135a45c0bae4651aee51e135"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Design Symposium
+                </a>{" "}
+                at college.
               </li>
               <li>
                 Developing a website and producing video content for{" "}
@@ -65,16 +87,23 @@ const About = () => {
                 </a>
                 .
               </li>
-              <li>
-                Making short films and documentaries at August Productions.
-              </li>
             </ul>
             <div className="technology-header flex flex-row justify-between items-center text-chinaRose mb-3 text-xl font-[500]">
               In the past
             </div>
             <ul className="list-disc pl-5 mb-5 marker:text-chinaRose">
               <li className="list-item">
-                Designed and developed the frontend architecture for Quant.
+                Designed and developed the frontend architecture and branding
+                for{" "}
+                <a
+                  className="link text-almostBlack underline hover:decoration-solid decoration-dotted decoration-chinaRose transition duration-[1000ms] ease-in-out"
+                  href="https://uiucquant.web.illinois.edu/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Quant
+                </a>
+                .
               </li>
               <li>
                 Taught students the fundamentals of Object-Oriented Programming
@@ -90,9 +119,9 @@ const About = () => {
               </li>
             </ul>
             <p className="about-bio-main mb-5">
-              I'm always open to making new friends, learning new things,
-              working on cool projects, or just chatting! You can reach me at{" "}
-              <br></br>
+              I'm endlessly curious about people and the world around us, so I'm
+              always open to making new friends, learning new things, working on
+              cool projects, or just chatting! You can reach me at{" "}
               <a
                 className="link text-almostBlack underline hover:decoration-solid decoration-dotted decoration-chinaRose transition duration-[1000ms] ease-in-out"
                 href="mailto:neelk2"

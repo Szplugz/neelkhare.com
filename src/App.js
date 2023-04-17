@@ -6,6 +6,7 @@ import Photography from "./pages/photography/Photography";
 import Portfolio from "./pages/portfolio/Portfolio";
 import Index from "./pages/index/Index";
 import Caffeine from "./notes/caffeine";
+import Hubferris from "./notes/hub-ferris";
 import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
           <Route path="/portfolio" element={<Portfolio />}></Route>
           <Route path="/index" element={<Index />}></Route>
           <Route path="/notes/caffeine" element={<Caffeine />}></Route>
+          <Route path="/notes/hub-ferriss" element={<Hubferris />}></Route>
         </Routes>
       </div>
     </BrowserRouter>

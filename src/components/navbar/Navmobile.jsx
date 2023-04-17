@@ -5,7 +5,7 @@ import NavbarItem from "./NavbarItem";
 const Navmobile = () => {
   const [open, setOpen] = useState(false);
   return (
-    <div className="navbar-mobile flex flex-row my-10 ml-[10%]">
+    <div className="navbar-mobile flex flex-row mb-5">
       <div className="navbar flex flex-row">
         <div className="navbar-menu flex flex-row">
           <div className="navbar-item pr-5">
@@ -14,7 +14,9 @@ const Navmobile = () => {
             </a>
           </div>
           <div className="navbar-item pr-5">
-            <NavbarItem text={"index"} invalid={true} mobile={true} />
+            <a href="/index">
+              <NavbarItem text={"index"} mobile={true} />
+            </a>
           </div>
         </div>
       </div>

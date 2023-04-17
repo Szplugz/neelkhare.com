@@ -6,6 +6,7 @@ import AddIcon from "@mui/icons-material/Add";
 import CloseIcon from "@mui/icons-material/Close";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import { Title } from "@mui/icons-material";
+import Navmobile from "../../components/navbar/Navmobile";
 
 const theme = createTheme({
   palette: {
@@ -37,26 +38,39 @@ const Index = () => {
         <title>Index | Neel Khare</title>
       </Helmet>
       <Navbar />
-      <div className="index-content float flex-col w-[50%] my-[10vh] overflow-y-auto font-inter">
+      <div className="index-content float flex-col sm:w-[50%] w-[80%] my-[10vh] overflow-y-auto font-inter">
+        <Navmobile />
         <div className="index-contents mb-5">
-          <div className="index-item mb-10 flex sm:flex-row flex-col sm:align-top justify-between">
-            <div className="index-item-heading flex flex-col justify-start sm:text-base text-sm font-semibold w-[30%] tracking-normal text-mud text-right mr-[5%]">
+          <div className="index-item mb-10 flex sm:flex-row flex-col sm:align-top sm:justify-between justify-start">
+            <div className="index-item-heading flex sm:flex-col sm:m-0 mb-5 justify-start sm:text-base text-sm font-semibold w-[30%] tracking-normal text-mud text-right mr-[5%]">
               Notebook
             </div>
-            <div className="index-item-contents sm:text-base text-sm text-lightMud flex flex-col w-[65%]">
+            <div className="index-item-contents sm:text-base text-sm text-lightMud flex flex-col sm:w-[65%]">
               <div className="index-item-description mb-2">
                 Because I have a lot of thoughts and I suck at remembering them.
                 Notes are rough, poorly organized, and constantly updated.
               </div>
-              <table className="index-item-list">
+              <table className="index-item-list w-[100%]">
                 <tr className="index-entry">
-                  <td className="hash text-lightMud w-[20%]">ea5044fc</td>
+                  <td className="hash text-lightMud w-20">ea5044fc</td>
                   <td className="text-mud ">
                     <a
                       href="/notes/caffeine"
-                      className="transition hover:underline decoration-dotted hover:ease-in-out duration-700"
+                      className="transition hover:underline decoration-dotted hover:ease-in-out duration-700 decoration-lightMud"
                     >
                       on caffeine
+                    </a>{" "}
+                    ->
+                  </td>
+                </tr>
+                <tr className="w-[100%]">
+                  <td className="hash text-lightMud w-[20%]">edd014ff</td>
+                  <td className="text-mud w-[450px]">
+                    <a
+                      href="/notes/hub-ferriss"
+                      className="transition hover:underline decoration-dotted hover:ease-in-out duration-700 decoration-lightMud"
+                    >
+                      huberman on ferriss
                     </a>{" "}
                     ->
                   </td>
@@ -64,17 +78,19 @@ const Index = () => {
               </table>
             </div>
           </div>
-          <div className="index-item mb-5 flex flex-row align-top justify-between">
-            <div className="index-item-heading flex flex-col justify-start sm:text-base text-sm font-semibold w-[30%] tracking-normal text-mud text-right mr-[5%]">
+          <div className="index-item mb-10 flex sm:flex-row flex-col sm:align-top sm:justify-between justify-start">
+            <div className="index-item-heading flex sm:flex-col sm:m-0 mb-5 justify-start sm:text-base text-sm font-semibold w-[30%] tracking-normal text-mud text-right mr-[5%]">
               People
             </div>
-            <div className="index-item-contents sm:text-base text-sm text-lightMud flex flex-col w-[65%]">
+            <div className="index-item-contents sm:text-base text-sm text-lightMud flex flex-col sm:w-[65%]">
               <div className="index-item-description mb-2">
                 I love meeting and learning about interesting people who think
                 deeply about and are perpetually invested in the world around
                 them.{" "}
                 <a href="/people">
-                  <span className="text-mud">Meet just a few of them -></span>
+                  <span className="text-mud transition hover:underline decoration-dotted hover:ease-in-out duration-700 decoration-lightMud">
+                    Meet just a few of them ->
+                  </span>
                 </a>
               </div>
               <table className="index-item-list">
@@ -82,8 +98,8 @@ const Index = () => {
               </table>
             </div>
           </div>
-          <div className="index-item mb-5 flex flex-row align-top justify-between">
-            <div className="index-item-heading flex flex-col justify-start sm:text-base text-sm font-semibold w-[30%] tracking-normal text-mud text-right mr-[5%]">
+          <div className="index-item mb-10 flex sm:flex-row flex-col sm:align-top sm:justify-between justify-start">
+            <div className="index-item-heading flex sm:flex-col sm:m-0 mb-5 justify-start sm:text-base text-sm font-semibold w-[30%] tracking-normal text-mud text-right mr-[5%]">
               Portfolio
             </div>
             <div className="index-item-contents sm:text-base text-sm text-lightMud flex flex-col w-[65%]">
@@ -91,7 +107,9 @@ const Index = () => {
                 I strive to build, create, and curate beautiful things with high
                 utility to people.{" "}
                 <a href="/portfolio">
-                  <span className="text-mud">See what I've created -></span>
+                  <span className="text-mud transition hover:underline decoration-dotted hover:ease-in-out duration-700 decoration-lightMud">
+                    See what I've created ->
+                  </span>
                 </a>
               </div>
               <table className="index-item-list">

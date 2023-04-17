@@ -5,13 +5,13 @@ import Navmobile from "../components/navbar/Navmobile";
 
 const caffeine = () => {
   return (
-    <div className="caffeine-page bg-eggshell2 h-screen w-screen flex sm:flex-row flex-col justify-center selection:bg-mangoHighlight font-inter overflow-y-hidden">
+    <div className="caffeine-page bg-eggshell2 h-auto w-screen flex sm:flex-row flex-col justify-center selection:bg-mangoHighlight font-inter sm:overflow-y-hidden overflow-y-visible">
       <Helmet>
         <title>caffeine | Neel Khare</title>
       </Helmet>
       <Navbar />
-      <Navmobile />
-      <div className="caffeine-notes flex flex-col float sm:mt-20 sm:ml-20 ml-[10%] sm:w-[40%] w-[80%] min-w-[240px] overflow-y-scroll">
+      <div className="caffeine-notes flex flex-col float sm:mt-20 sm:ml-20 ml-[10%] sm:w-[40%] w-[80%] min-w-[240px] sm:overflow-y-scroll overflow-y-visible mt-[10vh]">
+        <Navmobile />
         <div className="caffeine-heading text-mud flex justify-between sm:text-xl text-lg font-semibold mb-5">
           <div>On Caffeine</div>
           <div>2023-03-09</div>

@@ -37,15 +37,100 @@ const People = () => {
           <img className="people-stars h-[4vh]" src={newlogo}></img>
         </div>
         <div className="p1 mb-5 text-base">
-          One of the reasons I love the internet is that it affords access to
-          the minds of a variety of people from across the globe with
-          interesting things to say. This website and many of my lifestyle
-          choices are heavily inspired by a(n ever-expanding) group of
-          fascinating people:
+          I'm fortunate to have met and befriended some wonderful people who are
+          perpetually curious, energetic, and interesting.
+        </div>
+        <div className="technology-header flex flex-row justify-between items-center text-chinaRose mb-3 text-xl font-[500]">
+          Friends
+        </div>
+        <div className="people-list text-base mb-5">
+          <div className="person flex flex-row justify-between">
+            <div className="text-navy">Luke Clancy</div>
+            <div className="person-links flex flex-row justify-between w-[40%]">
+              <a
+                className="people-link text-candy"
+                href="https://www.lukeclancy.me/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                website
+              </a>
+              <a
+                className="people-link text-candy"
+                href="https://twitter.com/luke_clancy1"
+                target="_blank"
+                rel="noreferrer"
+              >
+                twitter
+              </a>
+            </div>
+          </div>
+          <div className="person flex flex-row justify-between">
+            <div className="text-navy">Sam Schapiro</div>
+            <div className="person-links flex flex-row justify-between w-[40%]">
+              <a
+                className="people-link text-candy"
+                href="https://samjschapiro.github.io/samjschapiro/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                website
+              </a>
+              <a
+                className="people-link text-candy"
+                href="https://www.linkedin.com/in/samuel-schapiro/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                linkedin
+              </a>
+            </div>
+          </div>
+          <div className="person flex flex-row justify-between">
+            <div className="text-navy">Rohan Hirani</div>
+            <div className="person-links flex flex-row justify-between w-[40%]">
+              <a
+                className="people-link text-candy"
+                href="https://rohanhirani.notion.site/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                website
+              </a>
+              <a
+                className="people-link text-candy"
+                href="https://twitter.com/rohanhirani_"
+                target="_blank"
+                rel="noreferrer"
+              >
+                twitter
+              </a>
+            </div>
+          </div>
+          <div className="person flex flex-row justify-between">
+            <div className="text-navy">Aidan Murphy</div>
+            <div className="person-links flex flex-row justify-between w-[40%]">
+              <div></div>
+              <a
+                className="people-link text-candy"
+                href="https://twitter.com/adnmurphy"
+                target="_blank"
+                rel="noreferrer"
+              >
+                twitter
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="p1 mb-5 text-base">
+          But the internet affords me access to the minds of a variety of people
+          from across the globe, and most of my ideas, interests, and lifestyle
+          choices are heavily inspired by a group of fascinating people I follow
+          online:
         </div>
         <div className="people-technology">
           <div className="technology-header flex flex-row justify-between items-center text-chinaRose mb-3 text-xl font-[500]">
-            Technology
+            Technology & Entrepreneurship
           </div>
           <div className="people-list text-base mb-3">
             <div className="person flex flex-row justify-between">
@@ -112,11 +197,11 @@ const People = () => {
               </div>
             </div>
             <div className="person flex flex-row justify-between">
-              <div className="text-navy">Devon Zuegel</div>
+              <div className="text-navy">Erik Torenberg</div>
               <div className="person-links flex flex-row justify-between w-[40%]">
                 <a
                   className="people-link text-candy"
-                  href="https://devonzuegel.com/"
+                  href="https://eriktorenberg.substack.com"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -124,7 +209,7 @@ const People = () => {
                 </a>
                 <a
                   className="people-link text-candy"
-                  href="https://twitter.com/devonzuegel"
+                  href="https://twitter.com/eriktorenberg"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -133,68 +218,19 @@ const People = () => {
               </div>
             </div>
             <div className="person flex flex-row justify-between">
-              <div className="text-navy">Michael Solana</div>
+              <div className="text-navy">Marc Andreesen</div>
               <div className="person-links flex flex-row justify-between w-[40%]">
                 <a
                   className="people-link text-candy"
-                  href="https://piratewires.substack.com/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  website
-                </a>
-                <a
-                  className="people-link text-candy"
-                  href="https://twitter.com/micsolana"
+                  href="https://pmarca.substack.com/"
                   target="_blank"
                   rel="noreferrer"
                 >
                   twitter
                 </a>
-              </div>
-            </div>
-            <div className="person flex flex-row justify-between">
-              <div className="text-navy">Matt Levine</div>
-              <div className="person-links flex flex-row justify-between w-[40%]">
-                <div></div>
                 <a
                   className="people-link text-candy"
-                  href="https://twitter.com/matt_levine"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  twitter
-                </a>
-              </div>
-            </div>
-            <div className="person flex flex-row justify-between">
-              <div className="text-navy">Rob Henderson</div>
-              <div className="person-links flex flex-row justify-between w-[40%]">
-                <div></div>
-                <a
-                  className="people-link text-candy"
-                  href="https://twitter.com/robkhenderson"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  twitter
-                </a>
-              </div>
-            </div>
-            <div className="person flex flex-row justify-between">
-              <div className="text-navy">Lex Fridman</div>
-              <div className="person-links flex flex-row justify-between w-[40%]">
-                <a
-                  className="people-link text-candy"
-                  href="https://lexfridman.com/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  website
-                </a>
-                <a
-                  className="people-link text-candy"
-                  href="https://twitter.com/lexfridman"
+                  href="https://twitter.com/pmarca"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -223,6 +259,82 @@ const People = () => {
                 <a
                   className="people-link text-candy"
                   href="https://twitter.com/hubermanlab"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  twitter
+                </a>
+              </div>
+            </div>
+            <div className="person flex flex-row justify-between">
+              <div className="text-navy">Tim Ferriss</div>
+              <div className="person-links flex flex-row justify-between w-[40%]">
+                <a
+                  className="people-link text-candy"
+                  href="https://tim.blog/new-start-here/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  website
+                </a>
+                <a
+                  className="people-link text-candy"
+                  href="https://twitter.com/tferriss"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  twitter
+                </a>
+              </div>
+            </div>
+            <div className="person flex flex-row justify-between">
+              <div className="text-navy w-[40%]">Jordan Peterson</div>
+              <div className="person-links flex flex-row justify-between w-[40%]">
+                <a
+                  className="people-link text-candy"
+                  href="https://www.jordanbpeterson.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  website
+                </a>
+              </div>
+            </div>
+            <div className="person flex flex-row justify-between">
+              <div className="text-navy">Lex Fridman</div>
+              <div className="person-links flex flex-row justify-between w-[40%]">
+                <a
+                  className="people-link text-candy"
+                  href="https://lexfridman.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  website
+                </a>
+                <a
+                  className="people-link text-candy"
+                  href="https://twitter.com/lexfridman"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  twitter
+                </a>
+              </div>
+            </div>
+            <div className="person flex flex-row justify-between">
+              <div className="text-navy">Isabel Hazan</div>
+              <div className="person-links flex flex-row justify-between w-[40%]">
+                <a
+                  className="people-link text-candy"
+                  href="https://mindmine.substack.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  website
+                </a>
+                <a
+                  className="people-link text-candy"
+                  href="https://twitter.com/isabelunraveled"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -269,42 +381,6 @@ const People = () => {
                   rel="noreferrer"
                 >
                   twitter
-                </a>
-              </div>
-            </div>
-            <div className="person flex flex-row justify-between">
-              <div className="text-navy">Jonathan Haidt</div>
-              <div className="person-links flex flex-row justify-between w-[40%]">
-                <a
-                  className="people-link text-candy"
-                  href="https://jonathanhaidt.com/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  website
-                </a>
-                <a
-                  className="people-link text-candy"
-                  href="https://twitter.com/jonhaidt"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  twitter
-                </a>
-              </div>
-            </div>
-            <div className="person flex flex-row justify-between">
-              <div className="text-navy w-[40%]">
-                Jordan Peterson (professor era)
-              </div>
-              <div className="person-links flex flex-row justify-between w-[40%]">
-                <a
-                  className="people-link text-candy"
-                  href="https://www.jordanbpeterson.com/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  website
                 </a>
               </div>
             </div>
