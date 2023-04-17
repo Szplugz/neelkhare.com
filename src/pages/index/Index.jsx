@@ -6,6 +6,7 @@ import AddIcon from "@mui/icons-material/Add";
 import CloseIcon from "@mui/icons-material/Close";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import { Title } from "@mui/icons-material";
+import ArrowOutwardIcon from "@mui/icons-material/ArrowOutward";
 import Navmobile from "../../components/navbar/Navmobile";
 
 const theme = createTheme({
@@ -73,6 +74,20 @@ const Index = () => {
                       huberman on ferriss
                     </a>{" "}
                     ->
+                  </td>
+                </tr>
+                <tr className="w-[100%]">
+                  <td className="hash text-lightMud w-[20%]">36c1863</td>
+                  <td className="text-mud w-[450px] flex justify-start">
+                    <a
+                      href="https://steel-plain-b28.notion.site/Proposing-a-Design-Technology-Symposium-at-the-University-of-Illinois-1983d619135a45c0bae4651aee51e135"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="transition hover:underline decoration-dotted hover:ease-in-out duration-700 decoration-lightMud mr-1"
+                    >
+                      proposing a design symposium
+                    </a>
+                    <ArrowOutwardIcon sx={{ fontSize: 15 }} />
                   </td>
                 </tr>
               </table>
