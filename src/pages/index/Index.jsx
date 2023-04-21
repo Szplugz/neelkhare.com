@@ -41,7 +41,7 @@ const Index = () => {
       <Navbar />
       <div className="index-content float flex-col sm:w-[50%] w-[80%] my-[10vh] overflow-y-auto font-inter">
         <Navmobile />
-        <div className="index-contents mb-5">
+        <div className="index-contents mb-5 overflow-x-hidden">
           <div className="index-item mb-10 flex sm:flex-row flex-col sm:align-top sm:justify-between justify-start">
             <div className="index-item-heading flex sm:flex-col sm:m-0 mb-5 justify-start sm:text-base text-sm font-semibold w-[30%] tracking-normal text-mud text-right mr-[5%]">
               Notebook
@@ -117,7 +117,7 @@ const Index = () => {
             <div className="index-item-heading flex sm:flex-col sm:m-0 mb-5 justify-start sm:text-base text-sm font-semibold w-[30%] tracking-normal text-mud text-right mr-[5%]">
               Portfolio
             </div>
-            <div className="index-item-contents sm:text-base text-sm text-lightMud flex flex-col w-[65%]">
+            <div className="index-item-contents sm:text-base text-sm text-lightMud flex flex-col sm:w-[65%]">
               <div className="index-item-description mb-2">
                 I strive to build, create, and curate beautiful things with high
                 utility to people.{" "}
