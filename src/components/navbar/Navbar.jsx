@@ -8,7 +8,7 @@ const Navbar = ({ isHomePage }) => {
     <div className="navbar-box flex flex-col fixed left-[15vw] h-[60vh] align-top w-[15%] min-w-480 my-20 mr-[7.5vw]">
       <div className="navbar-menu flex flex-col mb-10">
         <div className="navbar-item">
-          <a href="/about">
+          <a href="/">
             <NavbarItem text={"home"} />
           </a>
         </div>
