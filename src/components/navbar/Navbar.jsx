@@ -1,6 +1,6 @@
 import React from "react";
 import NavbarItem from "./NavbarItem";
-import headshot from "../../utils/chiheadshot.jpg";
+import headshot from "../../utils/profilepicbw.jpg";
 
 const Navbar = ({ isHomePage }) => {
   let homeImage = isHomePage ? headshot : null;
@@ -57,7 +57,10 @@ const Navbar = ({ isHomePage }) => {
           </a>
         </div>
       </div>
-      {/* <img src={homeImage} className="w-[80%] rounded-sm"></img> */}
+      <img
+        src={homeImage}
+        className="w-[175px] min-w-[175px] rounded-sm pointer-events-none"
+      ></img>
     </div>
   );
 };
