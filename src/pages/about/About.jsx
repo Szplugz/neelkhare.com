@@ -5,6 +5,7 @@ import { Helmet } from "react-helmet";
 import "./About.css";
 import newlogo from "../../utils/StarLogoNeel.png";
 import MobileFooter from "../../components/navbar/MobileFooter";
+import headshot from "../../utils/profilepicbw.jpg";
 
 const About = () => {
   return (
@@ -16,7 +17,7 @@ const About = () => {
         <div>
           <Navbar isHomePage={true} />
         </div>
-        <div className="about-bio float flex-col w-[40%] mt-[10vh] overflow-y-visible">
+        <div className="about-bio float flex-col w-[40%] mt-[10vh] sm:ml-[7.5rem] overflow-y-visible">
           <Navmobile />
           <div className="quote-mobile text-slate-600 font-inter text-sm mb-5 flex justify-end">
             <em>After a while, determination starts to look like talent.</em>
@@ -27,6 +28,7 @@ const About = () => {
             </div>
             <img className="mb-5 sm:h-[2rem] h-[1.75rem]" src={newlogo}></img>
           </div>
+
           <div className="about-bio-content overflow-x-hidden flex-col w-full text-almostBlack font-inter font-[400] text-base sm:text-base leading-snug">
             <p className="about-bio-main mb-5">
               I study computer science and psychology at the University of
@@ -135,6 +137,10 @@ const About = () => {
               or at any of the social links you see on the side.
             </p>
             <hr className="line-2 border-dotted mb-5 h-[1px] border-navy"></hr>
+            <img
+              src={headshot}
+              className="mb-10 rounded-sm pointer-events-none mb-5 sm:hidden"
+            ></img>
             <div className="quote-desktop text-slate-600 font-inter text-sm mb-[4.25rem] flex justify-end">
               <em>After a while, determination starts to look like talent.</em>
             </div>
