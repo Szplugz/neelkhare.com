@@ -130,7 +130,7 @@ const About = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                neelk2@illinois.edu
+                neelk2
                 <span className="text-chinaRose">&#123;</span>at
                 <span className="text-chinaRose">&#125;</span>illinois.edu
               </a>{" "}
