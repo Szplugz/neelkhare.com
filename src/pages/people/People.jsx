@@ -197,6 +197,27 @@ const People = () => {
               </div>
             </div>
             <div className="person flex flex-row justify-between">
+              <div className="text-navy">Jake Chvatal</div>
+              <div className="person-links flex flex-row justify-between w-[40%]">
+                <a
+                  className="people-link text-candy hover:text-navy ease-in-out transition duration-[300ms]"
+                  href="https://jake.isnt.online/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  website
+                </a>
+                <a
+                  className="people-link text-candy hover:text-navy ease-in-out transition duration-[300ms]"
+                  href="https://www.are.na/jake-isnt"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  are.na
+                </a>
+              </div>
+            </div>
+            <div className="person flex flex-row justify-between">
               <div className="text-navy">Erik Torenberg</div>
               <div className="person-links flex flex-row justify-between w-[40%]">
                 <a
