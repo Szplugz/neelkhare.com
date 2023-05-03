@@ -48,7 +48,7 @@ const People = () => {
             <div className="text-navy">Luke Clancy</div>
             <div className="person-links flex flex-row justify-between w-[40%]">
               <a
-                className="people-link text-candy"
+                className="people-link text-candy hover:text-navy ease-in-out transition duration-[300ms]"
                 href="https://www.lukeclancy.me/"
                 target="_blank"
                 rel="noreferrer"
@@ -56,7 +56,7 @@ const People = () => {
                 website
               </a>
               <a
-                className="people-link text-candy"
+                className="people-link text-candy hover:text-navy ease-in-out transition duration-[300ms]"
                 href="https://twitter.com/luke_clancy1"
                 target="_blank"
                 rel="noreferrer"
@@ -69,7 +69,7 @@ const People = () => {
             <div className="text-navy">Sam Schapiro</div>
             <div className="person-links flex flex-row justify-between w-[40%]">
               <a
-                className="people-link text-candy"
+                className="people-link text-candy hover:text-navy ease-in-out transition duration-[300ms]"
                 href="https://samjschapiro.github.io/samjschapiro/"
                 target="_blank"
                 rel="noreferrer"
@@ -77,7 +77,7 @@ const People = () => {
                 website
               </a>
               <a
-                className="people-link text-candy"
+                className="people-link text-candy hover:text-navy ease-in-out transition duration-[300ms]"
                 href="https://www.linkedin.com/in/samuel-schapiro/"
                 target="_blank"
                 rel="noreferrer"
@@ -90,7 +90,7 @@ const People = () => {
             <div className="text-navy">Rohan Hirani</div>
             <div className="person-links flex flex-row justify-between w-[40%]">
               <a
-                className="people-link text-candy"
+                className="people-link text-candy hover:text-navy ease-in-out transition duration-[300ms]"
                 href="https://rohanhirani.notion.site/"
                 target="_blank"
                 rel="noreferrer"
@@ -98,7 +98,7 @@ const People = () => {
                 website
               </a>
               <a
-                className="people-link text-candy"
+                className="people-link text-candy hover:text-navy ease-in-out transition duration-[300ms]"
                 href="https://twitter.com/rohanhirani_"
                 target="_blank"
                 rel="noreferrer"
@@ -112,7 +112,7 @@ const People = () => {
             <div className="person-links flex flex-row justify-between w-[40%]">
               <div></div>
               <a
-                className="people-link text-candy"
+                className="people-link text-candy hover:text-navy ease-in-out transition duration-[300ms]"
                 href="https://twitter.com/adnmurphy"
                 target="_blank"
                 rel="noreferrer"
@@ -137,7 +137,7 @@ const People = () => {
               <div className="text-navy">Paul Graham</div>
               <div className="person-links flex flex-row justify-between w-[40%]">
                 <a
-                  className="people-link text-candy"
+                  className="people-link text-candy hover:text-navy ease-in-out transition duration-[300ms]"
                   href="http://paulgraham.com/"
                   target="_blank"
                   rel="noreferrer"
@@ -145,7 +145,7 @@ const People = () => {
                   website
                 </a>
                 <a
-                  className="people-link text-candy"
+                  className="people-link text-candy hover:text-navy ease-in-out transition duration-[300ms]"
                   href="https://twitter.com/paulg"
                   target="_blank"
                   rel="noreferrer"
@@ -158,7 +158,7 @@ const People = () => {
               <div className="text-navy">Patrick Collison</div>
               <div className="person-links flex flex-row justify-between w-[40%]">
                 <a
-                  className="people-link text-candy"
+                  className="people-link text-candy hover:text-navy ease-in-out transition duration-[300ms]"
                   href="http://patrickcollison.com/"
                   target="_blank"
                   rel="noreferrer"
@@ -166,7 +166,7 @@ const People = () => {
                   website
                 </a>
                 <a
-                  className="people-link text-candy"
+                  className="people-link text-candy hover:text-navy ease-in-out transition duration-[300ms]"
                   href="https://twitter.com/patrickc"
                   target="_blank"
                   rel="noreferrer"
@@ -179,7 +179,7 @@ const People = () => {
               <div className="text-navy">Molly Mielke</div>
               <div className="person-links flex flex-row justify-between w-[40%]">
                 <a
-                  className="people-link text-candy"
+                  className="people-link text-candy hover:text-navy ease-in-out transition duration-[300ms]"
                   href="https://www.mollymielke.com/"
                   target="_blank"
                   rel="noreferrer"
@@ -187,7 +187,7 @@ const People = () => {
                   website
                 </a>
                 <a
-                  className="people-link text-candy"
+                  className="people-link text-candy hover:text-navy ease-in-out transition duration-[300ms]"
                   href="https://twitter.com/mollyfmielke"
                   target="_blank"
                   rel="noreferrer"
@@ -200,7 +200,7 @@ const People = () => {
               <div className="text-navy">Erik Torenberg</div>
               <div className="person-links flex flex-row justify-between w-[40%]">
                 <a
-                  className="people-link text-candy"
+                  className="people-link text-candy hover:text-navy ease-in-out transition duration-[300ms]"
                   href="https://eriktorenberg.substack.com"
                   target="_blank"
                   rel="noreferrer"
@@ -208,7 +208,7 @@ const People = () => {
                   website
                 </a>
                 <a
-                  className="people-link text-candy"
+                  className="people-link text-candy hover:text-navy ease-in-out transition duration-[300ms]"
                   href="https://twitter.com/eriktorenberg"
                   target="_blank"
                   rel="noreferrer"
@@ -221,7 +221,7 @@ const People = () => {
               <div className="text-navy">Marc Andreesen</div>
               <div className="person-links flex flex-row justify-between w-[40%]">
                 <a
-                  className="people-link text-candy"
+                  className="people-link text-candy hover:text-navy ease-in-out transition duration-[300ms]"
                   href="https://pmarca.substack.com/"
                   target="_blank"
                   rel="noreferrer"
@@ -229,7 +229,7 @@ const People = () => {
                   twitter
                 </a>
                 <a
-                  className="people-link text-candy"
+                  className="people-link text-candy hover:text-navy ease-in-out transition duration-[300ms]"
                   href="https://twitter.com/pmarca"
                   target="_blank"
                   rel="noreferrer"
@@ -249,7 +249,7 @@ const People = () => {
               <div className="text-navy">Andrew Huberman</div>
               <div className="person-links flex flex-row justify-between w-[40%]">
                 <a
-                  className="people-link text-candy"
+                  className="people-link text-candy hover:text-navy ease-in-out transition duration-[300ms]"
                   href="https://hubermanlab.com/"
                   target="_blank"
                   rel="noreferrer"
@@ -257,7 +257,7 @@ const People = () => {
                   website
                 </a>
                 <a
-                  className="people-link text-candy"
+                  className="people-link text-candy hover:text-navy ease-in-out transition duration-[300ms]"
                   href="https://twitter.com/hubermanlab"
                   target="_blank"
                   rel="noreferrer"
@@ -270,7 +270,7 @@ const People = () => {
               <div className="text-navy">Tim Ferriss</div>
               <div className="person-links flex flex-row justify-between w-[40%]">
                 <a
-                  className="people-link text-candy"
+                  className="people-link text-candy hover:text-navy ease-in-out transition duration-[300ms]"
                   href="https://tim.blog/new-start-here/"
                   target="_blank"
                   rel="noreferrer"
@@ -278,7 +278,7 @@ const People = () => {
                   website
                 </a>
                 <a
-                  className="people-link text-candy"
+                  className="people-link text-candy hover:text-navy ease-in-out transition duration-[300ms]"
                   href="https://twitter.com/tferriss"
                   target="_blank"
                   rel="noreferrer"
@@ -291,7 +291,7 @@ const People = () => {
               <div className="text-navy w-[40%]">Jordan Peterson</div>
               <div className="person-links flex flex-row justify-between w-[40%]">
                 <a
-                  className="people-link text-candy"
+                  className="people-link text-candy hover:text-navy ease-in-out transition duration-[300ms]"
                   href="https://www.jordanbpeterson.com/"
                   target="_blank"
                   rel="noreferrer"
@@ -304,7 +304,7 @@ const People = () => {
               <div className="text-navy">Lex Fridman</div>
               <div className="person-links flex flex-row justify-between w-[40%]">
                 <a
-                  className="people-link text-candy"
+                  className="people-link text-candy hover:text-navy ease-in-out transition duration-[300ms]"
                   href="https://lexfridman.com/"
                   target="_blank"
                   rel="noreferrer"
@@ -312,7 +312,7 @@ const People = () => {
                   website
                 </a>
                 <a
-                  className="people-link text-candy"
+                  className="people-link text-candy hover:text-navy ease-in-out transition duration-[300ms]"
                   href="https://twitter.com/lexfridman"
                   target="_blank"
                   rel="noreferrer"
@@ -325,7 +325,7 @@ const People = () => {
               <div className="text-navy">Isabel Hazan</div>
               <div className="person-links flex flex-row justify-between w-[40%]">
                 <a
-                  className="people-link text-candy"
+                  className="people-link text-candy hover:text-navy ease-in-out transition duration-[300ms]"
                   href="https://mindmine.substack.com"
                   target="_blank"
                   rel="noreferrer"
@@ -333,7 +333,7 @@ const People = () => {
                   website
                 </a>
                 <a
-                  className="people-link text-candy"
+                  className="people-link text-candy hover:text-navy ease-in-out transition duration-[300ms]"
                   href="https://twitter.com/isabelunraveled"
                   target="_blank"
                   rel="noreferrer"
@@ -347,14 +347,14 @@ const People = () => {
               <div className="person-links flex flex-row justify-between w-[40%]">
                 <a
                   className="people-link text-candy"
-                  href="https://ava.substack.com/"
+                  href="https://ava.substack.com/ hover:text-navy ease-in-out transition duration-[300ms]"
                   target="_blank"
                   rel="noreferrer"
                 >
                   website
                 </a>
                 <a
-                  className="people-link text-candy"
+                  className="people-link text-candy hover:text-navy ease-in-out transition duration-[300ms]"
                   href="https://twitter.com/noampomsky"
                   target="_blank"
                   rel="noreferrer"
@@ -367,7 +367,7 @@ const People = () => {
               <div className="text-navy">Tim Urban</div>
               <div className="person-links flex flex-row justify-between w-[40%]">
                 <a
-                  className="people-link text-candy"
+                  className="people-link text-candy  hover:text-navy ease-in-out transition duration-[300ms]"
                   href="https://waitbutwhy.com/"
                   target="_blank"
                   rel="noreferrer"
@@ -375,7 +375,7 @@ const People = () => {
                   website
                 </a>
                 <a
-                  className="people-link text-candy"
+                  className="people-link text-candy hover:text-navy ease-in-out transition duration-[300ms]"
                   href="https://twitter.com/waitbutwhy"
                   target="_blank"
                   rel="noreferrer"
@@ -396,7 +396,7 @@ const People = () => {
               <div className="person-links flex flex-row justify-between w-[40%]">
                 <div></div>
                 <a
-                  className="people-link text-candy"
+                  className="people-link text-candy hover:text-navy ease-in-out transition duration-[300ms]"
                   href="https://www.youtube.com/user/TimtotheWild"
                   target="_blank"
                   rel="noreferrer"
@@ -409,7 +409,7 @@ const People = () => {
               <div className="text-navy">Cody Hudson</div>
               <div className="person-links flex flex-row justify-between w-[40%]">
                 <a
-                  className="people-link text-candy"
+                  className="people-link text-candy hover:text-navy ease-in-out transition duration-[300ms]"
                   href="https://www.struggleinc.com/"
                   target="_blank"
                   rel="noreferrer"
@@ -423,7 +423,7 @@ const People = () => {
               <div className="text-navy">Rasmus Andersson</div>
               <div className="person-links flex flex-row justify-between w-[40%]">
                 <a
-                  className="people-link text-candy"
+                  className="people-link text-candy hover:text-navy ease-in-out transition duration-[300ms]"
                   href="https://rsms.me/"
                   target="_blank"
                   rel="noreferrer"
