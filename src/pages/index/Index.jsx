@@ -34,12 +34,12 @@ const TableEntry = ({ hash, title, newWindow }) => {
 
 const Index = () => {
   return (
-    <div className="index-page bg-eggshell2 h-screen w-screen flex flex-row justify-center selection:bg-mangoHighlight">
+    <div className="index-page bg-eggshell2 h-full w-screen flex flex-row justify-center selection:bg-mangoHighlight">
       <Helmet>
         <title>Index | Neel Khare</title>
       </Helmet>
       <Navbar />
-      <div className="index-content float flex-col sm:w-[50%] w-[80%] my-[10vh] overflow-y-auto font-inter">
+      <div className="index-content float flex-col sm:w-[50%] w-[80%] py-[10vh] font-inter">
         <Navmobile />
         <div className="index-contents mb-5 overflow-x-hidden">
           <div className="index-item mb-10 flex sm:flex-row flex-col sm:align-top sm:justify-between justify-start">
