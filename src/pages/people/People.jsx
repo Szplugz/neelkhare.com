@@ -5,7 +5,6 @@ import "./People.css";
 import IconButton from "@mui/material/IconButton";
 import AddIcon from "@mui/icons-material/Add";
 import CloseIcon from "@mui/icons-material/Close";
-import { createTheme, ThemeProvider } from "@mui/material/styles";
 import chistar from "../../utils/CHISTAR.svg";
 import newlogo from "../../utils/StarLogoNeel.png";
 import Navmobile from "../../components/navbar/Navmobile";
@@ -247,7 +246,7 @@ const People = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  twitter
+                  website
                 </a>
                 <a
                   className="people-link text-candy hover:text-navy ease-in-out transition duration-[300ms]"
