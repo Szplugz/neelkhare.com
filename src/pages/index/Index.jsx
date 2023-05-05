@@ -34,7 +34,7 @@ const TableEntry = ({ hash, title, newWindow }) => {
 
 const Index = () => {
   return (
-    <div className="index-page bg-eggshell2 h-full w-screen flex flex-row justify-center selection:bg-mangoHighlight">
+    <div className="index-page bg-eggshell2 h-full min-h-screen w-screen flex flex-row justify-center selection:bg-mangoHighlight">
       <Helmet>
         <title>Index | Neel Khare</title>
       </Helmet>
