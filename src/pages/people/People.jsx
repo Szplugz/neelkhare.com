@@ -120,6 +120,27 @@ const People = () => {
               </a>
             </div>
           </div>
+          <div className="person flex flex-row justify-between">
+            <div className="text-navy">Grant Hale</div>
+            <div className="person-links flex flex-row justify-between w-[40%]">
+              <a
+                className="people-link text-candy hover:text-navy ease-in-out transition duration-[300ms]"
+                href="https://granthale.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                website
+              </a>
+              <a
+                className="people-link text-candy hover:text-navy ease-in-out transition duration-[300ms]"
+                href="https://twitter.com/grant__hale"
+                target="_blank"
+                rel="noreferrer"
+              >
+                twitter
+              </a>
+            </div>
+          </div>
         </div>
         <div className="p1 mb-5 text-base">
           But the internet affords me access to the minds of a variety of people
