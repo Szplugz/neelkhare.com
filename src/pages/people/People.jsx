@@ -5,6 +5,7 @@ import "./People.css";
 import IconButton from "@mui/material/IconButton";
 import AddIcon from "@mui/icons-material/Add";
 import CloseIcon from "@mui/icons-material/Close";
+import { createTheme, ThemeProvider } from "@mui/material/styles";
 import chistar from "../../utils/CHISTAR.svg";
 import newlogo from "../../utils/StarLogoNeel.png";
 import Navmobile from "../../components/navbar/Navmobile";
