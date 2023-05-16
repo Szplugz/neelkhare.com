@@ -24,7 +24,7 @@ const About = () => {
           </div>
           <div className="desktop-head flex justify-between">
             <div className="navbar-neel text-navy relative flex items-center sm:text-2xl text-xl font-[500] font-inter mb-5">
-              Hello, I'm Neel. I build beautiful things.
+              Hello, I'm Neel. I'm an artisan engineer.
             </div>
             <img className="mb-5 sm:h-[2rem] h-[1.75rem]" src={newlogo}></img>
           </div>
@@ -34,8 +34,8 @@ const About = () => {
               I study computer science and psychology at the University of
               Illinois, Urbana-Champaign. Currently, I'm curious about
               computational neuroscience and using design to enhance people's
-              lives. I spend most of my time writing code, learning from
-              interesting people, and strengthening my brain and body.
+              lives. I spend most of my time building beautiful things, learning
+              from interesting people, and strengthening my brain and body.
               Sometimes, I go to class.
             </p>
             <p className="text-lightMud mb-5">
