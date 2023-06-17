@@ -53,6 +53,19 @@ const About = () => {
             </div>
             <ul className="list-disc pl-5 mb-5 marker:text-chinaRose">
               <li className="list-item">
+               Writing code at
+                <br></br>
+                <a
+                  className="link text-almostBlack underline hover:decoration-solid decoration-dotted decoration-chinaRose transition duration-[1000ms] ease-in-out"
+                  href="https://gro-intelligence.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Gro Intelligence
+                </a>{" "}
+                .
+              </li>
+              <li className="list-item">
                 Building a mobile app to augment your experience with the
                 <br></br>
                 <a
@@ -76,18 +89,6 @@ const About = () => {
                   Design Symposium
                 </a>{" "}
                 at college.
-              </li>
-              <li>
-                Developing a website and producing video content for{" "}
-                <a
-                  className="link text-almostBlack underline hover:decoration-solid decoration-dotted decoration-chinaRose transition duration-[1000ms] ease-in-out"
-                  href="https://www.instagram.com/tfnuiuc/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  The Fashion Network
-                </a>
-                .
               </li>
             </ul>
             <div className="technology-header flex flex-row justify-between items-center text-chinaRose mb-3 text-xl font-[500]">
