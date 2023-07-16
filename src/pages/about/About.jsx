@@ -20,7 +20,20 @@ const About = () => {
         <div className="about-bio float flex-col w-[40%] mt-[10vh] sm:ml-[7.5rem] overflow-y-visible">
           <Navmobile />
           <div className="quote-mobile text-slate-600 font-inter text-sm mb-5 flex justify-end">
-            <em>After a while, determination starts to look like talent.</em>
+            <em>Encourage the beautiful, for the useful encourages itself.</em>
+          </div>
+          <div className="callout block w-full rounded-md bg-lightMud bg-opacity-10 mb-5 sm:text-lg text-md p-3 text-mud leading-snug">
+            <div className="mb-5">
+              <p>
+                Hey! This website is currently undergoing a deep, tectonic
+                renovation. A more intuitive and exciting experience awaits you
+                :)
+              </p>
+            </div>
+            <div className="flex flex-row justify-between sm:text-sm text-xs text-lightMud">
+              <p>Posted on Jul 15, 2023.</p>
+              <p>ETA - 2 months</p>
+            </div>
           </div>
           <div className="desktop-head flex justify-between">
             <div className="navbar-neel text-navy relative flex items-center sm:text-2xl text-xl font-[500] font-inter mb-5">
@@ -32,11 +45,9 @@ const About = () => {
           <div className="about-bio-content overflow-x-hidden flex-col w-full text-almostBlack font-inter font-[400] text-base sm:text-base leading-snug">
             <p className="about-bio-main mb-5">
               I study computer science and psychology at the University of
-              Illinois, Urbana-Champaign. Currently, I'm curious about
-              computational neuroscience and using design to enhance people's
-              lives. I spend most of my time building beautiful things, learning
-              from interesting people, and strengthening my brain and body.
-              Sometimes, I go to class.
+              Illinois, Urbana-Champaign. I value . I spend most of my time
+              building beautiful things, learning from interesting people, and
+              strengthening my brain and body. Sometimes, I go to class.
             </p>
             <p className="text-lightMud mb-5">
               To learn more about me, visit my{" "}
@@ -78,7 +89,7 @@ const About = () => {
                 at college.
               </li>
               <li>
-                Developing a website and producing video content for{" "}
+                Building{" "}
                 <a
                   className="link text-almostBlack underline hover:decoration-solid decoration-dotted decoration-chinaRose transition duration-[1000ms] ease-in-out"
                   href="https://www.instagram.com/tfnuiuc/"
@@ -142,7 +153,9 @@ const About = () => {
               className="mb-10 rounded-sm pointer-events-none mb-5 sm:hidden"
             ></img>
             <div className="quote-desktop text-slate-600 font-inter text-sm mb-[4.25rem] flex justify-end">
-              <em>After a while, determination starts to look like talent.</em>
+              <em>
+                Encourage the beautiful, for the useful encourages itself.
+              </em>
             </div>
             <MobileFooter />
           </div>
