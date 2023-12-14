@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "LHF Corrie";
+  src: url("/assets/fonts/corrie/regular.woff2") format("woff2"),
+    url("/assets/fonts/corrie/regular.woff") format("woff");
+  font-weight: normal;
+}
+
+.center-text > p {
+  margin-bottom: 1.25rem;
+  width: 80%;
+}
