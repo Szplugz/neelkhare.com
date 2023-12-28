@@ -8,8 +8,3 @@
     url("/assets/fonts/corrie/regular.woff") format("woff");
   font-weight: normal;
 }
-
-.center-text > p {
-  margin-bottom: 1.25rem;
-  width: 80%;
-}

@@ -105,13 +105,13 @@ const Navigation = ({ props }) => {
           <Image src={logo} alt={"Kitchen"} height={50}></Image>
           <div className="navigation-explore">
             <MenuButton key_="1" page="PORTFOLIO" styles="mt-5" />
-            <MenuButton key_="2" page="INTAKE" styles="mt-1" />
-            <hr className="text-[#8B8B8B] mt-3"></hr>
+            <MenuButton key_="2" page="INTAKE" styles="mt-2" />
+            <hr className="text-[#8B8B8B]"></hr>
           </div>
           <div className="navigation-about">
-            <MenuButton key_="B" page="BIOGRAPHY" styles="mt-1" />
-            <MenuButton key_="R" page="RESUME" styles="mt-1" />
-            <MenuButton key_="C" page="CONTACT" styles="mt-1" />
+            <MenuButton key_="B" page="BIOGRAPHY" styles="mt-2" />
+            <MenuButton key_="R" page="RESUME" styles="mt-2" />
+            <MenuButton key_="C" page="CONTACT" styles="mt-2" />
 
             <hr></hr>
           </div>
@@ -119,19 +119,19 @@ const Navigation = ({ props }) => {
             <MenuButton
               key_="A"
               page="ARE.NA"
-              styles="mt-1"
+              styles="mt-2"
               url={"https://sander.are.na/neel-khare/channels"}
             />
             <MenuButton
               key_="T"
               page="TWITTER"
-              styles="mt-1"
+              styles="mt-2"
               url={"https://twitter.com/Szplugz"}
             />
             <hr className=""></hr>
           </div>
         </div>
-        <button onClick={showSearchBox} className="">
+        <button onClick={showSearchBox} className="search-button">
           Search...
         </button>
       </div>

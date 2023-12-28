@@ -21,9 +21,9 @@ const MenuButton = (props) => {
         onMouseEnter={() => setHover(1)}
         onMouseLeave={() => setHover(0)}
       >
-        <p>
+        <p className="menu-text">
           <RoughNotation type="underline" show={hover} color="#D12D35">
-            <span className="">{key_} </span>
+            <span className="menu-key">{key_} </span>
             {page}
           </RoughNotation>
         </p>
