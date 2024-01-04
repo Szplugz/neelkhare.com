@@ -1,8 +1,8 @@
 "use client";
 
 import React from "react";
-import Software from "./_views/Software";
-import Photography from "./_views/photography";
+import Software from "./software/page";
+import Photography from "./photography/page";
 import { useState } from "react";
 
 // Eventually I want to replace most hard-coded values with dynamically pulled content from an external database

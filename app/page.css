@@ -1,8 +1,13 @@
+:root {
+  color: #43392e;
+}
+
 .main {
   display: flex;
   flex-direction: row;
   padding: calc(100vh / 6) calc(100vw / 8);
   justify-content: space-between;
+  background-color: #fbf9f4;
 }
 
 .home-screen {
@@ -46,11 +51,6 @@ img {
   flex-shrink: 0;
 }
 
-.menu-text {
-  font-weight: 500;
-  color: #302923;
-}
-
 .menu-key {
   color: #8b8b8b;
 }
@@ -71,7 +71,47 @@ hr {
   color: #8b8b8b;
 }
 
+h4 {
+  font-size: 1.5rem;
+}
+
 h3 {
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 600;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+.portfolio-sidebar {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  align-items: flex-end;
+}
+
+.portfolio-sidebar-description {
+  text-align: end;
+  margin-top: 1rem;
+  color: #93897e;
+}
+
+.current-page {
+  color: #9a4c5c;
+}
+
+.portfolio-sidebar-buttons {
+  margin-top: 1rem;
+}
+
+.portfolio-sidebar-buttons > h4 {
+  text-align: end;
+}
+
+.software-contents {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
 }

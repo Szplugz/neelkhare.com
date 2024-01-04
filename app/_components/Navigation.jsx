@@ -10,20 +10,27 @@ import { useEffect, useState, useRef } from "react";
 const Navigation = ({ props }) => {
   const searchBoxRef = useRef(null);
   const [isSearchActive, setIsSearchActive] = useState(false);
-  console.log(isSearchActive);
+  const [activePage, setActivePage] = useState("0");
+  console.log("Active page:", activePage);
   const keyMappings = {
+    1: {
+      url: "/portfolio/software",
+      target: "_parent",
+      external: false,
+    },
     a: {
       url: "https://sander.are.na/neel-khare/channels",
       target: "_blank",
+      external: true,
     },
     t: {
       url: "https://twitter.com/Szplugz",
       target: "_self",
+      external: true,
     },
   };
 
-  const showSearchBox = () => {
-    console.log("search");
+  const showSearchBox = (e) => {
     setIsSearchActive(true);
   };
 
@@ -55,6 +62,10 @@ const Navigation = ({ props }) => {
             keyMappings[pressedKey].url,
             keyMappings[pressedKey].target
           );
+          if (!keyMappings[pressedKey].external) {
+            console.log("setting active page to ", pressedKey);
+            setActivePage(pressedKey);
+          }
         } catch (e) {
           console.log(e);
         }
@@ -104,14 +115,47 @@ const Navigation = ({ props }) => {
         <div className="navigation-menu">
           <Image src={logo} alt={"Kitchen"} height={50}></Image>
           <div className="navigation-explore">
-            <MenuButton key_="1" page="PORTFOLIO" styles="mt-5" />
-            <MenuButton key_="2" page="INTAKE" styles="mt-2" />
+            <MenuButton
+              className="portfolio-button"
+              key_="1"
+              page="PORTFOLIO"
+              styles="mt-5"
+              url="/portfolio/software"
+              target="_self"
+              setActivePage={setActivePage}
+              currActivePage={activePage}
+            />
+            <MenuButton
+              key_="2"
+              page="INSPIRATION"
+              styles="mt-2"
+              setActivePage={setActivePage}
+              currActivePage={activePage}
+            />
             <hr className="text-[#8B8B8B]"></hr>
           </div>
           <div className="navigation-about">
-            <MenuButton key_="B" page="BIOGRAPHY" styles="mt-2" />
-            <MenuButton key_="R" page="RESUME" styles="mt-2" />
-            <MenuButton key_="C" page="CONTACT" styles="mt-2" />
+            <MenuButton
+              key_="B"
+              page="BIOGRAPHY"
+              styles="mt-2"
+              setActivePage={setActivePage}
+              currActivePage={activePage}
+            />
+            <MenuButton
+              key_="R"
+              page="RESUME"
+              styles="mt-2"
+              setActivePage={setActivePage}
+              currActivePage={activePage}
+            />
+            <MenuButton
+              key_="C"
+              page="CONTACT"
+              styles="mt-2"
+              setActivePage={setActivePage}
+              currActivePage={activePage}
+            />
 
             <hr></hr>
           </div>

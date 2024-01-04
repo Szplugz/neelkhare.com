@@ -4,7 +4,6 @@ import { forwardRef } from "react";
 
 const SearchBox = forwardRef(function SearchBox(props, ref) {
   const { isVisible, id } = props;
-  console.log(isVisible);
 
   useEffect(() => {
     if (isVisible) {
