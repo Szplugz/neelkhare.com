@@ -3,7 +3,7 @@ import Navigation from "./_components/Navigation.jsx";
 import { Inter } from "next/font/google";
 import { React } from "react";
 import "./page.css";
-import PageProvider from "./inspiration/pageprovider";
+import PageProvider from "./pageprovider";
 
 const inter = Inter({
   subsets: ["latin"],

@@ -6,7 +6,7 @@ import smalltalk from "../../_assets/images/smalltalk.jpg";
 import PortfolioSection from "../_components/PortfolioSection";
 import PortfolioItem from "../_components/PortfolioItem";
 import "../../page.css";
-import { pageContext } from "@/app/inspiration/pageprovider";
+import { pageContext } from "@/app/pageprovider";
 import { useEffect } from "react";
 
 const Software = () => {

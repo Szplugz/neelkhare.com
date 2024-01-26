@@ -2,7 +2,7 @@
 
 import React from "react";
 import Link from "next/link";
-import { pageContext } from "../inspiration/pageprovider";
+import { pageContext } from "../pageprovider";
 import { useState, useEffect } from "react";
 
 const MenuButton = (props) => {
