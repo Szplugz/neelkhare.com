@@ -22,6 +22,7 @@ module.exports = {
     },
     colors: {
       eggshell: "#FBF9F4",
+      candy: "#9A4C5C",
       spruce: "#43392E",
       oak: "#4A2A00",
       gray: "#8B8B8B",

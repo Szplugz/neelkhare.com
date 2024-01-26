@@ -1,11 +1,19 @@
+"use client";
+
 import React from "react";
 import Image from "next/image";
 import smalltalk from "../../_assets/images/smalltalk.jpg";
 import PortfolioSection from "../_components/PortfolioSection";
 import PortfolioItem from "../_components/PortfolioItem";
 import "../../page.css";
+import { pageContext } from "@/app/inspiration/pageprovider";
+import { useEffect } from "react";
 
 const Software = () => {
+  const { activePage, setActivePage } = React.useContext(pageContext);
+  useEffect(() => {
+    setActivePage("1");
+  }, []);
   return (
     <>
       <div className="software-contents">
