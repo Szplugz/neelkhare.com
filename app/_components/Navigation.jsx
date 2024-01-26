@@ -10,8 +10,6 @@ import { useEffect, useState, useRef } from "react";
 const Navigation = ({ props }) => {
   const searchBoxRef = useRef(null);
   const [isSearchActive, setIsSearchActive] = useState(false);
-  const [activePage, setActivePage] = useState("0");
-  console.log("Active page:", activePage);
   const keyMappings = {
     1: {
       url: "/portfolio/software",
@@ -62,10 +60,6 @@ const Navigation = ({ props }) => {
             keyMappings[pressedKey].url,
             keyMappings[pressedKey].target
           );
-          if (!keyMappings[pressedKey].external) {
-            console.log("setting active page to ", pressedKey);
-            setActivePage(pressedKey);
-          }
         } catch (e) {
           console.log(e);
         }
@@ -122,40 +116,14 @@ const Navigation = ({ props }) => {
               styles="mt-5"
               url="/portfolio/software"
               target="_self"
-              setActivePage={setActivePage}
-              currActivePage={activePage}
             />
-            <MenuButton
-              key_="2"
-              page="INSPIRATION"
-              styles="mt-2"
-              setActivePage={setActivePage}
-              currActivePage={activePage}
-            />
+            <MenuButton key_="2" page="INSPIRATION" styles="mt-2" />
             <hr className="text-[#8B8B8B]"></hr>
           </div>
           <div className="navigation-about">
-            <MenuButton
-              key_="B"
-              page="BIOGRAPHY"
-              styles="mt-2"
-              setActivePage={setActivePage}
-              currActivePage={activePage}
-            />
-            <MenuButton
-              key_="R"
-              page="RESUME"
-              styles="mt-2"
-              setActivePage={setActivePage}
-              currActivePage={activePage}
-            />
-            <MenuButton
-              key_="C"
-              page="CONTACT"
-              styles="mt-2"
-              setActivePage={setActivePage}
-              currActivePage={activePage}
-            />
+            <MenuButton key_="B" page="BIOGRAPHY" styles="mt-2" />
+            <MenuButton key_="R" page="RESUME" styles="mt-2" />
+            <MenuButton key_="C" page="CONTACT" styles="mt-2" />
 
             <hr></hr>
           </div>
