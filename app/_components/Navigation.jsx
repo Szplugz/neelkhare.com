@@ -6,10 +6,12 @@ import logo from "../_assets/images/StarLogoNeel.png";
 import MenuButton from "./MenuButton";
 import SearchBox from "./SearchBox";
 import { useEffect, useState, useRef } from "react";
+import { usePathname } from "next/navigation";
 
 const Navigation = ({ props }) => {
   const searchBoxRef = useRef(null);
   const [isSearchActive, setIsSearchActive] = useState(false);
+  const pathname = usePathname();
   const keyMappings = {
     1: {
       url: "/portfolio/software",
@@ -113,7 +115,9 @@ const Navigation = ({ props }) => {
               className="portfolio-button"
               key_="1"
               page="PORTFOLIO"
-              styles="mt-5"
+              styles={`${
+                pathname == "/portfolio/software" ? "text-[#9A4C5C]" : ""
+              } mt-5`}
               url="/portfolio/software"
               target="_self"
             />
