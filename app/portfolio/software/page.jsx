@@ -41,21 +41,6 @@ const Software = () => {
           </PortfolioSection>
         </div>
       </div>
-      <div className="portfolio-sidebar">
-        <h2>Portfolio</h2>
-        <p className="portfolio-sidebar-description">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.{" "}
-        </p>
-        <div className="portfolio-sidebar-buttons">
-          <h4 className="portfolio-sidebar-button">Software</h4>
-          <h4 className="portfolio-sidebar-button">Photography</h4>
-          <h4 className="portfolio-sidebar-button">Writing</h4>
-          <h4 className="portfolio-sidebar-button">Video</h4>
-        </div>
-      </div>
     </>
   );
 };

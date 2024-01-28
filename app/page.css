@@ -105,7 +105,7 @@ h2 {
   margin-top: 1rem;
 }
 
-.portfolio-sidebar-buttons > h4 {
+.portfolio-sidebar-buttons {
   text-align: end;
 }
 
@@ -114,4 +114,9 @@ h2 {
   flex-direction: column;
   justify-content: space-between;
   width: 100%;
+}
+
+.portfolio-layout {
+  display: flex;
+  flex-direction: row;
 }
