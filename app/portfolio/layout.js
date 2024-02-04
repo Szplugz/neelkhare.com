@@ -20,7 +20,9 @@ const PortfolioLayout = ({ children }) => {
             <Link href="/portfolio/software">Software</Link>
           </h4>
           <h4 className="portfolio-sidebar-button">
-            <Link href="/portfolio/photography">Photography</Link>
+            <Link href="/portfolio/photography?city=copenhagen">
+              Photography
+            </Link>
           </h4>
           <h4 className="portfolio-sidebar-button">
             <Link href="#">Writing</Link>

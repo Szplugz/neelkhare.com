@@ -2,9 +2,11 @@ import React from "react";
 import cloudinary from "../../_utils/cloudinary.js";
 import Image from "next/image";
 import PhotoMenuBar from "../_components/PhotoMenuBar.jsx";
+import { useRouter } from "next/navigation";
 
 const Photography = async ({ searchParams }) => {
-  const currentCity = searchParams?.city || "";
+  const currentCity = searchParams?.city || "copenhagen";
+  // See if there's a way to update the url to reflect copenhagen without turning this into a client component
 
   const images = await fetchImages(currentCity);
   const leftImages = images.filter(({ public_id }) => {
@@ -13,13 +15,6 @@ const Photography = async ({ searchParams }) => {
   const rightImages = images.filter(({ public_id }) => {
     return parseInt(public_id[public_id.length - 1]) % 2 == 1;
   });
-  // {
-  //   images.map(({ public_id, format }) => {
-  //     console.log(
-  //       `https://res.cloudinary.com/${process.env.CLOUDINARY_CLOUD_NAME}/image/upload/c_scale,w_720/${public_id}.${format}`
-  //     );
-  //   });
-  // }
   return (
     <div className="photography-contents">
       <PhotoMenuBar />
