@@ -1,6 +1,7 @@
 import React from "react";
 
 import Link from "next/link";
+import PhotoMenuButton from "./_components/PhotoMenuBar";
 
 const PortfolioLayout = ({ children }) => {
   return (

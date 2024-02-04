@@ -116,7 +116,24 @@ h2 {
   width: 100%;
 }
 
+.photography-contents {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-start;
+}
+
+.photo-gallery {
+  display: flex;
+  flex-direction: row;
+}
+
 .portfolio-layout {
   display: flex;
   flex-direction: row;
+}
+
+.portfolio-sidebar {
+  position: absolute;
+  right: calc(100vw / 8);
 }
