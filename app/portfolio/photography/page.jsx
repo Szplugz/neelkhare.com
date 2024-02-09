@@ -27,10 +27,16 @@ const Photography = async ({ searchParams }) => {
   // only one of these will be true
   while (wideImages.length) {
     // imageRows.push([wideImages.shift(), wideImages.shift()]);
-    left
-      ? leftImages.push(wideImages.shift())
-      : rightImages.push(wideImages.shift());
-    left = !left;
+    console.log(wideImages.length, left);
+    if (left) {
+      leftImages.length > rightImages.length
+        ? rightImages.push(wideImages.shift())
+        : leftImages.push(wideImages.shift());
+    } else {
+      rightImages.length > leftImages.length
+        ? leftImages.push(wideImages.shift())
+        : rightImages.push(wideImages.shift());
+    }
   }
   while (tallImages.length) {
     // imageRows.push([wideImages.shift(), wideImages.shift()]);
