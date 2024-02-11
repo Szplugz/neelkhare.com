@@ -5,6 +5,7 @@ import Image from "next/image";
 import logo from "../_assets/images/StarLogoNeel.png";
 import MenuButton from "./MenuButton";
 import SearchBox from "./SearchBox";
+import Link from "next/link";
 import { useEffect, useState, useRef } from "react";
 import { usePathname } from "next/navigation";
 
@@ -109,38 +110,45 @@ const Navigation = ({ props }) => {
     <React.Fragment>
       <div className="navigation-block">
         <div className="navigation-menu">
-          <Image src={logo} alt={"Kitchen"} height={50}></Image>
+          <Link href="/">
+            <Image src={logo} alt={"Kitchen"} height={50}></Image>
+          </Link>
           <div className="navigation-explore">
             <MenuButton
               className="portfolio-button"
               key_="1"
-              page="PORTFOLIO"
+              title="PORTFOLIO"
               styles={`${
                 pathname == "/portfolio/software" ? "text-[#9A4C5C]" : ""
               } mt-5`}
               url="/portfolio/software"
               target="_self"
             />
-            <MenuButton key_="2" page="INSPIRATION" styles="mt-2" />
+            <MenuButton
+              key_="2"
+              title="INSPIRATION"
+              url="/inspiration/"
+              styles="mt-2"
+            />
             <hr className="text-[#8B8B8B]"></hr>
           </div>
           <div className="navigation-about">
-            <MenuButton key_="B" page="BIOGRAPHY" styles="mt-2" />
-            <MenuButton key_="R" page="RESUME" styles="mt-2" />
-            <MenuButton key_="C" page="CONTACT" styles="mt-2" />
+            <MenuButton key_="B" title="ABOUT ME" url="/about/" styles="mt-2" />
+            <MenuButton key_="R" title="RESUME" url="" styles="mt-2" />
+            <MenuButton key_="C" title="SAY HI" url="say-hi" styles="mt-2" />
 
             <hr></hr>
           </div>
           <div className="navigation-socials">
             <MenuButton
               key_="A"
-              page="ARE.NA"
+              title="ARE.NA"
               styles="mt-2"
               url={"https://sander.are.na/neel-khare/channels"}
             />
             <MenuButton
               key_="T"
-              page="TWITTER"
+              title="TWITTER"
               styles="mt-2"
               url={"https://twitter.com/Szplugz"}
             />

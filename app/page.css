@@ -137,3 +137,19 @@ h2 {
   position: absolute;
   right: calc(100vw / 8);
 }
+
+.link {
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+  text-decoration-color: #9a4c5c;
+  transition-property: color, background-color, border-color,
+    text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter,
+    backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 1000ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.link:hover {
+  text-decoration-style: solid;
+}

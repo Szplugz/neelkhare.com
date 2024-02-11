@@ -24,12 +24,6 @@ const PortfolioLayout = ({ children }) => {
               Photography
             </Link>
           </h4>
-          <h4 className="portfolio-sidebar-button">
-            <Link href="#">Writing</Link>
-          </h4>
-          <h4 className="portfolio-sidebar-button">
-            <Link href="#">Video</Link>
-          </h4>
         </div>
       </div>
     </main>

@@ -19,6 +19,18 @@ const Software = () => {
         ></Image>
         <div className="software-sections">
           <PortfolioSection name="Software">
+            <PortfolioItem heading="neelkhare.com">
+              <p>My digital home. You're here!</p>
+            </PortfolioItem>
+            <PortfolioItem heading="Quant Website">
+              <p>
+                Designed and built the website for Quant, UIUC's first and
+                largest student-run quantitative finance and HFT organization.
+              </p>
+              <a href="https://www.google.com" target="_blank">
+                Website
+              </a>
+            </PortfolioItem>
             <PortfolioItem heading="Placeranker">
               <p>
                 Placeranker lets you rank various kinds of places in your city
@@ -30,12 +42,6 @@ const Software = () => {
                 target="_blank"
               >
                 Preview the design
-              </a>
-            </PortfolioItem>
-            <PortfolioItem heading="maceholder">
-              <p>whatever</p>
-              <a href="https://www.google.com" target="_blank">
-                moog
               </a>
             </PortfolioItem>
           </PortfolioSection>
