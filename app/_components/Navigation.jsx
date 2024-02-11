@@ -26,7 +26,12 @@ const Navigation = ({ props }) => {
     },
     t: {
       url: "https://twitter.com/Szplugz",
-      target: "_self",
+      target: "_blank",
+      external: true,
+    },
+    r: {
+      url: "https://read.cv/szplugz",
+      target: "_blank",
       external: true,
     },
   };
@@ -52,7 +57,6 @@ const Navigation = ({ props }) => {
         }
       }
     } else if (pressedKey == "escape") {
-      console.log("yuh");
       // something weird going on here, if you add an if statement to check whether isSearchActive is true before setting
       // it to false, it doesn't fire
       hideSearchBox();
@@ -134,7 +138,12 @@ const Navigation = ({ props }) => {
           </div>
           <div className="navigation-about">
             <MenuButton key_="B" title="ABOUT ME" url="/about/" styles="mt-2" />
-            <MenuButton key_="R" title="RESUME" url="" styles="mt-2" />
+            <MenuButton
+              key_="R"
+              title="RESUME"
+              url="https://read.cv/szplugz/"
+              styles="mt-2"
+            />
             <MenuButton key_="C" title="SAY HI" url="say-hi" styles="mt-2" />
 
             <hr></hr>

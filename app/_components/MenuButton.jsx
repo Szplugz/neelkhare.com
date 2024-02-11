@@ -9,7 +9,13 @@ const MenuButton = (props) => {
 
   return (
     <div className={`menu-button ${styles}`}>
-      <Link href={url} target={target}>
+      <Link
+        href={url}
+        target={target}
+        onClick={() => {
+          console.log("clicked");
+        }}
+      >
         <p className={`font-[500]`}>
           <span className="menu-key">{key_} </span>
           {title}
