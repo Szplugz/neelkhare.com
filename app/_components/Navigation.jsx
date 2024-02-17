@@ -130,8 +130,8 @@ const Navigation = ({ props }) => {
             />
             <MenuButton
               key_="2"
-              title="INSPIRATION"
-              url="/inspiration/"
+              title="NOTEBOOK"
+              url="/notebook/"
               styles="mt-2"
             />
             <hr className="text-[#8B8B8B]"></hr>
