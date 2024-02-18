@@ -2,7 +2,6 @@
 
 import React from "react";
 import Image from "next/image";
-import smalltalk from "../../_assets/images/smalltalk.jpg";
 import PortfolioSection from "../_components/PortfolioSection";
 import PortfolioItem from "../_components/PortfolioItem";
 import Tag from "@/app/_components/Tag";
@@ -14,8 +13,9 @@ const Software = () => {
       <div className="software-contents">
         <Image
           className="rounded-md"
-          src={smalltalk}
-          width={400}
+          src={`https://res.cloudinary.com/${process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME}/image/upload/c_scale,w_720/assets/wf3lvtlsvvtmulx0ltda.webp`}
+          width={300}
+          height={375}
           alt="smalltalk-and-children"
         ></Image>
         <div className="software-sections">
