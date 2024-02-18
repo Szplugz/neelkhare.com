@@ -1,3 +1,6 @@
+/* The only reason I have a huge css file here is to facilitate learning */
+/* Once I'm confident enough in my css abilities, I plan to move everything to inline css */
+
 :root {
   color: #43392e;
 }
@@ -5,7 +8,7 @@
 .main {
   display: flex;
   flex-direction: row;
-  padding: calc(100vh / 6) calc(100vw / 8);
+  padding: calc(100vh / 6) calc(100vw / 16);
   justify-content: space-between;
   background-color: #fbf9f4;
 }
@@ -84,6 +87,11 @@ h2 {
   font-size: 3rem;
 }
 
+.portfolio-layout {
+  display: flex;
+  flex-direction: row;
+}
+
 .portfolio-sidebar {
   display: flex;
   flex-direction: column;
@@ -97,16 +105,16 @@ h2 {
   color: #93897e;
 }
 
-.current-page {
-  color: #9a4c5c;
-}
-
 .portfolio-sidebar-buttons {
   margin-top: 1rem;
 }
 
 .portfolio-sidebar-buttons {
   text-align: end;
+}
+
+.current-page {
+  color: #9a4c5c;
 }
 
 .software-contents {
@@ -119,7 +127,7 @@ h2 {
 .photography-contents {
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: flex-start;
 }
 
@@ -128,14 +136,37 @@ h2 {
   flex-direction: row;
 }
 
-.portfolio-layout {
+.notebook-layout {
   display: flex;
   flex-direction: row;
+  width: 100%;
 }
 
-.portfolio-sidebar {
-  position: absolute;
-  right: calc(100vw / 8);
+.notebook-sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  align-items: flex-end;
+}
+
+.notebook-sidebar-description {
+  text-align: end;
+}
+
+/* Change this to grid */
+.notebook-grid {
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  width: calc(100% - 300px);
+}
+
+.tile-page {
+  color: #93897e;
+}
+
+.tile-page:hover {
+  color: #43392e;
 }
 
 .link {

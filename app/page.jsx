@@ -12,6 +12,10 @@ import "./page.css";
 export default function Home() {
   return (
     <>
+      <div className="mobile-placeholder flex flex-col m-4 text-spruce md:hidden">
+        <p>The mobile version of this website is still in progress :/</p>
+        <p>Be patience!</p>
+      </div>
       <div className="center-text-box">
         <h3 className="center-text-heading">Hello, I'm Neel.</h3>
         <p>
