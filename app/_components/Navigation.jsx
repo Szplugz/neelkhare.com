@@ -19,6 +19,11 @@ const Navigation = ({ props }) => {
       target: "_parent",
       external: false,
     },
+    2: {
+      url: "/notebook",
+      target: "_parent",
+      external: false,
+    },
     a: {
       url: "https://sander.are.na/neel-khare/channels",
       target: "_blank",
