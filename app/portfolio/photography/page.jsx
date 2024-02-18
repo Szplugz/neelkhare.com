@@ -50,26 +50,6 @@ const Photography = async ({ searchParams }) => {
     <div className="photography-contents">
       <PhotoMenuBar />
       <div className="photo-gallery">
-        {/* {imageRows.map((row) => {
-          return (
-            <div className="image-row flex flex-row">
-              <Image
-                src={`https://res.cloudinary.com/${process.env.CLOUDINARY_CLOUD_NAME}/image/upload/c_scale,w_720/${row[0].public_id}.${row[0].format}`}
-                width={720}
-                height={480}
-                key={row[0].id}
-                alt="Next.js Conf photo"
-              />
-              <Image
-                src={`https://res.cloudinary.com/${process.env.CLOUDINARY_CLOUD_NAME}/image/upload/c_scale,w_720/${row[1].public_id}.${row[1].format}`}
-                width={720}
-                height={480}
-                key={row[1].id}
-                alt="Next.js Conf photo"
-              />
-            </div>
-          );
-        })} */}
         <div className="photo-gallery-left">
           {leftImages.map(({ id, public_id, format }) => {
             return (
