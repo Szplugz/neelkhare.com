@@ -54,11 +54,11 @@ const Photography = async ({ searchParams }) => {
           {leftImages.map(({ id, public_id, format }) => {
             return (
               <Image
-                src={`https://res.cloudinary.com/${process.env.CLOUDINARY_CLOUD_NAME}/image/upload/c_scale,w_720/${public_id}.${format}`}
+                src={`https://res.cloudinary.com/${process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME}/image/upload/c_scale,w_720/${public_id}.${format}`}
                 width={720}
                 height={480}
                 key={id}
-                alt="Next.js Conf photo"
+                alt={`A picture from ${currentCity}`}
               />
             );
           })}
@@ -67,11 +67,11 @@ const Photography = async ({ searchParams }) => {
           {rightImages.map(({ id, public_id, format }) => {
             return (
               <Image
-                src={`https://res.cloudinary.com/${process.env.CLOUDINARY_CLOUD_NAME}/image/upload/c_scale,w_720/${public_id}.${format}`}
+                src={`https://res.cloudinary.com/${process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME}/image/upload/c_scale,w_720/${public_id}.${format}`}
                 width={720}
                 height={480}
                 key={id}
-                alt="Next.js Conf photo"
+                alt={`A picture from ${currentCity}`}
               />
             );
           })}

@@ -14,7 +14,7 @@ const Software = () => {
         <Image
           className="rounded-md"
           src={`https://res.cloudinary.com/${process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME}/image/upload/c_scale,w_720/assets/wf3lvtlsvvtmulx0ltda.webp`}
-          width={300}
+          width={500}
           height={375}
           alt="smalltalk-and-children"
         ></Image>
