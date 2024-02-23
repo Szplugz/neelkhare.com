@@ -27,6 +27,7 @@ module.exports = {
       oak: "#4A2A00",
       gray: "#8B8B8B",
       starRed: "#D12D35",
+      lightMud: "#93897E",
     },
   },
   plugins: [],

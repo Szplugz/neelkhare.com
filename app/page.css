@@ -1,16 +1,32 @@
 /* The only reason I have a huge css file here is to facilitate learning */
 /* Once I'm confident enough in my css abilities, I plan to move everything to inline css */
 
+html,
+body,
+#root, /* for create-react-app */
+#__next /* for Next.js */ {
+  height: 100%;
+}
+
 :root {
   color: #43392e;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
 .main {
   display: flex;
   flex-direction: row;
-  padding: calc(100vh / 6) calc(100vw / 16);
-  justify-content: space-between;
+  padding: calc(100vh / 6) calc(100vw / 12);
   background-color: #fbf9f4;
+}
+
+.menu-button {
+  font-family: --font-newsreader;
 }
 
 .home-screen {
@@ -18,7 +34,20 @@
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
-  padding-left: 15%;
+}
+
+.home-screen img {
+  width: 300px;
+}
+
+.image-frame {
+  flex-shrink: 0; /* revisit later */
+}
+
+.navigation-block {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
 }
 
 .center-text-box > h3 {
@@ -32,26 +61,20 @@ p {
 }
 
 img {
-  max-width: 300px;
   border-radius: 0.25rem;
 }
 
 .center-text-box {
   min-width: 400px;
-  width: 400px;
-  /* padding: 0 calc(100vw / 6) 0 0; */
+  max-width: 615px;
+  width: 60%;
+  margin-inline: auto; /* this centers the block because margin-inline: auto ends up dividing the horizontal space around the block evenly on both sides. */
   display: flex;
   flex-direction: column;
 }
 
 .center-text-box > * {
   margin-bottom: 1.25rem;
-}
-
-.navigation-block {
-  display: flex;
-  flex-direction: column;
-  flex-shrink: 0;
 }
 
 .menu-key {
@@ -90,6 +113,16 @@ h2 {
 .portfolio-layout {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+}
+
+.sidebar-heading {
+  font-family: --font-newsreader;
+  font-weight: 500;
+}
+
+.portfolio-sidebar-buttons {
+  margin-top: 1rem;
 }
 
 .portfolio-sidebar {
@@ -105,12 +138,9 @@ h2 {
   color: #93897e;
 }
 
-.portfolio-sidebar-buttons {
-  margin-top: 1rem;
-}
-
-.portfolio-sidebar-buttons {
+.sidebar-button {
   text-align: end;
+  font-family: --font-newsreader;
 }
 
 .current-page {
@@ -121,7 +151,18 @@ h2 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  width: 60%;
+  margin-inline: auto;
+}
+
+.software-image {
   width: 100%;
+}
+
+.software-image > img {
+  width: 80%;
+  aspect-ratio: 16/9; /* you probably don't need this if you just ensure that all uploaded images are in that aspect ratio */
+  margin: auto;
 }
 
 .photography-contents {
@@ -169,6 +210,11 @@ h2 {
   color: #43392e;
 }
 
+.tile:hover {
+  transform: scale(1.05, 1.05);
+  animation: ease-in-out;
+}
+
 .link {
   text-decoration-line: underline;
   text-decoration-style: dotted;
@@ -183,4 +229,23 @@ h2 {
 
 .link:hover {
   text-decoration-style: solid;
+}
+
+@media (max-width: 768px) {
+  .main {
+    padding: 8%;
+  }
+
+  .home-screen img {
+    display: none; /* this will hide *all* images because .home-screen is a part of the layout */
+  }
+
+  .navigation-block {
+    display: none;
+  }
+
+  .center-text-box {
+    min-width: 0;
+    width: 100%;
+  }
 }

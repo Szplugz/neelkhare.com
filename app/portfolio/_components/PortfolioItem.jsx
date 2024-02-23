@@ -4,9 +4,9 @@ import Tag from "@/app/_components/Tag";
 const PortfolioItem = (props) => {
   const { heading, roles, children, tags } = props;
   return (
-    <div className="portfolio-item flex flex-row">
-      <div className="portfolio-item-data flex flex-col">
-        <p className="portfolio-item-heading text-spruce font-[500]">
+    <div className="portfolio-item flex flex-row m-4">
+      <div className="portfolio-item-data flex flex-col min-w-[30%] pr-4 items-end">
+        <p className="portfolio-item-heading text-spruce font-[500] mb-2">
           {heading}
         </p>
         <div className="tags flex flex-row">
@@ -17,6 +17,7 @@ const PortfolioItem = (props) => {
                 title={tag.title}
                 bgColor={tag.bgColor}
                 borderColor={tag.borderColor}
+                textColor={tag.textColor}
               />
             );
           })}

@@ -2,6 +2,7 @@
 
 import React from "react";
 import Link from "next/link";
+import { newsreader } from "../fonts";
 
 const MenuButton = (props) => {
   let { key_, title, styles, url, target } = props;
@@ -10,7 +11,7 @@ const MenuButton = (props) => {
   return (
     <div className={`menu-button ${styles}`}>
       <Link href={url} target={target}>
-        <p className={`font-[500]`}>
+        <p className={`${newsreader.className} font-[500]`}>
           <span className="menu-key">{key_} </span>
           {title}
         </p>

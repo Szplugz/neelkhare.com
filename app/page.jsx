@@ -3,21 +3,17 @@
 import Image from "next/image";
 import kitchen from "./_assets/images/kitchen.jpg";
 import lacabra from "./_assets/images/lacabra.jpeg";
-import logo from "./_assets/images/StarLogoNeel.png";
-import Navigation from "./_components/Navigation.jsx";
-import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
+import { newsreader } from "./fonts";
 import "./page.css";
 
 export default function Home() {
   return (
     <>
-      <div className="mobile-placeholder flex flex-col m-4 text-spruce md:hidden">
-        <p>The mobile version of this website is still in progress :/</p>
-        <p>Be patience!</p>
-      </div>
       <div className="center-text-box">
-        <h3 className="center-text-heading">Hello, I'm Neel.</h3>
+        <h3 className={`${newsreader.className} center-text-heading`}>
+          Hello, I'm Neel.
+        </h3>
         <p>
           I’m an artisan engineer studying Computer Science at the University of
           Illinois, Urbana-Champaign. Currently, I spend most of my time

@@ -1,21 +1,25 @@
 import React from "react";
 import Tile from "../_components/Tile";
-import { useSearchParams, usePathname, useRouter } from "next/navigation";
 import Link from "next/link";
 
 const page = () => {
   return (
-    <div className="notebook-grid">
+    <div className="notebook-grid flex flex-wrap px-20">
       <Tile number={"00"} heading="Essays" linkTo="/notebook/testing">
-        <Link href="https://neelkhare.com/notes/caffeine" className="tile-page">
-          Huberman
-        </Link>
-        <p className="tile-page">Tim Ferriss</p>
-        <p className="tile-page">Whatever</p>
+        <p>
+          I write about whatever comes to my mind, really. And documenting the
+          human condition.
+        </p>
       </Tile>
-      <Tile number={"01"} heading="Notes">
-        <p className="tile-page">Caffeine</p>
-        <p className="tile-page">Podcast Notes</p>
+      <Tile number={"01"} heading="Notes" linkTo="">
+        <p>Caffeine</p>
+        <p>Podcast Notes</p>
+      </Tile>
+      <Tile number={"02"} heading="People" linkTo="">
+        <p>Friends and strangers I look up to and draw inspiration from.</p>
+      </Tile>
+      <Tile number={"03"} heading="Tapas" linkTo="">
+        <p>Hwatevs</p>
       </Tile>
     </div>
   );
