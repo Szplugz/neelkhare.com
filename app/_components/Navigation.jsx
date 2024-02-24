@@ -117,7 +117,7 @@ const Navigation = ({ props }) => {
 
   return (
     <React.Fragment>
-      <div className="navigation-block">
+      <div className="navigation-block md:flex md:flex-col md:flex-shrink-0 hidden">
         <div className="navigation-menu">
           <Link href="/">
             <Image src={logo} alt={"Kitchen"} height={50}></Image>

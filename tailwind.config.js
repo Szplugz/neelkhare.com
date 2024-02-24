@@ -28,6 +28,8 @@ module.exports = {
       gray: "#8B8B8B",
       starRed: "#D12D35",
       lightMud: "#93897E",
+      mud: "#43392e",
+      navy: "#003547",
     },
   },
   plugins: [],

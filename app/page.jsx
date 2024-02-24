@@ -1,8 +1,8 @@
 "use client";
 
 import Image from "next/image";
-import kitchen from "./_assets/images/kitchen.jpg";
 import lacabra from "./_assets/images/lacabra.jpeg";
+import logo from "./_assets/images/StarLogoNeel.png";
 import Link from "next/link";
 import { newsreader } from "./fonts";
 import "./page.css";
@@ -10,10 +10,19 @@ import "./page.css";
 export default function Home() {
   return (
     <>
-      <div className="center-text-box">
-        <h3 className={`${newsreader.className} center-text-heading`}>
+      <div className="center-text-box font-medium text-xl md:font-normal md:text-base">
+        <h4 className={`center-text-heading text-mud md:text-4xl`}>
           Hello, I'm Neel.
-        </h3>
+        </h4>
+        <Image className="md:hidden" src={logo} height={50}></Image>
+        <div
+          className={`${newsreader.className} md:hidden text-navy text-xl leading-tight`}
+        >
+          <h4>Portfolio</h4>
+          <h4>Notebook</h4>
+          <h4>Resume</h4>
+          <h4>About</h4>
+        </div>
         <p>
           I’m an artisan engineer studying Computer Science at the University of
           Illinois, Urbana-Champaign. Currently, I spend most of my time

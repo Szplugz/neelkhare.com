@@ -5,7 +5,7 @@ import { newsreader } from "../fonts";
 const Tile = ({ number, heading, linkTo, children }) => {
   return (
     <Link
-      className="tile flex flex-col w-1/3 hover:bg-[#DED0C1] rounded-md p-6 h-fit min-h-[275px]"
+      className="tile flex flex-col w-1/3 hover:bg-[#DED0C1] rounded-md p-6 h-fit min-h-[250px]"
       href={linkTo}
     >
       <div className={`${newsreader.className} tile-heading`}>

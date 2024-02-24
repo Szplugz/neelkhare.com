@@ -5,7 +5,7 @@ html,
 body,
 #root, /* for create-react-app */
 #__next /* for Next.js */ {
-  height: 100%;
+  height: min-content;
 }
 
 :root {
@@ -36,28 +36,12 @@ body,
   width: 100%;
 }
 
-.home-screen img {
+.image-frame {
   width: 300px;
 }
 
 .image-frame {
   flex-shrink: 0; /* revisit later */
-}
-
-.navigation-block {
-  display: flex;
-  flex-direction: column;
-  flex-shrink: 0;
-}
-
-.center-text-box > h3 {
-  color: #003547;
-}
-
-p {
-  font-size: 1rem;
-  line-height: 1.5em;
-  font-weight: 400;
 }
 
 img {
@@ -236,11 +220,11 @@ h2 {
     padding: 8%;
   }
 
-  .home-screen img {
-    display: none; /* this will hide *all* images because .home-screen is a part of the layout */
-  }
+  /* .home-screen img { */
+  /* display: none; this will hide *all* images because .home-screen is a part of the layout */
+  /* } */
 
-  .navigation-block {
+  .image-frame {
     display: none;
   }
 
@@ -248,4 +232,13 @@ h2 {
     min-width: 0;
     width: 100%;
   }
+  .center-text-box > * {
+    margin-bottom: 2rem;
+  }
 }
+
+/* p {
+  font-size: 1rem;
+  line-height: 1.5em;
+  font-weight: 400;
+} */
