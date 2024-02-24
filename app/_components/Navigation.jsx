@@ -128,9 +128,9 @@ const Navigation = ({ props }) => {
               key_="1"
               title="PORTFOLIO"
               styles={`${
-                pathname == "/portfolio/software" ? "text-[#9A4C5C]" : ""
+                pathname == "/portfolio/**" ? "text-[#9A4C5C]" : ""
               } mt-5`}
-              url="/portfolio/software"
+              url="/portfolio/"
               target="_self"
             />
             <MenuButton

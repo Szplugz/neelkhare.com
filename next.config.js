@@ -11,15 +11,6 @@ const nextConfig = {
       },
     ],
   },
-  async redirects() {
-    return [
-      {
-        source: "/portfolio",
-        destination: "/portfolio/software/",
-        permanent: true,
-      },
-    ];
-  },
 };
 
 module.exports = nextConfig;

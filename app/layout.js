@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
       <body className="main">
         <PageProvider>
           <Navigation />
-          <main className="home-screen">{children}</main>
+          <main className="content">{children}</main>
         </PageProvider>
       </body>
     </html>
