@@ -11,15 +11,7 @@ const PortfolioItem = (props) => {
         </p>
         <div className="tags flex flex-row">
           {tags?.map((tag, index) => {
-            return (
-              <Tag
-                key={index}
-                title={tag.title}
-                bgColor={tag.bgColor}
-                borderColor={tag.borderColor}
-                textColor={tag.textColor}
-              />
-            );
+            return <Tag key={index} title={tag.title} styles={tag.styles} />;
           })}
         </div>
       </div>

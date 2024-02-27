@@ -30,9 +30,8 @@ const Software = () => {
             tags={[
               {
                 title: "Designed",
-                bgColor: "bg-[#FFE0C1]",
-                borderColor: "border-[#E8A251]",
-                textColor: "text-[#E8A251]",
+                styles:
+                  "bg-[#FFE0C1] border-[#E8A251] text-[#E8A251] ml-2 text-xs",
               },
             ]}
           >
@@ -53,14 +52,13 @@ const Software = () => {
             tags={[
               {
                 title: "Designed",
-                bgColor: "bg-[#FFE0C1]",
-                borderColor: "border-[#E8A251]",
-                textColor: "text-[#E8A251]",
+                styles:
+                  "bg-[#FFE0C1] border-[#E8A251] text-[#E8A251] ml-2 text-xs",
               },
               {
                 title: "Built",
-                bgColor: "bg-[#A5A8B2]",
-                borderColor: "border-[#403D44]",
+                styles:
+                  "bg-[#A5A8B2] border-[#403D44] text-[#403D44] ml-2 text-xs",
               },
             ]}
           >
@@ -71,14 +69,13 @@ const Software = () => {
             tags={[
               {
                 title: "Designed",
-                bgColor: "bg-[#FFE0C1]",
-                borderColor: "border-[#E8A251]",
-                textColor: "text-[#E8A251]",
+                styles:
+                  "bg-[#FFE0C1] border-[#E8A251] text-[#E8A251] ml-2 text-xs",
               },
               {
                 title: "Built",
-                bgColor: "bg-[#A5A8B2]",
-                borderColor: "border-[#403D44]",
+                styles:
+                  "bg-[#A5A8B2] border-[#403D44] text-[#403D44] ml-2 text-xs",
               },
             ]}
           >
@@ -95,14 +92,13 @@ const Software = () => {
             tags={[
               {
                 title: "Designed",
-                bgColor: "bg-[#FFE0C1]",
-                borderColor: "border-[#E8A251]",
-                textColor: "text-[#E8A251]",
+                styles:
+                  "bg-[#FFE0C1] border-[#E8A251] text-[#E8A251] ml-2 text-xs",
               },
               {
                 title: "Built",
-                bgColor: "bg-[#A5A8B2]",
-                borderColor: "border-[#403D44]",
+                styles:
+                  "bg-[#A5A8B2] border-[#403D44] text-[#403D44] ml-2 text-xs",
               },
             ]}
           >

@@ -44,9 +44,7 @@ const PhotoMenuBar = (props) => {
             {currentCity === city.toLowerCase() ? (
               <Tag
                 title={city}
-                bgColor="bg-goldenMud"
-                textColor="text-mud"
-                borderColor="border-mud"
+                styles={"bg-goldenMud text-mud border-mud ml-2"}
               ></Tag>
             ) : (
               <p className="photography-menu-button-text text-base ml-2">
