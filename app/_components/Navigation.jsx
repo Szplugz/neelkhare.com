@@ -128,7 +128,7 @@ const Navigation = ({ props }) => {
               key_="1"
               title="PORTFOLIO"
               styles={`${
-                pathname == "/portfolio/**" ? "text-[#9A4C5C]" : ""
+                pathname.startsWith("/portfolio") ? "text-[#9A4C5C]" : ""
               } mt-5`}
               url="/portfolio/"
               target="_self"
@@ -139,19 +139,17 @@ const Navigation = ({ props }) => {
               url="/notebook/"
               styles="mt-2"
             />
-            <hr className="text-[#8B8B8B]"></hr>
+            <hr className="border-0 border-t-[1px] border-[#C7C5BE]"></hr>
           </div>
           <div className="navigation-about">
-            <MenuButton key_="B" title="ABOUT ME" url="/about/" styles="mt-2" />
             <MenuButton
               key_="R"
               title="RESUME"
               url="https://read.cv/szplugz/"
               styles="mt-2"
             />
-            <MenuButton key_="C" title="SAY HI" url="say-hi" styles="mt-2" />
 
-            <hr></hr>
+            <hr className="border-0 border-t-[1px] border-[#C7C5BE]"></hr>
           </div>
           <div className="navigation-socials">
             <MenuButton
@@ -166,7 +164,7 @@ const Navigation = ({ props }) => {
               styles="mt-2"
               url={"https://twitter.com/Szplugz"}
             />
-            <hr className=""></hr>
+            <hr className="border-0 border-t-[1px] border-[#C7C5BE]"></hr>
           </div>
         </div>
         <button onClick={showSearchBox} className="search-button">

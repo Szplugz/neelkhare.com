@@ -4,12 +4,15 @@ import React from "react";
 import Link from "next/link";
 import { useState, useEffect } from "react";
 import { usePathname } from "next/navigation";
+import { capitalizeFirstLetter } from "../_utils/utilFunctions";
 
 const PortfolioLayout = ({ children }) => {
   const pathname = usePathname();
   const [currPage, updateCurrPage] = useState(null);
   useEffect(() => {
-    updateCurrPage(pathname);
+    let pages = pathname.split("/");
+    let nestedPage = pages[pages.length - 1];
+    updateCurrPage(nestedPage);
   }, [pathname]);
 
   // Should be a separate import
@@ -47,7 +50,7 @@ const PortfolioLayout = ({ children }) => {
     <main className="portfolio-layout">
       {children}
       <div className="portfolio-sidebar">
-        <h2>Portfolio</h2>
+        <h2>{capitalizeFirstLetter(currPage)}</h2>
         <p className="portfolio-sidebar-description">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
