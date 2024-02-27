@@ -3,6 +3,7 @@
 import React from "react";
 import { useSearchParams, usePathname, useRouter } from "next/navigation";
 import { useState } from "react";
+import Tag from "@/app/_components/Tag";
 
 const PhotoMenuBar = (props) => {
   const cities = [
@@ -40,10 +41,18 @@ const PhotoMenuBar = (props) => {
             key={index}
             onClick={handleClick}
           >
-            {currentCity === city.toLowerCase() && (
-              <div className="active-marker h-4 w-4 bg-spruce rounded-full"></div>
+            {currentCity === city.toLowerCase() ? (
+              <Tag
+                title={city}
+                bgColor="bg-goldenMud"
+                textColor="text-mud"
+                borderColor="border-mud"
+              ></Tag>
+            ) : (
+              <p className="photography-menu-button-text text-base ml-2">
+                {city}
+              </p>
             )}
-            <p className="photography-menu-button-text text-base">{city}</p>
           </button>
         );
       })}
