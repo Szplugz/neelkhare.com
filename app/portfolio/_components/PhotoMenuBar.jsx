@@ -32,7 +32,7 @@ const PhotoMenuBar = (props) => {
   };
 
   return (
-    <div className="photography-menu-bar flex flex-row items-start">
+    <div className="photography-menu-bar flex flex-row items-start overflow-scroll">
       {cities.map((city, index) => {
         return (
           <button

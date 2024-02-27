@@ -149,18 +149,6 @@ h2 {
   margin: auto;
 }
 
-.photography-contents {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-}
-
-.photo-gallery {
-  display: flex;
-  flex-direction: row;
-}
-
 .notebook-layout {
   display: flex;
   flex-direction: row;

@@ -47,32 +47,36 @@ const Photography = async ({ searchParams }) => {
   }
 
   return (
-    <div className="photography-contents">
+    <div className="photography-contents md:px-20 md:min-w-[650px] w-full">
       <PhotoMenuBar />
-      <div className="photo-gallery">
+      <div className="photo-gallery flex md:flex-row flex-col">
         <div className="photo-gallery-left">
           {leftImages.map(({ id, public_id, format }) => {
             return (
-              <Image
-                src={`https://res.cloudinary.com/${process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME}/image/upload/c_scale,w_720/${public_id}.${format}`}
-                width={720}
-                height={480}
-                key={id}
-                alt={`A picture from ${currentCity}`}
-              />
+              <div className="image-container pl-1 pb-1">
+                <Image
+                  src={`https://res.cloudinary.com/${process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME}/image/upload/c_scale,w_720/${public_id}.${format}`}
+                  width={720}
+                  height={480}
+                  key={id}
+                  alt={`A picture from ${currentCity}`}
+                />
+              </div>
             );
           })}
         </div>
         <div className="photo-gallery-right">
           {rightImages.map(({ id, public_id, format }) => {
             return (
-              <Image
-                src={`https://res.cloudinary.com/${process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME}/image/upload/c_scale,w_720/${public_id}.${format}`}
-                width={720}
-                height={480}
-                key={id}
-                alt={`A picture from ${currentCity}`}
-              />
+              <div className="image-container px-1 pb-1">
+                <Image
+                  src={`https://res.cloudinary.com/${process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME}/image/upload/c_scale,w_720/${public_id}.${format}`}
+                  width={720}
+                  height={480}
+                  key={id}
+                  alt={`A picture from ${currentCity}`}
+                />
+              </div>
             );
           })}
         </div>
