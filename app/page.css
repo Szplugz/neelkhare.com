@@ -186,19 +186,6 @@ h2 {
   width: calc(100% - 300px);
 }
 
-.tile-page {
-  color: #93897e;
-}
-
-.tile-page:hover {
-  color: #43392e;
-}
-
-.tile:hover {
-  transform: scale(1.05, 1.05);
-  animation: ease-in-out;
-}
-
 .link {
   text-decoration-line: underline;
   text-decoration-style: dotted;

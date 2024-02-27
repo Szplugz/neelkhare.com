@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useState, useEffect } from "react";
 import { usePathname } from "next/navigation";
 import { capitalizeFirstLetter } from "../_utils/utilFunctions";
+import { newsreader } from "../fonts";
 
 const PortfolioLayout = ({ children }) => {
   const pathname = usePathname();
@@ -47,10 +48,12 @@ const PortfolioLayout = ({ children }) => {
   }
 
   return (
-    <main className="portfolio-layout">
+    <main className="portfolio-layout w-full">
       {children}
       <div className="portfolio-sidebar">
-        <h2>{capitalizeFirstLetter(currPage)}</h2>
+        <h2 className={`${newsreader.className} text-5xl`}>
+          {capitalizeFirstLetter(currPage)}
+        </h2>
         <p className="portfolio-sidebar-description">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
