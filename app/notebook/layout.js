@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useState, useEffect } from "react";
 import { usePathname } from "next/navigation";
 
-const NotebookLayout = ({ children }) => {
+const layout = ({ children }) => {
   const pathname = usePathname();
   const [currPage, updateCurrPage] = useState(null);
   useEffect(() => {
@@ -60,4 +60,4 @@ const NotebookLayout = ({ children }) => {
   );
 };
 
-export default NotebookLayout;
+export default layout;

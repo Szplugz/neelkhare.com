@@ -29,7 +29,7 @@ body,
   font-family: --font-newsreader;
 }
 
-.content {
+.home-screen {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
