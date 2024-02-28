@@ -18,10 +18,15 @@ export default function Home() {
         <div
           className={`${newsreader.className} md:hidden text-navy text-xl leading-tight`}
         >
-          <h4>Portfolio</h4>
-          <h4>Notebook</h4>
-          <h4>Resume</h4>
-          <h4>About</h4>
+          <h4>
+            <Link href="/portfolio">Portfolio</Link>
+          </h4>
+          <h4>
+            <Link href="/notebook">Notebook</Link>
+          </h4>
+          <h4>
+            <Link href="https://read.cv/szplugz">Resume</Link>
+          </h4>
         </div>
         <p>
           I’m an artisan engineer studying Computer Science at the University of

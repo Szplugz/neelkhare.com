@@ -10,19 +10,14 @@ const Software = () => {
   return (
     <>
       <div className="software-contents">
-        <h2
-          className={`${newsreader.className} flex items-center justify-center mt-4`}
-        >
-          Software
-        </h2>
-        <div className="software-image">
-          {/* <Image
+        <div className="software-image mb-10">
+          <Image
             className="rounded-md"
-            src={`https://res.cloudinary.com/${process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME}/image/upload/c_scale,w_720/assets/wf3lvtlsvvtmulx0ltda.webp`}
+            src={`https://res.cloudinary.com/${process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME}/image/upload/c_scale,w_720/assets/kxuj617cup3phcztuyle.webp`}
             width={500}
             height={375}
             alt="smalltalk-and-children"
-          ></Image> */}
+          ></Image>
         </div>
         <div className="software-sections flex flex-col">
           <PortfolioItem

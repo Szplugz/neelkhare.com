@@ -15,9 +15,9 @@ const NotebookLayout = ({ children }) => {
   return (
     <main className="notebook-layout">
       {children}
-      <div className="notebook-sidebar">
+      <div className="notebook-sidebar hidden md:flex md:flex-col md:w-[300px] md:items-end">
         <h2 className="text-5xl">Notebook</h2>
-        <p className="notebook-sidebar-description">
+        <p className="notebook-sidebar-description text-end">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut

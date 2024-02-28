@@ -145,23 +145,11 @@ h2 {
   width: 100%;
 }
 
-.notebook-sidebar {
-  display: flex;
-  flex-direction: column;
-  width: 300px;
-  align-items: flex-end;
-}
-
-.notebook-sidebar-description {
-  text-align: end;
-}
-
 /* Change this to grid */
 .notebook-grid {
   display: flex;
   flex-direction: row;
   flex-shrink: 0;
-  width: calc(100% - 300px);
 }
 
 .link {
