@@ -15,7 +15,7 @@ const Navigation = ({ props }) => {
   const pathname = usePathname();
   const keyMappings = {
     1: {
-      url: "/portfolio/software",
+      url: "/portfolio",
       target: "_parent",
       external: false,
     },
@@ -147,6 +147,7 @@ const Navigation = ({ props }) => {
               title="RESUME"
               url="https://read.cv/szplugz/"
               styles="mt-2"
+              target="_blank"
             />
 
             <hr className="border-0 border-t-[1px] border-[#C7C5BE]"></hr>
