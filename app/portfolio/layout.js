@@ -25,28 +25,6 @@ const PortfolioLayout = ({ children }) => {
     people: "/people",
   };
 
-  const homePath = paths.home;
-  // Should be a separate import
-  let sideBar;
-  if (currPage !== homePath) {
-    sideBar = (
-      <div className="portfolio-sidebar-buttons">
-        <h4
-          className={`portfolio-sidebar-button ${
-            currPage == `${homePath + paths.testing}` && "text-candy"
-          }`}
-        >
-          <Link href={`${homePath + paths.testing}`} id="software-button">
-            Testing
-          </Link>
-        </h4>
-        <h4 className="portfolio-sidebar-button">
-          <Link href="">Photography</Link>
-        </h4>
-      </div>
-    );
-  }
-
   return (
     <main className="portfolio-layout w-full">
       {children}
@@ -60,7 +38,6 @@ const PortfolioLayout = ({ children }) => {
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
           aliquip ex ea commodo consequat.{" "}
         </p>
-        {sideBar}
       </div>
     </main>
   );
