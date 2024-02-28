@@ -25,10 +25,6 @@ body,
   background-color: #fbf9f4;
 }
 
-.menu-button {
-  font-family: --font-newsreader;
-}
-
 .content {
   display: flex;
   flex-direction: row;
@@ -114,12 +110,6 @@ h2 {
   flex-direction: column;
   max-width: 300px;
   align-items: flex-end;
-}
-
-.portfolio-sidebar-description {
-  text-align: end;
-  margin-top: 1rem;
-  color: #93897e;
 }
 
 .sidebar-button {

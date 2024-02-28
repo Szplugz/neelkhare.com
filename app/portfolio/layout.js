@@ -54,7 +54,7 @@ const PortfolioLayout = ({ children }) => {
         <h2 className={`${newsreader.className} text-5xl`}>
           {capitalizeFirstLetter(currPage)}
         </h2>
-        <p className="portfolio-sidebar-description">
+        <p className="portfolio-sidebar-description mt-4 text-end text-lightMud text-base">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut

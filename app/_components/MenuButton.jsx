@@ -11,7 +11,7 @@ const MenuButton = (props) => {
   return (
     <div className={`menu-button text-lg font-medium ${styles}`}>
       <Link href={url} target={target}>
-        <p className={`${newsreader.className}`}>
+        <p>
           <span className="menu-key">{key_} </span>
           {title}
         </p>
