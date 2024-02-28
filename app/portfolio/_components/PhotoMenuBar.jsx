@@ -33,23 +33,27 @@ const PhotoMenuBar = (props) => {
   };
 
   return (
-    <div className="photography-menu-bar flex flex-row items-start overflow-scroll">
+    <div className="photography-menu-bar flex flex-row items-start overflow-x-scroll py-1 pr-1 mb-5 bg-oatmilk rounded">
       {cities.map((city, index) => {
         return (
           <button
-            className="photography-menu-button flex flex-row"
+            className="photography-menu-button flex flex-row min-w-fit"
             key={index}
             onClick={handleClick}
           >
             {currentCity === city.toLowerCase() ? (
               <Tag
                 title={city}
-                styles={"bg-goldenMud text-mud border-mud ml-2"}
+                styles={
+                  "bg-goldenMud text-mud border-0 ml-2 md:text-base text-sm"
+                }
               ></Tag>
             ) : (
-              <p className="photography-menu-button-text text-base ml-2">
-                {city}
-              </p>
+              // applying the first: pseudo-selector doesn't work for some reason, maybe because it's a conditonal render.
+              <Tag
+                title={city}
+                styles={"border-0 ml-2 md:text-base text-sm"}
+              ></Tag>
             )}
           </button>
         );

@@ -31,6 +31,7 @@ module.exports = {
       mud: "#43392e",
       navy: "#003547",
       goldenMud: "#DED0C1",
+      oatmilk: "#F2EFEA",
     },
   },
   plugins: [],
