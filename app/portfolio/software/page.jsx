@@ -5,12 +5,14 @@ import Image from "next/image";
 import PortfolioItem from "../_components/PortfolioItem";
 import { newsreader } from "@/app/fonts";
 import "../../page.css";
+import MobileHeader from "@/app/_components/MobileHeader";
 
 const Software = () => {
   return (
     <>
-      <div className="software-contents">
-        <div className="software-image mb-10 flex px-[5rem] justify-center">
+      <div className="software-contents flex-col justify-between max-w-full md:w-[60%] mx-auto">
+        <MobileHeader></MobileHeader>
+        <div className="software-image mb-10 flex md:px-[5rem] justify-center">
           <div className="image-container">
             <Image
               className="rounded-md md:hidden"
@@ -34,12 +36,11 @@ const Software = () => {
             tags={[
               {
                 title: "Designed",
-                styles:
-                  "bg-[#FFE0C1] border-[#E8A251] text-[#E8A251] ml-2 text-xs",
+                styles: "bg-[#FFE0C1] border-[#E8A251] text-[#E8A251] text-xs",
               },
             ]}
           >
-            <p>
+            <p className="mb-4">
               An iOS app built to expand the accessibility and effectiveness of
               the non-proprietary science & science-based tools mentioned on the
               Huberman Lab podcast.
@@ -56,8 +57,7 @@ const Software = () => {
             tags={[
               {
                 title: "Designed",
-                styles:
-                  "bg-[#FFE0C1] border-[#E8A251] text-[#E8A251] ml-2 text-xs",
+                styles: "bg-[#FFE0C1] border-[#E8A251] text-[#E8A251] text-xs",
               },
               {
                 title: "Built",
@@ -73,8 +73,7 @@ const Software = () => {
             tags={[
               {
                 title: "Designed",
-                styles:
-                  "bg-[#FFE0C1] border-[#E8A251] text-[#E8A251] ml-2 text-xs",
+                styles: "bg-[#FFE0C1] border-[#E8A251] text-[#E8A251] text-xs",
               },
               {
                 title: "Built",
@@ -83,12 +82,12 @@ const Software = () => {
               },
             ]}
           >
-            <p>
+            <p className="mb-4">
               Designed and built the website for Quant, UIUC's first and largest
               student-run quantitative finance and HFT organization.
             </p>
             <a href="https://www.google.com" target="_blank">
-              Website
+              Website ↗
             </a>
           </PortfolioItem>
           <PortfolioItem
@@ -96,8 +95,7 @@ const Software = () => {
             tags={[
               {
                 title: "Designed",
-                styles:
-                  "bg-[#FFE0C1] border-[#E8A251] text-[#E8A251] ml-2 text-xs",
+                styles: "bg-[#FFE0C1] border-[#E8A251] text-[#E8A251] text-xs",
               },
               {
                 title: "Built",
@@ -106,7 +104,7 @@ const Software = () => {
               },
             ]}
           >
-            <p>
+            <p className="mb-4">
               Placeranker lets you rank various kinds of places in your city
               based on one of the many comparable parameters provided by
               Google's Places API.
@@ -115,7 +113,7 @@ const Software = () => {
               href="https://www.figma.com/file/Hbk2oiju5HYHs4vH7fJ2VM/placeholder?type=design&mode=design&t=kPwiwSEWBeEAhfhF-1"
               target="_blank"
             >
-              Preview the design
+              Preview the design ↗
             </a>
           </PortfolioItem>
         </div>

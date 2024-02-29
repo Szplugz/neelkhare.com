@@ -4,8 +4,8 @@ import Tag from "@/app/_components/Tag";
 const PortfolioItem = (props) => {
   const { heading, roles, children, tags } = props;
   return (
-    <div className="portfolio-item flex flex-row m-4">
-      <div className="portfolio-item-data flex flex-col min-w-[30%] pr-4 items-end">
+    <div className="portfolio-item flex md:flex-row flex-col m-4">
+      <div className="portfolio-item-data flex flex-col mb-4 min-w-[30%] md:pr-4 md:items-end">
         <p className="portfolio-item-heading text-spruce font-[500] mb-2">
           {heading}
         </p>

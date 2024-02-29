@@ -114,14 +114,6 @@ h2 {
   color: #9a4c5c;
 }
 
-.software-contents {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 60%;
-  margin-inline: auto;
-}
-
 .software-image {
   width: 100%;
 }
