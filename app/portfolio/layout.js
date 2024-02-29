@@ -8,25 +8,29 @@ import { capitalizeFirstLetter } from "../_utils/utilFunctions";
 import { newsreader } from "../fonts";
 import Card from "../_components/Card";
 import Dropdown from "../_components/Dropdown";
-import routes from "../_utils/routes";
+import defaultRoutes from "../_utils/routes";
 
 const PortfolioLayout = ({ children }) => {
   const pathname = usePathname();
-  const [currPage, updateCurrPage] = useState(null);
+  const [currPage, updateCurrPage] = useState("portfolio");
+  const [pages, setPages] = useState([]);
   useEffect(() => {
-    let pages = pathname.split("/");
-    let nestedPage = pages[pages.length - 1];
+    let newPages = pathname.split("/");
+    newPages = newPages.filter((page) => page.length);
+    setPages(newPages);
+    let nestedPage = newPages[newPages.length - 1];
     updateCurrPage(nestedPage);
   }, [pathname]);
 
-  // Should be a separate import
-  const paths = {
-    home: "/portfolio",
-    testing: "/testing",
-    essays: "/essays",
-    notes: "/notes",
-    people: "/people",
-  };
+  let routes = defaultRoutes;
+  console.log(pages);
+  for (let i = 0; i < pages.length - 1; i++) {
+    let page = pages[i];
+    routes = routes[page.toLowerCase()].pages;
+  }
+
+  console.log("routes:", routes);
+  console.log("currpage:", currPage);
 
   return (
     <main className="portfolio-layout w-full">
@@ -34,7 +38,7 @@ const PortfolioLayout = ({ children }) => {
       <div className="portfolio-sidebar hidden md:flex md:flex-col md:w-[300px] md:items-end">
         <Dropdown
           desktop={true}
-          currentPage="portfolio"
+          currentPage={capitalizeFirstLetter(currPage)}
           routes={routes}
         ></Dropdown>
         <Card styles="mt-4 text-end text-lightMud text-base">
