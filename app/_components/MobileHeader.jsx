@@ -15,12 +15,12 @@ const MobileHeader = () => {
 
   return (
     <div
-      className={`${newsreader.className} flex md:hidden py-2 mb-5 min-h-[1.75rem] h-fit w-full items-start box-content overflow-x-scroll`}
+      className={`${newsreader.className} flex md:hidden py-2 mb-5 min-h-[1.75rem] h-fit w-full items-start box-content overflow-x-scroll items-center`}
     >
-      <Link href="/">
+      <Link className="flex-shrink-0" href="/">
         <Image className="w-auto h-[28px]" src={logo} alt="star-logo"></Image>
       </Link>
-      <h4 className="text-lightMud ml-4 font-thin">~</h4>
+      <h4 className="text-lightMud ml-2 font-thin">~</h4>
       <DropdownContainer
         pages={pages}
         closedStyles={`font-medium`}

@@ -54,11 +54,11 @@ const Dropdown = ({ pages, currentPage, desktop = false, routes = {} }) => {
     return (
       <div className="dropdown flex flex-col relative">
         <div
-          className={`dropdown-closed ml-4 mb-1 hover:bg-lightMud p-2 rounded w-fit box-content flex cursor-pointer`}
+          className={`dropdown-closed hover:bg-lightMud p-2 rounded w-fit box-content flex cursor-pointer`}
           onClick={handleClick}
         >
           <ArrowDropDownRoundedIcon />
-          <h3>{capitalizeFirstLetter(currentPage)}</h3>
+          <h4>{capitalizeFirstLetter(currentPage)}</h4>
         </div>
         {isDropdownToggled && (
           <div

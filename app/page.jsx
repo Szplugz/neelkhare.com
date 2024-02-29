@@ -8,7 +8,7 @@ import "./page.css";
 export default function Home() {
   return (
     <>
-      <div className="center-text-box font-medium text-xl md:font-normal md:text-base">
+      <div className="center-text-box font-medium text-xl md:font-normal md:text-base md:mx-[84px]">
         <h4 className={`center-text-heading text-mud md:text-4xl`}>
           Hello, I'm Neel.
         </h4>

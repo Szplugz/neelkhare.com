@@ -48,7 +48,6 @@ img {
   min-width: 400px;
   max-width: 615px;
   width: 60%;
-  margin-inline: auto; /* this centers the block because margin-inline: auto ends up dividing the horizontal space around the block evenly on both sides. */
   display: flex;
   flex-direction: column;
 }
