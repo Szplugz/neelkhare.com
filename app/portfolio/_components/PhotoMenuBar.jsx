@@ -26,7 +26,6 @@ const PhotoMenuBar = (props) => {
     if (cities.includes(clickedCity)) {
       params.set("city", clickedCity.toLowerCase());
     } else {
-      console.log(`${clickedCity} is not a valid city`);
       params.delete("city");
     }
     replace(`${pathname}?${params.toString()}`);

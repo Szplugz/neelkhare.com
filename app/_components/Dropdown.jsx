@@ -7,7 +7,6 @@ import { newsreader } from "../fonts";
 
 const Dropdown = ({ pages, currentPage, desktop = false, routes = {} }) => {
   const [isDropdownToggled, toggleDropdown] = useState(false);
-  console.log("current page:", currentPage);
 
   let dropDownOptions = [];
   for (const [key, value] of Object.entries(routes)) {

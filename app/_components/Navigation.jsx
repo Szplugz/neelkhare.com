@@ -50,7 +50,6 @@ const Navigation = ({ props }) => {
   };
 
   const handleKeyPress = (event) => {
-    console.log(event);
     if (event.metaKey == true) {
       cmdPressed.current = true;
     }

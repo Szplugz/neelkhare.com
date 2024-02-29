@@ -28,7 +28,6 @@ const Photography = async ({ searchParams }) => {
   // only one of these will be true
   while (wideImages.length) {
     // imageRows.push([wideImages.shift(), wideImages.shift()]);
-    console.log(wideImages.length, left);
     if (left) {
       leftImages.length > rightImages.length
         ? rightImages.push(wideImages.shift())

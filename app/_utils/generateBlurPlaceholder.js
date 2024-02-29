@@ -9,9 +9,6 @@ export default async function getBase64ImageURL(image) {
   if (url) {
     return url;
   }
-  console.log(
-    `https://res.cloudinary.com/${process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME}/image/upload/f_jpg,w_8,q_70/${image.public_id}.${image.format}`
-  );
   const response = await fetch(
     `https://res.cloudinary.com/${process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME}/image/upload/f_jpg,w_8,q_70/${image.public_id}.${image.format}`
   );

@@ -23,14 +23,10 @@ const PortfolioLayout = ({ children }) => {
   }, [pathname]);
 
   let routes = defaultRoutes;
-  console.log(pages);
   for (let i = 0; i < pages.length - 1; i++) {
     let page = pages[i];
     routes = routes[page.toLowerCase()].pages;
   }
-
-  console.log("routes:", routes);
-  console.log("currpage:", currPage);
 
   return (
     <main className="portfolio-layout w-full">
