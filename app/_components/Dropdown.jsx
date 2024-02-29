@@ -3,6 +3,7 @@ import { useState } from "react";
 import { capitalizeFirstLetter } from "../_utils/utilFunctions";
 import ArrowDropDownRoundedIcon from "@mui/icons-material/ArrowDropDownRounded";
 import Link from "next/link";
+import { newsreader } from "../fonts";
 
 const Dropdown = ({ pages, currentPage, desktop = false, routes = {} }) => {
   const [isDropdownToggled, toggleDropdown] = useState(false);
@@ -19,7 +20,9 @@ const Dropdown = ({ pages, currentPage, desktop = false, routes = {} }) => {
   };
   if (desktop) {
     return (
-      <div className="dropdown flex flex-col relative">
+      <div
+        className={`${newsreader.className} dropdown flex flex-col relative`}
+      >
         <div
           className={`dropdown-closed ml-4 mb-1 hover:bg-lightMud p-2 rounded w-fit box-content flex cursor-pointer`}
           onClick={handleClick}
