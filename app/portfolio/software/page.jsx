@@ -10,14 +10,23 @@ const Software = () => {
   return (
     <>
       <div className="software-contents">
-        <div className="software-image mb-10">
-          <Image
-            className="rounded-md"
-            src={`https://res.cloudinary.com/${process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME}/image/upload/c_scale,w_720/assets/kxuj617cup3phcztuyle.webp`}
-            width={500}
-            height={375}
-            alt="smalltalk-and-children"
-          ></Image>
+        <div className="software-image mb-10 flex px-[5rem] justify-center">
+          <div className="image-container">
+            <Image
+              className="rounded-md md:hidden"
+              src={`https://res.cloudinary.com/${process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME}/image/upload/f_auto,q_auto/v1/assets/software-mobile`}
+              width={533}
+              height={400}
+              alt="smalltalk-and-children"
+            ></Image>
+            <Image
+              className="rounded-md hidden md:block"
+              src={`https://res.cloudinary.com/${process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME}/image/upload/v1709224359/assets/software-desktop.webp`}
+              width={533}
+              height={400}
+              alt="smalltalk-and-children"
+            ></Image>
+          </div>
         </div>
         <div className="software-sections flex flex-col">
           <PortfolioItem

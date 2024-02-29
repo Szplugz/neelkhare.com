@@ -20,6 +20,9 @@ const page = () => {
       <Tile heading="Photography" linkTo="/portfolio/photography">
         <p>Also I like taking pictures</p>
       </Tile>
+      <Tile heading="Writing" linkTo="/portfolio/photography">
+        <p>Coming soon!</p>
+      </Tile>
     </div>
   );
 };

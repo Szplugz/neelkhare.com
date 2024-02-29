@@ -127,9 +127,9 @@ h2 {
 }
 
 .software-image > img {
-  width: 80%;
-  aspect-ratio: 16/9; /* you probably don't need this if you just ensure that all uploaded images are in that aspect ratio */
+  width: 100%;
   margin: auto;
+  margin-top: 1.5rem;
 }
 
 .notebook-layout {
