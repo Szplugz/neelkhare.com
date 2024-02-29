@@ -105,13 +105,6 @@ h2 {
   margin-top: 1rem;
 }
 
-.portfolio-sidebar {
-  display: flex;
-  flex-direction: column;
-  max-width: 300px;
-  align-items: flex-end;
-}
-
 .sidebar-button {
   text-align: end;
   font-family: --font-newsreader;

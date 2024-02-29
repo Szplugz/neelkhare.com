@@ -28,7 +28,7 @@ const PortfolioLayout = ({ children }) => {
   return (
     <main className="portfolio-layout w-full">
       {children}
-      <div className="portfolio-sidebar">
+      <div className="portfolio-sidebar hidden md:flex md:flex-col md:w-[300px] md:items-end">
         <h2 className={`${newsreader.className} text-5xl`}>
           {capitalizeFirstLetter(currPage)}
         </h2>

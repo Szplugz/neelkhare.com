@@ -1,5 +1,3 @@
-"use client";
-
 import Image from "next/image";
 import lacabra from "./_assets/images/lacabra.jpeg";
 import logo from "./_assets/images/StarLogoNeel.png";
@@ -50,13 +48,9 @@ export default function Home() {
           <Link className="link" href="/portfolio/">
             creating
           </Link>
-          ,{" "}
-          <Link className="link" href="/inspiration/">
-            learning
-          </Link>
-          , exercising, or socializing - preferably outdoors. I'm deeply
-          passionate about building software that everyone can leverage to
-          strengthen human connection and enhance their feelings of wellness.
+          , learning, exercising, or socializing - preferably outdoors. I'm
+          deeply passionate about building software that everyone can leverage
+          to strengthen human connection and enhance their feelings of wellness.
         </p>
         <p>
           I've tried to design this website in a manner that reveals more about
@@ -64,6 +58,16 @@ export default function Home() {
           Make yourself comfortable, take a look around, and if anything
           resonates with you, say hi :)
         </p>
+        <div
+          className={`${newsreader.className} text-navy social-links md:hidden flex w-full justify-evenly !mb-0`}
+        >
+          <h4>
+            <Link href="https://www.are.na/neel-khare/">are.na</Link>
+          </h4>
+          <h4>
+            <Link href="https://twitter.com/Szplugz">twitter</Link>
+          </h4>
+        </div>
       </div>
       <div className="image-frame">
         <Image src={lacabra} alt="kitchen"></Image>
