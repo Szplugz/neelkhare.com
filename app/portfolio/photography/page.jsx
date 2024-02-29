@@ -3,6 +3,7 @@ import cloudinary from "../../_utils/cloudinary.js";
 import Image from "next/image";
 import PhotoMenuBar from "../_components/PhotoMenuBar.jsx";
 import { useRouter } from "next/navigation";
+import MobileHeader from "@/app/_components/MobileHeader.jsx";
 
 const Photography = async ({ searchParams }) => {
   const currentCity = searchParams?.city || "copenhagen";
@@ -48,6 +49,7 @@ const Photography = async ({ searchParams }) => {
 
   return (
     <div className="photography-contents md:px-20 md:min-w-[650px] w-full">
+      <MobileHeader></MobileHeader>
       <PhotoMenuBar />
       <div className="photo-gallery flex md:flex-row flex-col">
         <div className="photo-gallery-left">

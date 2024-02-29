@@ -7,6 +7,8 @@ import { usePathname } from "next/navigation";
 import { capitalizeFirstLetter } from "../_utils/utilFunctions";
 import { newsreader } from "../fonts";
 import Card from "../_components/Card";
+import Dropdown from "../_components/Dropdown";
+import routes from "../_utils/routes";
 
 const PortfolioLayout = ({ children }) => {
   const pathname = usePathname();
@@ -30,9 +32,11 @@ const PortfolioLayout = ({ children }) => {
     <main className="portfolio-layout w-full">
       {children}
       <div className="portfolio-sidebar hidden md:flex md:flex-col md:w-[300px] md:items-end">
-        <h2 className={`${newsreader.className} text-5xl`}>
-          {capitalizeFirstLetter(currPage)}
-        </h2>
+        <Dropdown
+          desktop={true}
+          currentPage="portfolio"
+          routes={routes}
+        ></Dropdown>
         <Card styles="mt-4 text-end text-lightMud text-base">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
