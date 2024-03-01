@@ -14,7 +14,7 @@ const Tile = ({ number, heading, linkTo, children }) => {
         <span className="text-[#8B8B8B]">{number}</span>
         {` ${heading}`}
       </h4>
-      <div className="tile-contents text-lightMud md:max-w-[159px]">
+      <div className="tile-contents text-lightMud md:max-w-[159px] text-sm">
         {children}
       </div>
     </Link>

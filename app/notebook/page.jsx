@@ -9,22 +9,18 @@ const page = () => {
     <div className="notebook-grid flex flex-wrap md:px-20 md:w-[calc(100%-300px)] w-full">
       <MobileHeader></MobileHeader>
       <Card styles="md:hidden text-base mb-4">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat.
+        Because I have a lot of thoughts, and I suck at remembering them.
       </Card>
-      <Tile number={"00"} heading="Essays" linkTo="/notebook/testing">
+      <Tile number={"00"} heading="Essays" linkTo="">
         <p>
           I write about whatever comes to my mind, really. And documenting the
           human condition.
         </p>
       </Tile>
-      <Tile number={"01"} heading="Notes" linkTo="">
-        <p>Caffeine</p>
-        <p>Podcast Notes</p>
+      <Tile number={"01"} heading="Notes" linkTo="/notebook/notes">
+        <p>A rough, disorganized, and incomplete database of my brain.</p>
       </Tile>
-      <Tile number={"02"} heading="People" linkTo="">
+      <Tile number={"02"} heading="People" linkTo="/notebook/people">
         <p>Friends and strangers I look up to and draw inspiration from.</p>
       </Tile>
       <Tile number={"03"} heading="Tapas" linkTo="">
