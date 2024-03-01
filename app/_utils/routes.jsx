@@ -29,7 +29,13 @@ const routes = {
       notes: {
         name: "notes",
         path: "/notebook/notes",
-        pages: {},
+        pages: {
+          caffeine: {
+            name: "caffeine",
+            path: "/notebook/notes/caffeine",
+            pages: {},
+          },
+        },
       },
       people: {
         name: "people",

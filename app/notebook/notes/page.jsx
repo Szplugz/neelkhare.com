@@ -17,7 +17,7 @@ const page = () => {
                     <td className="hash text-lightMud w-20">ea5044fc</td>
                     <td className="text-mud ">
                       <a
-                        href="/notes/caffeine"
+                        href="/notebook/notes/caffeine"
                         className="transition hover:underline decoration-dotted hover:ease-in-out duration-700 decoration-lightMud"
                       >
                         on caffeine

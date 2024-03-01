@@ -167,9 +167,9 @@ const Navigation = ({ props }) => {
             <hr className="border-0 border-t-[1px] border-[#C7C5BE]"></hr>
           </div>
         </div>
-        <button onClick={showSearchBox} className="search-button">
+        {/* <button onClick={showSearchBox} className="search-button">
           Search...
-        </button>
+        </button> */}
       </div>
       <SearchBox isVisible={isSearchActive} id="searchbox" ref={searchBoxRef} />
     </React.Fragment>
