@@ -7,8 +7,8 @@ const People = () => {
       <div className="people-content flex-col w-[60%] mx-auto overflow-y-hidden font-inter sm:text-lg text-sm">
         <div className="header flex flex-row justify-between items-center text-navy mb-5 sm:text-3xl text-2xl font-[500]"></div>
         <div className="p1 mb-5 text-base">
-          I'm fortunate to have met and befriended some wonderful people who are
-          perpetually curious, energetic, and interesting.
+          I&apos;m fortunate to have met and befriended some wonderful people
+          who are perpetually curious, energetic, and interesting.
         </div>
         <div className="technology-header flex flex-row justify-between items-center text-chinaRose mb-3 text-xl font-[500]">
           Friends

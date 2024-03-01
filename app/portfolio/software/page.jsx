@@ -66,7 +66,7 @@ const Software = () => {
               },
             ]}
           >
-            <p>My digital home. You're here!</p>
+            <p>My digital home. You&apos;re here!</p>
           </PortfolioItem>
           <PortfolioItem
             heading="Quant Website"
@@ -83,8 +83,8 @@ const Software = () => {
             ]}
           >
             <p className="mb-4">
-              Designed and built the website for Quant, UIUC's first and largest
-              student-run quantitative finance and HFT organization.
+              Designed and built the website for Quant, UIUC&apos;s first and
+              largest student-run quantitative finance and HFT organization.
             </p>
             <a href="https://www.google.com" target="_blank">
               Website ↗
@@ -107,7 +107,7 @@ const Software = () => {
             <p className="mb-4">
               Placeranker lets you rank various kinds of places in your city
               based on one of the many comparable parameters provided by
-              Google's Places API.
+              Google&apos;s Places API.
             </p>
             <a
               href="https://www.figma.com/file/Hbk2oiju5HYHs4vH7fJ2VM/placeholder?type=design&mode=design&t=kPwiwSEWBeEAhfhF-1"

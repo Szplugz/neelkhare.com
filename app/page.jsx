@@ -10,7 +10,7 @@ export default function Home() {
     <>
       <div className="center-text-box font-medium text-xl md:font-normal md:text-base md:mx-[84px]">
         <h4 className={`center-text-heading text-mud md:text-4xl`}>
-          Hello, I'm Neel.
+          Hello, I&apos;m Neel.
         </h4>
         <Image className="md:hidden" src={logo} height={50}></Image>
         <div
@@ -48,14 +48,14 @@ export default function Home() {
           <Link className="link" href="/portfolio/">
             creating
           </Link>
-          , learning, exercising, or socializing - preferably outdoors. I'm
+          , learning, exercising, or socializing - preferably outdoors. I&apos;m
           deeply passionate about building software that everyone can leverage
           to strengthen human connection and enhance their feelings of wellness.
         </p>
         <p>
-          I've tried to design this website in a manner that reveals more about
-          myself, my work, and my values than a few words on the home page do.
-          Make yourself comfortable, take a look around, and if anything
+          I&apos;ve tried to design this website in a manner that reveals more
+          about myself, my work, and my values than a few words on the home page
+          do. Make yourself comfortable, take a look around, and if anything
           resonates with you, say hi :)
         </p>
         <div

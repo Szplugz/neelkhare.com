@@ -20,9 +20,10 @@ const caffeine = () => {
               </span>
             </a>
             , so you can safely read on without worrying about the accuracy of
-            what you're about to read (but it's also a good idea to be skeptical
-            of all claims a 20y/o college student makes, so if you wish to
-            dispute anything I've written here, please shoot me an email).
+            what you&apos;re about to read (but it&apos;s also a good idea to be
+            skeptical of all claims a 20y/o college student makes, so if you
+            wish to dispute anything I&apos;ve written here, please shoot me an
+            email).
           </em>
         </div>
         <div className="mb-5 font-inter">
@@ -59,13 +60,13 @@ const caffeine = () => {
             </span>
           </a>{" "}
           responsible for increasing focus, alertness, and feelings of
-          well-being. What's even better is that this release of Dopamine occurs
-          in a manner that's distinct from the classical dopamine pathway
-          associated with addiction and reward (mesolimbic pathway). In the
-          mesolimbic pathway, caffeine only increases the amount of Dopamine{" "}
+          well-being. What&apos;s even better is that this release of Dopamine
+          occurs in a manner that&apos;s distinct from the classical dopamine
+          pathway associated with addiction and reward (mesolimbic pathway). In
+          the mesolimbic pathway, caffeine only increases the amount of Dopamine{" "}
           <em>receptors</em>, thereby increasing the efficacy of the Dopamine
-          that's already available, instead of tapping into that very potent
-          pathway like so many other drugs (alcohol, opioids, etc.) do.
+          that&apos;s already available, instead of tapping into that very
+          potent pathway like so many other drugs (alcohol, opioids, etc.) do.
         </div>
         <div className="mb-5 text-mud sm:text-xl text-lg font-semibold">
           Use Cases
@@ -87,16 +88,17 @@ const caffeine = () => {
             once the caffeine gets dislodged from those receptors.
             <br></br>
             <br></br>
-            Consequently, it's generally not a good idea to take in caffeine
-            right when you wake up. Throughout the course of the day, Adenosine
-            builds up in your body and makes you feel progressively tired. When
-            you sleep, your body metabolizes most of the built-up Adenosine, and
-            after a good night's sleep, Adenosine levels in your body are at
-            their lowest (but not 0). If you consume caffeine right after you
-            wake up, you're not giving that residual adenosine a chance to wear
-            off, so you're bound to feel a noticeable dip in wakefulness and
-            energy once the caffeine starts getting out of your system. The way
-            to combat this is to engage in activities that boost your{" "}
+            Consequently, it&apos;s generally not a good idea to take in
+            caffeine right when you wake up. Throughout the course of the day,
+            Adenosine builds up in your body and makes you feel progressively
+            tired. When you sleep, your body metabolizes most of the built-up
+            Adenosine, and after a good night&apos;s sleep, Adenosine levels in
+            your body are at their lowest (but not 0). If you consume caffeine
+            right after you wake up, you&apos;re not giving that residual
+            adenosine a chance to wear off, so you&apos;re bound to feel a
+            noticeable dip in wakefulness and energy once the caffeine starts
+            getting out of your system. The way to combat this is to engage in
+            activities that boost your{" "}
             <a
               href="https://en.wikipedia.org/wiki/Cortisol_awakening_response"
               target="_blank"
@@ -107,7 +109,7 @@ const caffeine = () => {
             </a>{" "}
             (a walk in the morning sun or physical exercise if you can) right
             after you wake up, and wait 90–120 minutes before you consume
-            caffeine. Doing so will ensure you're minimizing the amount of
+            caffeine. Doing so will ensure you&apos;re minimizing the amount of
             residual adenosine in your system, thereby extracting the most out
             of the caffeine you take in and avoiding the afternoon crash.
           </li>
@@ -115,41 +117,43 @@ const caffeine = () => {
             {" "}
             <span className="font-semibold">Learning & Memory:</span> Caffeine
             leads to an increase in catecholamines (epinephrine, norepinephrine,
-            and dopamine), and they are certainly helpful when you're trying to
-            concentrate on a task or have a focused bout of learning. But a
-            spike in catecholamines leads to the consolidation in memory of the
-            information you learned <em>prior</em> to that spike, which means
-            that if you want to optimize your learning and memory, you should
-            consume caffeine <em>after</em> a learning/study session, instead of
-            consuming it during or before the session. This is certainly the
-            most unintuitive part of how caffeine works (at least for me), and I
-            rarely have the mental fortitude to abstain from drinking coffee
-            until after I'm done studying. That being said, consuming caffeine
-            during a learning session will ensure that your ability to learn and
-            retain information from the session will be at least as good as (and
-            usually better than) not consuming caffeine at all, but waiting
-            until after your bout of learning to consume caffeine is the most
-            effective way to consolidate that information in memory.
+            and dopamine), and they are certainly helpful when you&apos;re
+            trying to concentrate on a task or have a focused bout of learning.
+            But a spike in catecholamines leads to the consolidation in memory
+            of the information you learned <em>prior</em> to that spike, which
+            means that if you want to optimize your learning and memory, you
+            should consume caffeine <em>after</em> a learning/study session,
+            instead of consuming it during or before the session. This is
+            certainly the most unintuitive part of how caffeine works (at least
+            for me), and I rarely have the mental fortitude to abstain from
+            drinking coffee until after I&apos;m done studying. That being said,
+            consuming caffeine during a learning session will ensure that your
+            ability to learn and retain information from the session will be at
+            least as good as (and usually better than) not consuming caffeine at
+            all, but waiting until after your bout of learning to consume
+            caffeine is the most effective way to consolidate that information
+            in memory.
           </li>
           <li className="mb-5">
             <span className="font-semibold">Performance:</span> Unsurprisingly,
             caffeine enhances both mental and physical performance. This
             includes reaction time, power output, alertness, strength, focus,
-            and mood. I personally don't use caffeine as a part of my
+            and mood. I personally don&apos;t use caffeine as a part of my
             pre-workout, but I know a few people that do, and their experience
             aligns with what I just mentioned above.
           </li>
           <li className="mb-5">
             <span className="font-semibold">Dependence & Problems:</span> There
-            really aren't any problems with caffeine if it's not abused. As in,
-            don't drink 20 shots of espresso and you'll be fine. Don't drink Red
-            Bull at 11PM and you'll be fine. Since caffeine does not activate
-            the brain's reward circuit, its use is classified as a dependence ,
-            not an addiction<sup className="text-lightMud">2</sup>. The current
-            consensus seems to be that chronic caffeine use can induce mild
-            physical dependence - the withdrawal symptoms of which may include
-            headaches, nausea, loss of focus, joint pain, etc. Beyond that, no
-            significant harm (that we know of).
+            really aren&apos;t any problems with caffeine if it&apos;s not
+            abused. As in, don&apos;t drink 20 shots of espresso and you&apos;ll
+            be fine. Don&apos;t drink Red Bull at 11PM and you&apos;ll be fine.
+            Since caffeine does not activate the brain&apos;s reward circuit,
+            its use is classified as a dependence , not an addiction
+            <sup className="text-lightMud">2</sup>. The current consensus seems
+            to be that chronic caffeine use can induce mild physical dependence
+            - the withdrawal symptoms of which may include headaches, nausea,
+            loss of focus, joint pain, etc. Beyond that, no significant harm
+            (that we know of).
           </li>
         </ul>
         <div className="mb-5 text-mud sm:text-xl text-lg font-semibold">
@@ -170,10 +174,11 @@ const caffeine = () => {
           and get either a 12 oz mocha or a brown sugar latte with oatmilk, or
           less frequently, a triple espresso. I limit myself to one cup
           (150-200mg) a day. I also restrict my coffee intake between 10 AM
-          (since I wake up at 8:30 AM) and 12 PM. I've been following this
+          (since I wake up at 8:30 AM) and 12 PM. I&apos;ve been following this
           routine for the last 6 months (as part of my Grand Plan To Optimize My
-          Life), and it's much easier now than it was 6 months ago to restrict
-          my caffeine intake to a 2 hour window once a day in the morning.
+          Life), and it&apos;s much easier now than it was 6 months ago to
+          restrict my caffeine intake to a 2 hour window once a day in the
+          morning.
         </div>
         <div
           id="footnotes"
@@ -202,7 +207,7 @@ const caffeine = () => {
             >
               James G. Hodge Jr., Megan Scanlon, Alicia Corbett & Andrew
               Sorensen, The Consumable Vice: Caffeine, Public Health, and the
-              Law, 27 J. Contemp. Health L. & Pol'y 76 (2011).
+              Law, 27 J. Contemp. Health L. & Pol&apos;y 76 (2011).
             </a>
           </li>
           <li className="footnote text-lightMud text-sm mb-1">
