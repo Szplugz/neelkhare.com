@@ -13,7 +13,7 @@ const DropdownContainer = ({
   let nestedRoutes = routes;
 
   return (
-    <div className="dropdown-container flex h-fit items-center">
+    <div className="dropdown-container flex h-fit items-start">
       {pages.map((page, index) => {
         // for every nested page, return a dropdown element
         // you should keep a tack of the state of each dropdown, and only a single one
@@ -37,7 +37,9 @@ const DropdownContainer = ({
               currentPage={currentPage}
             ></Dropdown>
             {index < pages.length - 1 && (
-              <h4 className="text-lightMud ml-4 font-thin h-full">/</h4>
+              <div className="flex items-start justify-center">
+                <h4 className="text-lightMud ml-2 font-thin mt-2">/</h4>
+              </div>
             )}
           </>
         );
