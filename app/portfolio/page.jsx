@@ -9,10 +9,8 @@ const page = () => {
     <div className="notebook-grid flex flex-wrap md:px-20 md:w-[calc(100%-300px)] w-full">
       <MobileHeader></MobileHeader>
       <Card styles="md:hidden text-base mb-4">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat.
+        Everything I create is an attempt to weave myself into the fabric of the
+        world a little more.
       </Card>
       <Tile heading="Software" linkTo="/portfolio/software/">
         <p>I build beautiful software with high utility to people.</p>
