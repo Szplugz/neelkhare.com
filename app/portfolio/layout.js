@@ -9,6 +9,7 @@ import { newsreader } from "../fonts";
 import Card from "../_components/Card";
 import Dropdown from "../_components/Dropdown";
 import defaultRoutes from "../_utils/routes";
+import Image from "next/image";
 
 const PortfolioLayout = ({ children }) => {
   const pathname = usePathname();
@@ -38,11 +39,16 @@ const PortfolioLayout = ({ children }) => {
           routes={routes}
         ></Dropdown>
         <Card styles="mt-4 text-end text-lightMud text-base">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.{" "}
+          Everything I create is an attempt to weave myself into the fabric of
+          the world a little more.{" "}
         </Card>
+        <Image
+          className="rounded-md mt-4"
+          src={`https://res.cloudinary.com/${process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME}/image/upload/f_auto,q_auto/v1/assets/lookingatmelookingatyou.webp`}
+          width={533}
+          height={400}
+          alt="smalltalk-and-children"
+        ></Image>
       </div>
     </main>
   );

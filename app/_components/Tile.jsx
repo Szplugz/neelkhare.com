@@ -5,7 +5,7 @@ import { newsreader } from "../fonts";
 const Tile = ({ number, heading, linkTo, children }) => {
   return (
     <Link
-      className="tile flex flex-col min-w-[33%] w-1/2 md:w-fit md:max-w-[33%] hover:bg-[#DED0C1] rounded-md p-6 h-fit min-h-[250px]"
+      className="tile mb-10 flex flex-col w-1/2 hover:bg-[#DED0C1] rounded-md p-6 min-h-[250px] max-h-[300px] h-full"
       href={linkTo}
     >
       <h4
@@ -14,7 +14,7 @@ const Tile = ({ number, heading, linkTo, children }) => {
         <span className="text-[#8B8B8B]">{number}</span>
         {` ${heading}`}
       </h4>
-      <div className="tile-contents text-lightMud md:max-w-[159px] text-sm">
+      <div className="tile-contents text-lightMud text-sm overflow-y-scroll">
         {children}
       </div>
     </Link>
