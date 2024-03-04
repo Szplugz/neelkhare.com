@@ -86,7 +86,7 @@ const Software = () => {
               Designed and built the website for Quant, UIUC&apos;s first and
               largest student-run quantitative finance and HFT organization.
             </p>
-            <a href="https://www.google.com" target="_blank">
+            <a href="https://quantillinois.com" target="_blank">
               Website ↗
             </a>
           </PortfolioItem>
