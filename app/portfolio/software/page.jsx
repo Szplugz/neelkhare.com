@@ -91,7 +91,7 @@ const Software = () => {
             </a>
           </PortfolioItem>
           <PortfolioItem
-            heading="Placeranker"
+            heading="resolv.finance"
             tags={[
               {
                 title: "Designed",
@@ -105,16 +105,32 @@ const Software = () => {
             ]}
           >
             <p className="mb-4">
+              Resolv protects your crypto assets from fraud. Built with{" "}
+              <span className="font-medium">Next JS + TypeScript</span>
+            </p>
+            <a href="https://resolv.finance" target="_blank">
+              Check us out ↗
+            </a>
+          </PortfolioItem>
+          <PortfolioItem
+            heading="Placeranker"
+            tags={[
+              {
+                title: "Designed",
+                styles: "bg-[#FFE0C1] border-[#E8A251] text-[#E8A251] text-xs",
+              },
+              {
+                title: "In Progess",
+                styles:
+                  "bg-[#FEC4C4] border-[#D10000] text-[#D10000] ml-2 text-xs",
+              },
+            ]}
+          >
+            <p className="mb-4">
               Placeranker lets you rank various kinds of places in your city
               based on one of the many comparable parameters provided by
               Google&apos;s Places API.
             </p>
-            <a
-              href="https://www.figma.com/file/Hbk2oiju5HYHs4vH7fJ2VM/placeholder?type=design&mode=design&t=kPwiwSEWBeEAhfhF-1"
-              target="_blank"
-            >
-              Preview the design ↗
-            </a>
           </PortfolioItem>
         </div>
       </div>

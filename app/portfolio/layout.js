@@ -42,13 +42,15 @@ const PortfolioLayout = ({ children }) => {
           Everything I create is an attempt to weave myself into the fabric of
           the world a little more.{" "}
         </Card>
-        <Image
-          className="rounded-md mt-4"
-          src={`https://res.cloudinary.com/${process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME}/image/upload/f_auto,q_auto/v1/assets/lookingatmelookingatyou.webp`}
-          width={533}
-          height={400}
-          alt="smalltalk-and-children"
-        ></Image>
+        {currPage == "portfolio" && (
+          <Image
+            className="rounded-md mt-4"
+            src={`https://res.cloudinary.com/${process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME}/image/upload/f_auto,q_auto/v1/assets/lookingatmelookingatyou.webp`}
+            width={533}
+            height={400}
+            alt="smalltalk-and-children"
+          ></Image>
+        )}
       </div>
     </main>
   );
