@@ -40,13 +40,15 @@ const NotebookLayout = ({ children }) => {
         <Card styles="mt-4 text-end text-lightMud text-base">
           Because I have a lot of thoughts, and I suck at remembering them.
         </Card>
-        <Image
-          className="rounded-md mt-4"
-          src={`https://res.cloudinary.com/${process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME}/image/upload/f_auto,q_auto/v1/assets/cozywriting.webp`}
-          width={533}
-          height={400}
-          alt="smalltalk-and-children"
-        ></Image>
+        {currPage === "notebook" && (
+          <Image
+            className="rounded-md mt-4"
+            src={`https://res.cloudinary.com/${process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME}/image/upload/f_auto,q_auto/v1/assets/cozywriting.webp`}
+            width={533}
+            height={400}
+            alt="smalltalk-and-children"
+          ></Image>
+        )}
       </div>
     </main>
   );
