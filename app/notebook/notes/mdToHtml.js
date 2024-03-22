@@ -17,17 +17,20 @@ export async function getSortedPostsData() {
     const fullPath = path.join(postsDirectory, fileName);
     const fileContents = fs.readFileSync(fullPath, "utf8");
 
+    // console.log(fileContents);
+
     // Use gray-matter to parse the post metadata section
-    const matterResult = matter(fileContents);
+    const { data, content } = matter(fileContents);
 
     // Combine the data with the id
     return {
       id,
-      ...matterResult.data,
+      data,
+      content,
     };
   });
 
-  console.log(allPostsData);
+  //   console.log(allPostsData);
   return allPostsData;
 
   // Sort posts by date
@@ -56,6 +59,7 @@ export async function getPostData(id) {
   const fileContents = fs.readFileSync(fullPath, "utf8");
 
   // Use gray-matter to parse the post metadata section
+  // returns a file object
   const matterResult = matter(fileContents);
 
   // Use remark to convert markdown into HTML string
@@ -63,6 +67,8 @@ export async function getPostData(id) {
     .use(html)
     .process(matterResult.content);
   const contentHtml = processedContent.toString();
+
+  //   console.log(contentHtml);
 
   // Combine the data with the id and contentHtml
   return {
