@@ -4,6 +4,7 @@ import { Inter } from "next/font/google";
 import { React } from "react";
 import "./page.css";
 import PageProvider from "./pageprovider";
+import { ibm_plex_mono, newsreader } from "./fonts";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -17,7 +18,10 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={`${inter.className} text-base`}>
+    <html
+      lang="en"
+      className={`${inter.className} ${ibm_plex_mono.variable} ${newsreader.variable} text-base`}
+    >
       <body className="main">
         <PageProvider>
           <Navigation />

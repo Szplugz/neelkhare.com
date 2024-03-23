@@ -31,7 +31,7 @@ const NotebookLayout = ({ children }) => {
   return (
     <main className="notebook-layout">
       {children}
-      <div className="notebook-sidebar hidden md:flex md:flex-col md:w-[300px] md:items-end">
+      <div className="notebook-sidebar hidden md:flex md:flex-col md:w-[300px] md:items-end md:shrink-0">
         <Dropdown
           desktop={true}
           currentPage={capitalizeFirstLetter(currPage)}

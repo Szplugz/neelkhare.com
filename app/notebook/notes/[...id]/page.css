@@ -1,0 +1,63 @@
+:root {
+  --seaBlue: #284b63;
+}
+
+.markdown p {
+  margin-bottom: 1.25rem;
+  font-size: 1rem;
+}
+
+.markdown a {
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-decoration-color: var(--seaBlue);
+}
+
+.markdown a:hover {
+  text-decoration-style: solid;
+}
+
+.markdown h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1.25rem;
+}
+
+.markdown code {
+  color: var(--dark);
+  font-size: 0.9em;
+  font-family: var(--font-mono);
+  background: #e5e5e5;
+  border-radius: 5px;
+  padding: 0.1rem 0.2rem;
+}
+
+.markdown pre {
+  display: grid;
+  border: black;
+  margin-bottom: 1.25rem;
+}
+
+.markdown pre > code {
+  counter-reset: line;
+  counter-increment: line 0;
+  background: 0 0;
+  padding: 0.5rem 0;
+  font-size: 0.85rem;
+  display: grid;
+  overflow-x: scroll;
+}
+
+.markdown ul {
+  display: block;
+  list-style-type: disc;
+  margin-bottom: 1.25rem;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+  unicode-bidi: isolate;
+}
+
+.markdown img {
+  border-radius: 0.25rem;
+}

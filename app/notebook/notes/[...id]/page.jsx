@@ -2,26 +2,22 @@ import { PathParamsContext } from "next/dist/shared/lib/hooks-client-context.sha
 import React from "react";
 import { getPostData, getSortedPostsData } from "../mdToHtml";
 import * as DOMPurify from "dompurify";
-
-// export async function generateStaticParams() {
-//   const posts = await getSortedPostsData();
-
-//   // console.log(posts);
-
-//   return posts.map((post) => ({
-//     id: [post.id],
-//     title: post.title,
-//     content: <h2 className="text-spruce font-black">{post.content}</h2>,
-//   }));
-// }
+import { newsreader } from "@/app/fonts";
+import "./page.css";
 
 export default async function Page({ params }) {
   const postdata = await getPostData(params.id);
-  // const cleanHtml = DOMPurify(postdata.contentHtml);
   return (
-    <div>
-      My Post: {params.id}
-      <div dangerouslySetInnerHTML={{ __html: postdata.contentHtml }}></div>
+    <div className="markdown flex justify-center">
+      <div className="w-[70%]">
+        <h4 className={`markdown-title text-xl font-semibold mb-5`}>
+          {postdata.title}
+        </h4>
+        <div
+          className="markdown-content flex flex-col"
+          dangerouslySetInnerHTML={{ __html: postdata.contentHtml }}
+        ></div>
+      </div>
     </div>
   );
 }

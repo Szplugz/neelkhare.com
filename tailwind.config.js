@@ -30,6 +30,7 @@ module.exports = {
       lightMud: "#93897E",
       mud: "#43392e",
       navy: "#003547",
+      seaBlue: "#284b63",
       goldenMud: "#DED0C1",
       oatmilk: "#F2EFEA",
     },

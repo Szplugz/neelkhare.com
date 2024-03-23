@@ -1,4 +1,4 @@
-import { Inter, Newsreader } from "next/font/google";
+import { Inter, Newsreader, IBM_Plex_Mono } from "next/font/google";
 
 export const inter = Inter({
   subsets: ["latin"],
@@ -12,4 +12,10 @@ export const newsreader = Newsreader({
   subsets: ["latin"],
   variable: "--font-newsreader",
   display: "swap",
+});
+
+export const ibm_plex_mono = IBM_Plex_Mono({
+  weight: ["400"],
+  variable: "--font-mono",
+  subsets: ["latin"],
 });
