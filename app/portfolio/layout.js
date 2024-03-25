@@ -38,7 +38,7 @@ const PortfolioLayout = ({ children }) => {
           currentPage={capitalizeFirstLetter(currPage)}
           routes={routes}
         ></Dropdown>
-        <Card styles="mt-4 text-end text-lightMud text-base">
+        <Card styles="mt-4 text-end text-lightMud text-sm">
           Everything I create is an attempt to weave myself into the fabric of
           the world a little more.{" "}
         </Card>

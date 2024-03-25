@@ -4,6 +4,7 @@ import matter from "gray-matter";
 import { remark } from "remark";
 import html from "remark-html";
 import wikiLinkPlugin from "remark-wiki-link";
+import Error from "next/error";
 
 const postsDirectory = path.join(process.cwd(), "/app/notebook/notes/data");
 
@@ -57,7 +58,11 @@ export function getAllPostIds() {
 
 export async function getPostData(id) {
   const fullPath = path.join(postsDirectory, `${id}.md`);
-  const fileContents = fs.readFileSync(fullPath, "utf8");
+  try {
+    const fileContents = fs.readFileSync(fullPath, "utf8");
+  } catch (e) {
+    console.log(e);
+  }
 
   // Use gray-matter to parse the post metadata section
   // returns a file object
