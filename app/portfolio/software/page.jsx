@@ -1,10 +1,12 @@
 import SoftwareSection from "@/app/_components/SoftwareSection";
 import Link from "next/link";
 import React from "react";
+import MobileHeader from "@/app/_components/MobileHeader";
 
 const page = ({}) => {
   return (
     <div className="software-contents flex-col justify-between max-w-full md:w-[60%] mx-auto">
+      <MobileHeader></MobileHeader>
       <div className="intro-text flex flex-col gap-4 mb-10 text-lightMud">
         <p>
           I use software as an instrument to create beautiful digital
