@@ -1,8 +1,5 @@
 import React from "react";
-import Link from "next/link";
 import routes from "../_utils/routes";
-import { useState } from "react";
-import { newsreader } from "../fonts";
 import Dropdown from "./Dropdown";
 
 const DropdownContainer = ({
@@ -20,7 +17,7 @@ const DropdownContainer = ({
         // should be toggled at once
         const currentPage = pages[index]; // returns first page in array
         const currentPageRoutes = nestedRoutes[currentPage.toLowerCase()];
-        const nestedPages = currentPageRoutes.pages;
+        const nestedPages = currentPageRoutes ? currentPageRoutes.pages : [""];
 
         let dropDownOptions = [];
         for (const [key, value] of Object.entries(nestedRoutes)) {

@@ -21,30 +21,14 @@ const routes = {
     name: "notebook",
     path: "/notebook",
     pages: {
-      essays: {
-        name: "essays",
-        path: "/notebook/essays",
-        pages: {},
-      },
       notes: {
         name: "notes",
         path: "/notebook/notes",
-        pages: {
-          caffeine: {
-            name: "caffeine",
-            path: "/notebook/notes/caffeine",
-            pages: {},
-          },
-        },
+        pages: {},
       },
       people: {
         name: "people",
         path: "/notebook/people",
-        pages: {},
-      },
-      tapas: {
-        name: "tapas",
-        path: "/notebook/tapas",
         pages: {},
       },
     },
