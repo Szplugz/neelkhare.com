@@ -1,6 +1,6 @@
 import { PathParamsContext } from "next/dist/shared/lib/hooks-client-context.shared-runtime";
 import React from "react";
-import { getPostData, getSortedPostsData } from "../mdToHtml";
+import { getAllPostIds, getPostData, getSortedPostsData } from "../mdToHtml";
 import * as DOMPurify from "dompurify";
 import { newsreader } from "@/app/fonts";
 import "./page.css";

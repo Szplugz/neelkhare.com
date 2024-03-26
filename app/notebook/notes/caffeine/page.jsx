@@ -6,7 +6,7 @@ const caffeine = () => {
   return (
     <div className="caffeine-page ${newsreader.className} bg-eggshell2 flex sm:flex-row flex-col justify-center items-center selection:bg-mangoHighlight font-inter sm:overflow-y-hidden overflow-y-visible">
       <MobileHeader></MobileHeader>
-      <div className="caffeine-notes flex flex-col md:w-[60%] max-w-full">
+      <div className="caffeine-notes flex flex-col md:w-[70%] max-w-full">
         <div
           className={`caffeine-heading text-mud flex justify-between sm:text-xl text-lg font-semibold mb-5`}
         >

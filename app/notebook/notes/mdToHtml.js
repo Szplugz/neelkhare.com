@@ -4,7 +4,6 @@ import matter from "gray-matter";
 import { remark } from "remark";
 import html from "remark-html";
 import wikiLinkPlugin from "remark-wiki-link";
-import Error from "next/error";
 
 const postsDirectory = path.join(process.cwd(), "/app/notebook/notes/data");
 
@@ -45,24 +44,25 @@ export async function getSortedPostsData() {
   //   });
 }
 
-export function getAllPostIds() {
+export function getAllPostsMetadata() {
   const fileNames = fs.readdirSync(postsDirectory);
-  return fileNames.map((fileName) => {
-    return {
-      params: {
-        id: fileName.replace(/\.md$/, ""),
-      },
-    };
+  const fileMetadata = [];
+  fileNames.map((fileName) => {
+    const id = fileName.replace(/\.md$/, "");
+    const fullPath = path.join(postsDirectory, `${id}.md`);
+    const fileContents = fs.readFileSync(fullPath, "utf8");
+    const metadata = matter(fileContents).data;
+    fileMetadata.push({
+      id,
+      ...metadata,
+    });
   });
+  return fileMetadata;
 }
 
 export async function getPostData(id) {
   const fullPath = path.join(postsDirectory, `${id}.md`);
-  try {
-    const fileContents = fs.readFileSync(fullPath, "utf8");
-  } catch (e) {
-    console.log(e);
-  }
+  const fileContents = fs.readFileSync(fullPath, "utf8");
 
   // Use gray-matter to parse the post metadata section
   // returns a file object
