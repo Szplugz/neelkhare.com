@@ -18,10 +18,12 @@ async function page() {
               key={index}
               className="note-entry flex flex-row justify-between mt-2"
             >
-              <Link href={`notes/${note.id}`}>{note.title}</Link>
+              <h className="hover:bg-goldenMud">
+                <Link href={`notes/${note.id}`}>{note.title}</Link>
+              </h>
               <p className="date">{note.date}</p>
             </div>
-            <hr className="border-goldenMud mt-2"></hr>
+            <hr className="border-goldenMud mt-1"></hr>
           </>
         );
       })}
