@@ -9,14 +9,14 @@ const page = ({}) => {
       <MobileHeader></MobileHeader>
       <div className="intro-text flex flex-col gap-4 mb-10 text-lightMud">
         <p>
-          I use software as an instrument to create beautiful digital
+          {`I use software as an instrument to create beautiful digital
           experiences. In the past, I helped Gro Intelligence build a webapp to
           visualize the global tradeflow of crops, and helped Mediaocean build
           their Unified Ad Manager. I'd like to spend the rest of my forseeable
           future building digital tools that enable people to live richer,
-          healthier lives.
+          healthier lives.`}
         </p>
-        <p>Here are some things I've designed and built in the past:</p>
+        <p>{`Here are some things I've designed and built in the past:`}</p>
       </div>
       <Link
         href="https://www.figma.com/file/jTAzLBxLkMJBwXEUXik16a/The-Huberman-Library?type=design&node-id=0%3A1&mode=design&t=F3g7VLKE9SuZAMFZ-1"
