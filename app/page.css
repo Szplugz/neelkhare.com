@@ -179,3 +179,26 @@ h2 {
   line-height: 1.5em;
   font-weight: 400;
 } */
+
+.menu-button::before {
+  background-color: #284b63;
+  content: "";
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  --tw-translate-x: -16px;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y))
+    rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
+    scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  --tw-translate-y: 0.75rem /* 12px */;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y))
+    rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
+    scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1); /* Fade effect */
+}
+
+.menu-button:hover:before {
+  opacity: 1;
+}
