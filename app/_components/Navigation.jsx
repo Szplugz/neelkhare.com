@@ -15,7 +15,7 @@ const Navigation = ({ props }) => {
   const pathname = usePathname();
   const keyMappings = {
     1: {
-      url: "/portfolio",
+      url: "/work",
       target: "_parent",
       external: false,
     },
@@ -123,13 +123,13 @@ const Navigation = ({ props }) => {
           </Link>
           <div className="navigation-explore">
             <MenuButton
-              className="portfolio-button"
+              className="work-button"
               key_="1"
-              title="PORTFOLIO"
+              title="WORK"
               styles={`${
-                pathname.startsWith("/portfolio") ? "text-[#9A4C5C]" : ""
+                pathname.startsWith("/work") ? "text-[#9A4C5C]" : ""
               } mt-5`}
-              url="/portfolio/"
+              url="/work/"
               target="_self"
             />
             <MenuButton
@@ -138,7 +138,6 @@ const Navigation = ({ props }) => {
               url="/notebook/"
               styles="mt-2"
             />
-            <hr className="border-0 border-t-[1px] border-[#C7C5BE]"></hr>
           </div>
           <div className="navigation-about">
             <MenuButton
@@ -148,15 +147,13 @@ const Navigation = ({ props }) => {
               styles="mt-2"
               target="_blank"
             />
-
-            <hr className="border-0 border-t-[1px] border-[#C7C5BE]"></hr>
           </div>
           <div className="navigation-socials">
             <MenuButton
               key_="A"
               title="ARE.NA"
               styles="mt-2"
-              url={"https://sander.are.na/neel-khare/channels"}
+              url={"https://are.na/neel-khare/channels"}
             />
             <MenuButton
               key_="T"
@@ -164,7 +161,6 @@ const Navigation = ({ props }) => {
               styles="mt-2"
               url={"https://twitter.com/Szplugz"}
             />
-            <hr className="border-0 border-t-[1px] border-[#C7C5BE]"></hr>
           </div>
         </div>
         {/* <button onClick={showSearchBox} className="search-button">

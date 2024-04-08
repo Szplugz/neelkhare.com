@@ -1,26 +1,20 @@
 import React from "react";
 
 const routes = {
-  portfolio: {
-    name: "portfolio",
-    path: "/portfolio",
-    pages: {
-      software: {
-        name: "software",
-        path: "/portfolio/software",
-        pages: {},
-      },
-      photography: {
-        name: "photography",
-        path: "/portfolio/photography",
-        pages: {},
-      },
-    },
+  work: {
+    name: "work",
+    path: "/work",
+    pages: {},
   },
   notebook: {
     name: "notebook",
     path: "/notebook",
     pages: {
+      photography: {
+        name: "photography",
+        path: "/notebook/photography",
+        pages: {},
+      },
       notes: {
         name: "notes",
         path: "/notebook/notes",
