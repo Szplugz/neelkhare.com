@@ -119,16 +119,19 @@ const Navigation = ({ props }) => {
       <div className="navigation-block md:flex md:flex-col md:flex-shrink-0 hidden">
         <div className="navigation-menu">
           <Link href="/">
-            <Image src={logo} alt={"Kitchen"} height={50}></Image>
+            <Image
+              src={logo}
+              className="mb-4"
+              alt={"Kitchen"}
+              height={50}
+            ></Image>
           </Link>
           <div className="navigation-explore">
             <MenuButton
               className="work-button"
               key_="1"
               title="WORK"
-              styles={`${
-                pathname.startsWith("/work") ? "text-[#9A4C5C]" : ""
-              } mt-5`}
+              selected={pathname.startsWith("/work")}
               url="/work/"
               target="_self"
             />
@@ -136,6 +139,7 @@ const Navigation = ({ props }) => {
               key_="2"
               title="NOTEBOOK"
               url="/notebook/"
+              selected={pathname.startsWith("/notebook")}
               styles="mt-2"
             />
           </div>
