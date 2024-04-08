@@ -196,7 +196,7 @@ h2 {
     scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   position: absolute;
   opacity: 0;
-  transition: opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1); /* Fade effect */
+  transition: opacity 0.5s cubic-bezier(0.4, 0, 0.2, 1); /* Fade effect */
 }
 
 .menu-button:hover:before {
