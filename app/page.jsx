@@ -18,7 +18,7 @@ export default function Home() {
           className={`${newsreader.className} md:hidden text-navy text-xl leading-tight`}
         >
           <h4>
-            <Link href="/portfolio">Portfolio</Link>
+            <Link href="/work">Work</Link>
           </h4>
           <h4>
             <Link href="/notebook">Notebook</Link>
@@ -59,11 +59,6 @@ export default function Home() {
           do. Make yourself comfortable, take a look around, and if anything
           resonates with you, say hi :)
         </p>
-        <Card styles="flex flex-col text-[#808080]">
-          This website is currently undergoing some renovation that I hope to
-          get over with ASAP. In the meantime, things may appear broken and/or
-          incomplete. Thanks for bearing with me ;)
-        </Card>
         <div
           className={`${newsreader.className} text-navy social-links md:hidden flex w-full justify-evenly !mb-0`}
         >
@@ -72,6 +67,9 @@ export default function Home() {
           </h4>
           <h4>
             <Link href="https://twitter.com/Szplugz">twitter</Link>
+          </h4>
+          <h4>
+            <Link href="https://github.com/Szplugz">github</Link>
           </h4>
         </div>
       </div>
