@@ -1,8 +1,9 @@
-import { Inter, Newsreader, IBM_Plex_Mono } from "next/font/google";
+import { Inter, Newsreader, IBM_Plex_Mono, Basteleur } from "next/font/google";
 
 export const inter = Inter({
   subsets: ["latin"],
   variable: "--font-inter",
+  weight: ["200", "300", "400", "500", "600", "700"],
   display: "swap",
 });
 
