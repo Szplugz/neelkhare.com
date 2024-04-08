@@ -39,6 +39,11 @@ const Navigation = ({ props }) => {
       target: "_blank",
       external: true,
     },
+    g: {
+      url: "https://github.com/szplugz",
+      target: "_blank",
+      external: true,
+    },
   };
 
   const showSearchBox = (e) => {
@@ -164,6 +169,12 @@ const Navigation = ({ props }) => {
               title="TWITTER"
               styles="mt-2"
               url={"https://twitter.com/Szplugz"}
+            />
+            <MenuButton
+              key_="G"
+              title="GITHUB"
+              styles="mt-2"
+              url={"https://github.com/Szplugz"}
             />
           </div>
         </div>
