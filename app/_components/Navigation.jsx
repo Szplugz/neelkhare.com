@@ -152,7 +152,7 @@ const Navigation = ({ props }) => {
             <MenuButton
               key_="R"
               title="RESUME"
-              url="https://read.cv/szplugz/"
+              url="https://drive.google.com/file/d/1pf0zSwgYH2oAd5o6n2qvPDXXx2xhVJBO/view?usp=sharing"
               styles="mt-2"
               target="_blank"
             />

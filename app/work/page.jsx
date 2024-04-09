@@ -16,8 +16,10 @@ const page = () => {
           Work
         </h1>
         <p className="">
-          {`As a frontend-focused fullstack engineer, most of my work revolves around building beautiful digital
-          experiences. My daily toolbox consists of react, javascript, python, tailwind, and figma, but I&apos;m always eager to try new tools.`}
+          As a frontend-focused fullstack engineer, most of my work revolves
+          around building beautiful digital experiences. My daily toolbox
+          consists of react, javascript, python, tailwind, and figma, but
+          I&apos;m always eager to try new tools.
         </p>
       </div>
       {/* Because of the subtext, having the same margin below the heading makes it seem off, so setting mb = 10 */}
