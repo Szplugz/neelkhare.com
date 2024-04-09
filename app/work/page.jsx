@@ -16,7 +16,7 @@ const page = () => {
         </h1>
         <p className="">
           {`As a frontend-focused fullstack engineer, most of my work revolves around building beautiful digital
-          experiences. My daily toolbox consists of react, javascript, python, tailwind, and figma, but I'm always eager to try new tools.`}
+          experiences. My daily toolbox consists of react, javascript, python, tailwind, and figma, but I&apos;m always eager to try new tools.`}
         </p>
       </div>
       {/* Because of the subtext, having the same margin below the heading makes it seem off, so setting mb = 10 */}
@@ -35,8 +35,8 @@ const page = () => {
           <p className="text-spruce font-medium">Resolv</p>
           <p className="text-lightMud mb-2">Fullstack Engineer</p>
           <p>
-            Building Resolv's website and the frontend infrastructure for their
-            digital asset protection tool. Learning about web security,
+            Building Resolv&apos;s website and the frontend infrastructure for
+            their digital asset protection tool. Learning about web security,
             authentication, complex state management with context, and web3.
           </p>
         </div>
@@ -45,10 +45,10 @@ const page = () => {
           <p className="text-lightMud mb-2">Analyst Intern</p>
           <p>
             As a fullstack intern on the special projects team, I designed &
-            built Gro's global tradeflow visualisation tool and helped
+            built Gro&apos;s global tradeflow visualisation tool and helped
             streamline their internal developer tools. Learned a lot about
-            React's rendering cycle & Context API, web interactivity, and taking
-            data apart in python.
+            React&apos;s rendering cycle & Context API, web interactivity, and
+            taking data apart in python.
           </p>
         </div>
         <div className="entry">
@@ -87,9 +87,9 @@ const page = () => {
         <div className="entry">
           <p className="text-spruce font-medium mb-2">neelkhare.com</p>
           <p>
-            This website; it's more complicated than it should be, and that's
-            only because I wanted to implement almost everything from scratch to
-            teach myself the fundamentals of web architecture.
+            This website; it&apos;s more complicated than it should be, and
+            that&apos;s only because I wanted to implement almost everything
+            from scratch to teach myself the fundamentals of web architecture.
           </p>
         </div>
       </div>
