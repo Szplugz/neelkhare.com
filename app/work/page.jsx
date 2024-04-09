@@ -1,6 +1,7 @@
 import React from "react";
 import { newsreader } from "../fonts";
 import MobileHeader from "../_components/MobileHeader";
+import Link from "next/link";
 
 const page = () => {
   return (
@@ -73,7 +74,25 @@ const page = () => {
           </h4>
         </div>
         <div className="entry">
-          <p className="text-spruce font-medium mb-2">feynman</p>
+          <Link
+            className="link"
+            href="https://www.figma.com/file/jTAzLBxLkMJBwXEUXik16a/The-Huberman-Library?type=design&node-id=0%3A1&mode=design&t=F3g7VLKE9SuZAMFZ-1"
+          >
+            <p className="text-spruce font-medium mb-2">The Library of Life</p>
+          </Link>
+
+          <p>
+            An iOS app that uses AI to answer questions you have about the
+            podcasts you listen to. Started this project not only because I have
+            a lot of unsanswered questions for podcast hosts, but also because I
+            want to be able to quickly retrieve information from lengthy,
+            information-dense episodes.
+          </p>
+        </div>
+        <div className="entry">
+          <Link className="link" href="https://github.com/Szplugz/feynman">
+            <p className="text-spruce font-medium mb-2">feynman</p>
+          </Link>
           <p>
             An AI tool that simplifies academic papers without loss of
             information so that <em>anyone</em> can extract relevant, actionable
