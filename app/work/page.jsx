@@ -8,27 +8,36 @@ const page = () => {
       className={`work-content flex flex-col justify-between max-w-full md:w-[60%] mx-auto`}
     >
       <MobileHeader></MobileHeader>
-      <h1
-        className={`${newsreader.className} tite text-navy text-6xl mb-6 font-medium`}
-      >
-        Work
-      </h1>
-      <p className="mb-12">
-        {`As a frontend-focused fullstack engineer, most of my work revolves around building beautiful digital
-          experiences. My daily toolbox consists of react, javascript, python, tailwind, and figma, but I'm always eager to try new tools.`}
-      </p>
-      <div className="section flex flex-col gap-6 mb-12">
+      <div className="work-intro mb-12">
         <h1
-          className={`${newsreader.className} text-navy text-4xl font-medium`}
+          className={`${newsreader.className} tite text-navy text-6xl mb-6 font-medium`}
         >
-          Industry Work, <em>Kind of Professional</em>
+          Work
         </h1>
+        <p className="">
+          {`As a frontend-focused fullstack engineer, most of my work revolves around building beautiful digital
+          experiences. My daily toolbox consists of react, javascript, python, tailwind, and figma, but I'm always eager to try new tools.`}
+        </p>
+      </div>
+      {/* Because of the subtext, having the same margin below the heading makes it seem off, so setting mb = 10 */}
+      <div className="work-section flex flex-col gap-6 mb-12">
+        <div
+          className={`${newsreader.className} text-navy flex flex-col items-center mb-4`}
+        >
+          <h1 className="work-section-heading text-4xl font-medium">
+            Industry Work
+          </h1>
+          <h4>
+            <em>Kind of Professional</em>
+          </h4>
+        </div>
         <div className="entry">
           <p className="text-spruce font-medium">Resolv</p>
           <p className="text-lightMud mb-2">Fullstack Engineer</p>
           <p>
-            Building Resolv's website and the frontend for their digital asset
-            protection tool.
+            Building Resolv's website and the frontend infrastructure for their
+            digital asset protection tool. Learning about web security,
+            authentication, complex state management with context, and web3.
           </p>
         </div>
         <div className="entry">
@@ -52,12 +61,17 @@ const page = () => {
           </p>
         </div>
       </div>
-      <div className="section flex flex-col gap-6">
-        <h1
-          className={`work-section-heading ${newsreader.className} text-navy text-4xl font-medium mb-2`}
+      <div className="work-section flex flex-col gap-6">
+        <div
+          className={`${newsreader.className} text-navy flex flex-col items-center`}
         >
-          Fun Projects, <em>Less Professional</em>
-        </h1>
+          <h1 className={`work-section-heading text-4xl font-medium mb-2 `}>
+            Fun Projects
+          </h1>
+          <h4>
+            <em>Less Professional</em>
+          </h4>
+        </div>
         <div className="entry">
           <p className="text-spruce font-medium mb-2">feynman</p>
           <p>
