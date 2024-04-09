@@ -26,7 +26,9 @@ const Dropdown = ({ pages, currentPage, desktop = false, routes = {} }) => {
           onClick={handleClick}
         >
           <ArrowDropDownRoundedIcon />
-          <h3 className="inline-block">{capitalizeFirstLetter(currentPage)}</h3>
+          <h3 className="inline-block text-3xl">
+            {capitalizeFirstLetter(currentPage)}
+          </h3>
         </div>
         {isDropdownToggled && (
           <div
@@ -41,7 +43,9 @@ const Dropdown = ({ pages, currentPage, desktop = false, routes = {} }) => {
                 >
                   <div className="h-fit rounded flex justify-end">
                     <Link href={page.path} key={index}>
-                      <h3>{capitalizeFirstLetter(page.name)}</h3>
+                      <h3 className="inline-block text-3xl">
+                        {capitalizeFirstLetter(page.name)}
+                      </h3>
                     </Link>
                   </div>
                 </div>
