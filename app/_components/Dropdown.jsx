@@ -22,7 +22,7 @@ const Dropdown = ({ pages, currentPage, desktop = false, routes = {} }) => {
     return (
       <div className={`dropdown flex flex-col relative`}>
         <div
-          className={`${newsreader.className} dropdown-closed ml-4 mb-2 hover:bg-lightMud p-2 rounded box-content flex cursor-pointer justify-end`}
+          className={`${newsreader.className} text-2xl dropdown-closed ml-4 mb-2 hover:bg-lightMud p-2 rounded box-content flex cursor-pointer justify-end`}
           onClick={handleClick}
         >
           <ArrowDropDownRoundedIcon />

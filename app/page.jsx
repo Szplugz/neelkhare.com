@@ -46,7 +46,7 @@ export default function Home() {
         </p>
         <p>
           On any given day, you will find me either{" "}
-          <Link className="link" href="/portfolio/">
+          <Link className="link" href="/work/">
             creating
           </Link>
           , learning, exercising, or socializing - preferably outdoors. I&apos;m

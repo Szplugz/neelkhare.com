@@ -9,7 +9,7 @@ const Tile = ({ number, heading, linkTo, children }) => {
       href={linkTo}
     >
       <h4
-        className={`${newsreader.className} tile-heading font-normal mb-6 inline-block`}
+        className={`${newsreader.className} text-2xl tile-heading font-normal mb-6 inline-block`}
       >
         <span className="text-[#8B8B8B]">{number}</span>
         {` ${heading}`}
