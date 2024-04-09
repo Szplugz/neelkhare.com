@@ -15,7 +15,7 @@ const Navigation = ({ props }) => {
   const pathname = usePathname();
   const keyMappings = {
     1: {
-      url: "/portfolio",
+      url: "/work",
       target: "_parent",
       external: false,
     },
@@ -36,6 +36,11 @@ const Navigation = ({ props }) => {
     },
     r: {
       url: "https://read.cv/szplugz",
+      target: "_blank",
+      external: true,
+    },
+    g: {
+      url: "https://github.com/szplugz",
       target: "_blank",
       external: true,
     },
@@ -119,26 +124,29 @@ const Navigation = ({ props }) => {
       <div className="navigation-block md:flex md:flex-col md:flex-shrink-0 hidden">
         <div className="navigation-menu">
           <Link href="/">
-            <Image src={logo} alt={"Kitchen"} height={50}></Image>
+            <Image
+              src={logo}
+              className="mb-4"
+              alt={"Kitchen"}
+              height={50}
+            ></Image>
           </Link>
           <div className="navigation-explore">
             <MenuButton
-              className="portfolio-button"
+              className="work-button"
               key_="1"
-              title="PORTFOLIO"
-              styles={`${
-                pathname.startsWith("/portfolio") ? "text-[#9A4C5C]" : ""
-              } mt-5`}
-              url="/portfolio/"
+              title="WORK"
+              selected={pathname.startsWith("/work")}
+              url="/work/"
               target="_self"
             />
             <MenuButton
               key_="2"
               title="NOTEBOOK"
               url="/notebook/"
+              selected={pathname.startsWith("/notebook")}
               styles="mt-2"
             />
-            <hr className="border-0 border-t-[1px] border-[#C7C5BE]"></hr>
           </div>
           <div className="navigation-about">
             <MenuButton
@@ -148,15 +156,13 @@ const Navigation = ({ props }) => {
               styles="mt-2"
               target="_blank"
             />
-
-            <hr className="border-0 border-t-[1px] border-[#C7C5BE]"></hr>
           </div>
           <div className="navigation-socials">
             <MenuButton
               key_="A"
               title="ARE.NA"
               styles="mt-2"
-              url={"https://sander.are.na/neel-khare/channels"}
+              url={"https://are.na/neel-khare/channels"}
             />
             <MenuButton
               key_="T"
@@ -164,7 +170,12 @@ const Navigation = ({ props }) => {
               styles="mt-2"
               url={"https://twitter.com/Szplugz"}
             />
-            <hr className="border-0 border-t-[1px] border-[#C7C5BE]"></hr>
+            <MenuButton
+              key_="G"
+              title="GITHUB"
+              styles="mt-2"
+              url={"https://github.com/Szplugz"}
+            />
           </div>
         </div>
         {/* <button onClick={showSearchBox} className="search-button">

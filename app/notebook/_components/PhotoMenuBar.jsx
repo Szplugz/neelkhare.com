@@ -6,13 +6,7 @@ import { useState } from "react";
 import Tag from "@/app/_components/Tag";
 
 const PhotoMenuBar = (props) => {
-  const cities = [
-    "Copenhagen",
-    "Berlin",
-    "Florence",
-    "Chicago",
-    "Urbana-Champaign",
-  ];
+  const cities = ["Copenhagen", "Berlin", "Florence"];
 
   const searchParams = useSearchParams();
   const pathname = usePathname();

@@ -11,13 +11,16 @@ const page = () => {
       <Card styles="md:hidden text-base mb-4">
         Because I have a lot of thoughts, and I suck at remembering them.
       </Card>
-      <Tile number={"01"} heading="Notes" linkTo="/notebook/notes">
+      <Tile number="01" heading="Photography" linkTo="/notebook/photography">
+        <p>Capturing the beauty that surrounds me. </p>
+      </Tile>
+      <Tile number={"02"} heading="Notes" linkTo="/notebook/notes">
         <p>A rough, disorganized, and incomplete database of my brain.</p>
       </Tile>
-      <Tile number={"02"} heading="People" linkTo="/notebook/people">
+      <Tile number={"03"} heading="People" linkTo="/notebook/people">
         <p>Friends and strangers I look up to and draw inspiration from.</p>
       </Tile>
-      <Tile number={"03"} heading="Tapas" linkTo="">
+      <Tile number={"04"} heading="Tapas" linkTo="">
         <p>Tidbits of knowledge</p>
         <p className="text-oak mt-4">Coming soon!</p>
       </Tile>
