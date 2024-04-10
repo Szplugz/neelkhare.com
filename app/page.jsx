@@ -54,10 +54,12 @@ export default function Home() {
           to strengthen human connection and enhance their feelings of wellness.
         </p>
         <p>
-          I&apos;ve tried to design this website in a manner that reveals more
-          about myself, my work, and my values than a few words on the home page
-          do. Make yourself comfortable, take a look around, and if anything
-          resonates with you, say hi :)
+          If anything on this website resonates with you, I'd love to hear from you at{" "}
+           <Link className="link" href="mailto:youfoundneel@gmail.com">
+            youfoundneel@gmail.com
+          </Link>
+          ! I'm always eager to connect with people interested in talking about design, health,
+          and the human experience.
         </p>
         <div
           className={`${newsreader.className} text-navy social-links md:hidden flex w-full justify-evenly !mb-0`}
