@@ -54,11 +54,11 @@ export default function Home() {
           to strengthen human connection and enhance their feelings of wellness.
         </p>
         <p>
-          If anything on this website resonates with you, I'd love to hear from you at{" "}
+          If anything on this website resonates with you, I&apos;d love to hear from you at{" "}
            <Link className="link" href="mailto:youfoundneel@gmail.com">
             youfoundneel@gmail.com
           </Link>
-          ! I'm always eager to connect with people interested in talking about design, health,
+          ! I&apos;m always eager to connect with people interested in talking about design, health,
           and the human experience.
         </p>
         <div
