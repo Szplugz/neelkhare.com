@@ -163,18 +163,21 @@ const Navigation = ({ props }) => {
               title="ARE.NA"
               styles="mt-2"
               url={"https://are.na/neel-khare/channels"}
+              target="_blank"
             />
             <MenuButton
               key_="T"
               title="TWITTER"
               styles="mt-2"
               url={"https://twitter.com/Szplugz"}
+              target="_blank"
             />
             <MenuButton
               key_="G"
               title="GITHUB"
               styles="mt-2"
               url={"https://github.com/Szplugz"}
+              target="_blank"
             />
           </div>
         </div>
