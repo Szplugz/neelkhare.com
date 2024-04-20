@@ -28,7 +28,7 @@ export default function Home() {
           </h4>
         </div>
         <p>
-          I’m an artisan engineer studying Computer Science at the University of
+          I’m an artisan & engineer studying Computer Science at the University of
           Illinois, Urbana-Champaign. Currently, I spend most of my time
           designing the future of electronic payments with{" "}
           <a className="link" href="https://resolv.finance" target="_blank">
