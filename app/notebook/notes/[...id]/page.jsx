@@ -4,12 +4,14 @@ import { getAllPostIds, getPostData, getSortedPostsData } from "../mdToHtml";
 import * as DOMPurify from "dompurify";
 import { newsreader } from "@/app/fonts";
 import "./page.css";
+import MobileHeader from "@/app/_components/MobileHeader";
 
 export default async function Page({ params }) {
   const postdata = await getPostData(params.id);
   return (
-    <div className="markdown flex justify-center">
-      <div className="w-[70%]">
+    <div className="markdown flex flex-col justify-center items-center">
+      <MobileHeader></MobileHeader>
+      <div className="w-full sm:w-[70%]">
         <h1
           className={`${newsreader.className} markdown-title text-6xl text-navy font-semibold mb-10`}
         >
