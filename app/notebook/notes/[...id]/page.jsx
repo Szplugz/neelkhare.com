@@ -10,9 +10,11 @@ export default async function Page({ params }) {
   return (
     <div className="markdown flex justify-center">
       <div className="w-[70%]">
-        <h4 className={`markdown-title text-xl font-semibold mb-5`}>
+        <h1
+          className={`${newsreader.className} markdown-title text-6xl text-navy font-semibold mb-10`}
+        >
           {postdata.title}
-        </h4>
+        </h1>
         <div
           className="markdown-content flex flex-col"
           dangerouslySetInnerHTML={{ __html: postdata.contentHtml }}
