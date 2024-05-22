@@ -24,12 +24,14 @@ export default function Home() {
             <Link href="/notebook">Notebook</Link>
           </h4>
           <h4>
-            <Link href="https://read.cv/szplugz">Resume</Link>
+            <Link href="https://drive.google.com/file/d/1pf0zSwgYH2oAd5o6n2qvPDXXx2xhVJBO/view?usp=sharing">
+              Resume
+            </Link>
           </h4>
         </div>
         <p>
-          I’m an artisan & engineer studying Computer Science at the University of
-          Illinois, Urbana-Champaign. Currently, I spend most of my time
+          I’m an artisan & engineer studying Computer Science at the University
+          of Illinois, Urbana-Champaign. Currently, I spend most of my time
           designing the future of electronic payments with{" "}
           <a className="link" href="https://resolv.finance" target="_blank">
             Resolv
@@ -54,12 +56,13 @@ export default function Home() {
           to strengthen human connection and enhance their feelings of wellness.
         </p>
         <p>
-          If anything on this website resonates with you, I&apos;d love to hear from you at{" "}
-           <Link className="link" href="mailto:youfoundneel@gmail.com">
+          If anything on this website resonates with you, I&apos;d love to hear
+          from you at{" "}
+          <Link className="link" href="mailto:youfoundneel@gmail.com">
             youfoundneel@gmail.com
           </Link>
-          ! I&apos;m always eager to connect with people interested in talking about design, health,
-          and the human experience.
+          ! I&apos;m always eager to connect with people interested in talking
+          about design, health, and the human experience.
         </p>
         <div
           className={`${newsreader.className} text-navy social-links md:hidden flex w-full justify-evenly !mb-0`}
