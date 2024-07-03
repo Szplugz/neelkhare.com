@@ -61,7 +61,7 @@ Because it’s likely that there are other people in the world for whom my creat
 
 Besides, I can’t bear keeping to myself any longer. The opportunity cost of not expressing myself on the public stage is too high.
 
-Henrik Karlsson argues that [a blog post is a very long and complex search query to find fascinating people and make them route interesting stuff to your inbox] (https://www.henrikkarlsson.xyz/p/search-query). I think this holds true for any form of creative expression. So I’m going to start consistently creating, building, and expressing myself in public today.
+Henrik Karlsson argues that [a blog post is a very long and complex search query to find fascinating people and make them route interesting stuff to your inbox](https://www.henrikkarlsson.xyz/p/search-query). I think this holds true for any form of creative expression. So I’m going to start consistently creating, building, and expressing myself in public today.
 
 And hopefully make some friends along the way.
 
