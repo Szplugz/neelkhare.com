@@ -121,7 +121,7 @@ const Navigation = ({ props }) => {
 
   return (
     <React.Fragment>
-      <div className="navigation-block md:flex md:flex-col md:flex-shrink-0 hidden">
+      <div className="navigation-block md:flex md:flex-col md:flex-shrink-0">
         <div className="navigation-menu">
           <Link href="/">
             <Image
@@ -131,59 +131,63 @@ const Navigation = ({ props }) => {
               height={50}
             ></Image>
           </Link>
-          <div className="navigation-explore">
-            <MenuButton
-              className="work-button"
-              key_="1"
-              title="WORK"
-              selected={pathname.startsWith("/work")}
-              url="/work/"
-              target="_self"
-            />
-            <MenuButton
-              key_="2"
-              title="NOTEBOOK"
-              url="/notebook/"
-              selected={pathname.startsWith("/notebook")}
-              styles="mt-2"
-            />
-          </div>
-          <div className="navigation-about">
-            <MenuButton
-              key_="R"
-              title="RESUME"
-              url="https://drive.google.com/file/d/1pf0zSwgYH2oAd5o6n2qvPDXXx2xhVJBO/view?usp=sharing"
-              styles="mt-2"
-              target="_blank"
-            />
-          </div>
-          <div className="navigation-socials">
-            <MenuButton
-              key_="A"
-              title="ARE.NA"
-              styles="mt-2"
-              url={"https://are.na/neel-khare/channels"}
-              target="_blank"
-            />
-            <MenuButton
-              key_="T"
-              title="TWITTER"
-              styles="mt-2"
-              url={"https://twitter.com/Szplugz"}
-              target="_blank"
-            />
-            <MenuButton
-              key_="G"
-              title="GITHUB"
-              styles="mt-2"
-              url={"https://github.com/Szplugz"}
-              target="_blank"
-            />
+          <div className="flex md:flex-col gap-4 md:gap-0">
+            <div className="navigation-explore flex md:flex-col items-center md:items-start gap-4 md:gap-0">
+              <MenuButton
+                className="work-button"
+                key_="1"
+                title="WORK"
+                selected={pathname.startsWith("/work")}
+                url="/work/"
+                target="_self"
+              />
+              <div className="md:hidden selected bg-candy w-[3px] h-[3px] rounded-[50%]"></div>
+              <MenuButton
+                key_="2"
+                title="NOTEBOOK"
+                url="/notebook/"
+                selected={pathname.startsWith("/notebook")}
+                styles="md:mt-2"
+              />
+              <div className="md:hidden selected bg-candy w-[3px] h-[3px] rounded-[50%]"></div>
+            </div>
+            <div className="navigation-about flex md:flex-col items-center md:items-start gap-4 md:gap-0">
+              <MenuButton
+                key_="R"
+                title="RESUME"
+                url="https://drive.google.com/file/d/1pf0zSwgYH2oAd5o6n2qvPDXXx2xhVJBO/view?usp=sharing"
+                styles="md:mt-2"
+                target="_blank"
+              />
+              <div className="md:hidden selected bg-candy w-[3px] h-[3px] rounded-[50%]"></div>
+            </div>
+            <div className="navigation-social flex md:flex-col items-center md:items-start gap-4 md:gap-0">
+              <MenuButton
+                key_="A"
+                title="ARE.NA"
+                styles="md:mt-2"
+                url={"https://are.na/neel-khare/channels"}
+                target="_blank"
+              />
+              <div className="md:hidden selected bg-candy w-[3px] h-[3px] rounded-[50%]"></div>
+              <MenuButton
+                key_="T"
+                title="TWITTER"
+                styles="md:mt-2"
+                url={"https://twitter.com/Szplugz"}
+                target="_blank"
+              />{" "}
+              <div className="md:hidden selected bg-candy w-[3px] h-[3px] rounded-[50%]"></div>
+              <MenuButton
+                key_="G"
+                title="GITHUB"
+                styles="md:mt-2"
+                url={"https://github.com/Szplugz"}
+                target="_blank"
+              />
+            </div>
           </div>
         </div>
-        {/* <button onClick={showSearchBox} className="search-button">
-          Search...
-        </button> */}
       </div>
       <SearchBox isVisible={isSearchActive} id="searchbox" ref={searchBoxRef} />
     </React.Fragment>

@@ -12,11 +12,11 @@ const MenuButton = (props) => {
   return (
     <div className={`menu-button text-lg font-medium flex flex-row ${styles}`}>
       {selected && (
-        <div className="selected bg-candy w-[3px] h-[3px] rounded-[50%] translate-x-[-16px] translate-y-3 absolute"></div>
+        <div className="hidden md:block selected bg-candy w-[3px] h-[3px] rounded-[50%] md:translate-x-[-16px] md:translate-y-3 absolute"></div>
       )}
       <Link href={url} target={target} className="block">
         <p>
-          <span className="menu-key">{key_} </span>
+          <span className="menu-key hidden md:inline">{key_} </span>
           {title}
         </p>
       </Link>

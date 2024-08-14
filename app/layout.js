@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
       lang="en"
       className={`${inter.className} ${ibm_plex_mono.variable} ${newsreader.variable} text-base`}
     >
-      <body className="main">
+      <body className="main flex flex-col md:flex-row">
         <PageProvider>
           <Navigation />
           <main className="content">{children}</main>
