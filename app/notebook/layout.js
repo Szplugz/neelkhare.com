@@ -4,11 +4,11 @@ import React from "react";
 import Link from "next/link";
 import { useState, useEffect } from "react";
 import { usePathname } from "next/navigation";
-import Card from "../_components/Card";
-import defaultRoutes from "../_utils/routes";
-import Dropdown from "../_components/Dropdown";
+import Card from "../components/Card";
+import defaultRoutes from "../utils/routes";
+import Dropdown from "../components/Dropdown";
 import Image from "next/image";
-import { capitalizeFirstLetter } from "../_utils/utilFunctions";
+import { capitalizeFirstLetter } from "../utils/utilFunctions";
 
 const NotebookLayout = ({ children }) => {
   const pathname = usePathname();

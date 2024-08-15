@@ -1,9 +1,9 @@
 import React from "react";
-import cloudinary from "../../_utils/cloudinary.js";
+import cloudinary from "../../utils/cloudinary.js";
 import Image from "next/image";
-import PhotoMenuBar from "../_components/PhotoMenuBar.jsx";
+import PhotoMenuBar from "../components/PhotoMenuBar.jsx";
 import { useRouter } from "next/navigation";
-import MobileHeader from "@/app/_components/MobileHeader.jsx";
+import MobileHeader from "@/app/components/MobileHeader.jsx";
 
 const Photography = async ({ searchParams }) => {
   const currentCity = searchParams?.city || "copenhagen";

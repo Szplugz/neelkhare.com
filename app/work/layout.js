@@ -4,11 +4,11 @@ import React from "react";
 import Link from "next/link";
 import { useState, useEffect } from "react";
 import { usePathname } from "next/navigation";
-import { capitalizeFirstLetter } from "../_utils/utilFunctions";
+import { capitalizeFirstLetter } from "../utils/utilFunctions";
 import { newsreader } from "../fonts";
-import Card from "../_components/Card";
-import Dropdown from "../_components/Dropdown";
-import defaultRoutes from "../_utils/routes";
+import Card from "../components/Card";
+import Dropdown from "../components/Dropdown";
+import defaultRoutes from "../utils/routes";
 import Image from "next/image";
 
 const PortfolioLayout = ({ children }) => {

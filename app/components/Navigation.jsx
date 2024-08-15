@@ -2,7 +2,7 @@
 
 import React from "react";
 import Image from "next/image";
-import logo from "../_assets/images/StarLogoNeel.png";
+import logo from "../assets/images/StarLogoNeel.png";
 import MenuButton from "./MenuButton";
 import SearchBox from "./SearchBox";
 import Link from "next/link";

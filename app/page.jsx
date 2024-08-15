@@ -1,10 +1,10 @@
 import Image from "next/image";
-import lacabra from "./_assets/images/lacabra.jpeg";
-import logo from "./_assets/images/StarLogoNeel.png";
+import lacabra from "./assets/images/lacabra.jpeg";
+import logo from "./assets/images/StarLogoNeel.png";
 import Link from "next/link";
 import { newsreader } from "./fonts";
 import "./page.css";
-import Card from "./_components/Card";
+import Card from "./components/Card";
 
 export default function Home() {
   return (

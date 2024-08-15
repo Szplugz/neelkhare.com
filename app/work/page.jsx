@@ -1,6 +1,6 @@
 import React from "react";
 import { newsreader } from "../fonts";
-import MobileHeader from "../_components/MobileHeader";
+import MobileHeader from "../components/MobileHeader";
 import Link from "next/link";
 
 const page = () => {

@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import { capitalizeFirstLetter } from "../_utils/utilFunctions";
+import { capitalizeFirstLetter } from "../utils/utilFunctions";
 import ArrowDropDownRoundedIcon from "@mui/icons-material/ArrowDropDownRounded";
 import Link from "next/link";
 import { newsreader } from "../fonts";

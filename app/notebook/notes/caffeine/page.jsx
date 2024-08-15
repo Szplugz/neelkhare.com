@@ -1,4 +1,4 @@
-import MobileHeader from "@/app/_components/MobileHeader";
+import MobileHeader from "@/app/components/MobileHeader";
 import React from "react";
 import { newsreader } from "@/app/fonts";
 

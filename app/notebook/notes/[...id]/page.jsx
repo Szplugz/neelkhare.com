@@ -4,7 +4,7 @@ import { getAllPostIds, getPostData, getSortedPostsData } from "../mdToHtml";
 import * as DOMPurify from "dompurify";
 import { newsreader } from "@/app/fonts";
 import "./page.css";
-import MobileHeader from "@/app/_components/MobileHeader";
+import MobileHeader from "@/app/components/MobileHeader";
 
 export default async function Page({ params }) {
   const postdata = await getPostData(params.id);

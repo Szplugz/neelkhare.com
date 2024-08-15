@@ -1,5 +1,5 @@
-import "./_assets/css/globals.css";
-import Navigation from "./_components/Navigation.jsx";
+import "./assets/css/globals.css";
+import Navigation from "./components/Navigation.jsx";
 import { Inter } from "next/font/google";
 import { React } from "react";
 import "./page.css";

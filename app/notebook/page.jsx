@@ -1,8 +1,8 @@
 import React from "react";
-import Tile from "../_components/Tile";
+import Tile from "../components/Tile";
 import Link from "next/link";
-import Card from "../_components/Card";
-import MobileHeader from "../_components/MobileHeader";
+import Card from "../components/Card";
+import MobileHeader from "../components/MobileHeader";
 
 const page = () => {
   return (
