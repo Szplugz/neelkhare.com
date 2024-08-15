@@ -25,7 +25,7 @@ export default function RootLayout({ children }) {
       <body className="main flex flex-col md:flex-row">
         <PageProvider>
           <Navigation />
-          <main className="content">{children}</main>
+          <main className="content mt-12">{children}</main>
         </PageProvider>
       </body>
     </html>

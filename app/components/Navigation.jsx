@@ -151,15 +151,17 @@ const Navigation = ({ props }) => {
   return (
     <React.Fragment>
       <div className="navigation-block md:flex md:flex-col md:flex-shrink-0">
+        <div className="logo-container flex items-center md:px-4">
+          <Link href="/">
+            <Image src={logo} className="mb-4" alt={"Kitchen"} height={50} />
+          </Link>
+        </div>
         <div className="navigation-menu-container">
           <div
             className="fade-overlay left-fade"
             style={{ opacity: leftFadeOpacity }}
           ></div>
           <div className="navigation-menu" ref={navigationMenuRef}>
-            <Link href="/">
-              <Image src={logo} className="mb-4" alt={"Kitchen"} height={50} />
-            </Link>
             <div className="menu-items-container">
               <div className="navigation-explore flex md:flex-col items-center md:items-start gap-4 md:gap-0">
                 <MenuButton
