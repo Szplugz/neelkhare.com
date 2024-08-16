@@ -7,7 +7,6 @@ import MobileHeader from "../components/MobileHeader";
 const page = () => {
   return (
     <div className="notebook-grid flex flex-wrap md:px-20 md:w-[calc(100%-300px)] w-full">
-      <MobileHeader></MobileHeader>
       <Card styles="md:hidden text-base mb-4">
         Because I have a lot of thoughts, and I suck at remembering them.
       </Card>
