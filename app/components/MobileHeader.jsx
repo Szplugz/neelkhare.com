@@ -2,7 +2,7 @@
 
 import React from "react";
 import Image from "next/image";
-import logo from "../_assets/images/StarLogoNeel.png";
+import logo from "../assets/images/StarLogoNeel.png";
 import { newsreader } from "../fonts";
 import DropdownContainer from "./DropdownContainer";
 import { usePathname } from "next/navigation";

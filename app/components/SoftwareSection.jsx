@@ -1,7 +1,7 @@
 import React from "react";
 import Tag from "./Tag";
 import Image from "next/image";
-import cloudinary from "../_utils/cloudinary";
+import cloudinary from "../utils/cloudinary";
 
 export default async function SoftwareSection({ title, date, tags, children }) {
   const folderName = title.toLowerCase().replace(/\s+/g, "");

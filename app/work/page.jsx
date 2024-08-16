@@ -1,6 +1,6 @@
 import React from "react";
 import { newsreader } from "../fonts";
-import MobileHeader from "../_components/MobileHeader";
+import MobileHeader from "../components/MobileHeader";
 import Link from "next/link";
 
 const page = () => {
@@ -8,7 +8,6 @@ const page = () => {
     <div
       className={`work-content flex flex-col justify-between max-w-full md:w-[60%] mx-auto`}
     >
-      <MobileHeader></MobileHeader>
       <div className="work-intro mb-12">
         <h1
           className={`${newsreader.className} tite text-navy text-6xl mb-6 font-medium`}

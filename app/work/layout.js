@@ -4,11 +4,11 @@ import React from "react";
 import Link from "next/link";
 import { useState, useEffect } from "react";
 import { usePathname } from "next/navigation";
-import { capitalizeFirstLetter } from "../_utils/utilFunctions";
+import { capitalizeFirstLetter } from "../utils/utilFunctions";
 import { newsreader } from "../fonts";
-import Card from "../_components/Card";
-import Dropdown from "../_components/Dropdown";
-import defaultRoutes from "../_utils/routes";
+import Card from "../components/Card";
+import Dropdown from "../components/Dropdown";
+import defaultRoutes from "../utils/routes";
 import Image from "next/image";
 
 const PortfolioLayout = ({ children }) => {
@@ -33,11 +33,6 @@ const PortfolioLayout = ({ children }) => {
     <main className="portfolio-layout w-full">
       {children}
       <div className="portfolio-sidebar hidden md:flex md:flex-col md:w-[300px] md:items-end">
-        <Dropdown
-          desktop={true}
-          currentPage={capitalizeFirstLetter(currPage)}
-          routes={routes}
-        ></Dropdown>
         <Card styles="mt-4 text-end text-lightMud text-sm">
           Everything I create is an attempt to weave myself into the fabric of
           the world a little more.{" "}

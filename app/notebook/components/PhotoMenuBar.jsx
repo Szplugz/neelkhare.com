@@ -3,7 +3,7 @@
 import React from "react";
 import { useSearchParams, usePathname, useRouter } from "next/navigation";
 import { useState } from "react";
-import Tag from "@/app/_components/Tag";
+import Tag from "@/app/components/Tag";
 
 const PhotoMenuBar = (props) => {
   const cities = ["Copenhagen", "Berlin", "Florence"];

@@ -1,5 +1,5 @@
 import React from "react";
-import Tag from "@/app/_components/Tag";
+import Tag from "@/app/components/Tag";
 
 const PortfolioItem = (props) => {
   const { heading, roles, children, tags } = props;

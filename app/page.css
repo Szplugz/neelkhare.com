@@ -222,3 +222,67 @@ h2 {
     display: none;
   }
 }
+
+/* ---------- NAVIGATION ---------- */
+
+@media (max-width: 767px) {
+  .navigation-menu-container {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .navigation-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow-x: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  .navigation-menu::-webkit-scrollbar {
+    display: none;
+  }
+
+  .menu-items-container {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+
+  .fade-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 20px;
+    pointer-events: none;
+    z-index: 1;
+  }
+
+  .left-fade {
+    left: 0;
+    background: linear-gradient(to right, #fbf9f4, transparent);
+  }
+
+  .right-fade {
+    right: 0;
+    background: linear-gradient(to left, #fbf9f4, transparent);
+  }
+}
+
+@media (min-width: 768px) {
+  .navigation-block {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    overflow-y: auto;
+  }
+
+  .navigation-menu {
+    padding: 1rem;
+  }
+
+  .fade-overlay {
+    display: none;
+  }
+}

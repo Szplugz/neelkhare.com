@@ -1,10 +1,10 @@
 import Image from "next/image";
-import lacabra from "./_assets/images/lacabra.jpeg";
-import logo from "./_assets/images/StarLogoNeel.png";
+import lacabra from "./assets/images/lacabra.jpeg";
+import logo from "./assets/images/StarLogoNeel.png";
 import Link from "next/link";
 import { newsreader } from "./fonts";
 import "./page.css";
-import Card from "./_components/Card";
+import Card from "./components/Card";
 
 export default function Home() {
   return (
@@ -13,22 +13,6 @@ export default function Home() {
         <h4 className={`center-text-heading text-mud md:text-4xl`}>
           Hello, I&apos;m Neel.
         </h4>
-        <Image className="md:hidden" src={logo} height={50}></Image>
-        <div
-          className={`${newsreader.className} md:hidden text-navy text-xl leading-tight`}
-        >
-          <h4>
-            <Link href="/work">Work</Link>
-          </h4>
-          <h4>
-            <Link href="/notebook">Notebook</Link>
-          </h4>
-          <h4>
-            <Link href="https://drive.google.com/file/d/1pf0zSwgYH2oAd5o6n2qvPDXXx2xhVJBO/view?usp=sharing">
-              Resume
-            </Link>
-          </h4>
-        </div>
         <p>
           I’m an artisan & engineer studying Computer Science at the University
           of Illinois, Urbana-Champaign. Currently, I spend most of my time
@@ -64,19 +48,6 @@ export default function Home() {
           ! I&apos;m always eager to connect with people interested in talking
           about design, health, and the human experience.
         </p>
-        <div
-          className={`${newsreader.className} text-navy social-links md:hidden flex w-full justify-evenly !mb-0`}
-        >
-          <h4>
-            <Link href="https://www.are.na/neel-khare/">are.na</Link>
-          </h4>
-          <h4>
-            <Link href="https://twitter.com/Szplugz">twitter</Link>
-          </h4>
-          <h4>
-            <Link href="https://github.com/Szplugz">github</Link>
-          </h4>
-        </div>
       </div>
       <div className="image-frame">
         <Image src={lacabra} alt="kitchen"></Image>

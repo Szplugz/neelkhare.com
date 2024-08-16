@@ -1,5 +1,5 @@
-import "./_assets/css/globals.css";
-import Navigation from "./_components/Navigation.jsx";
+import "./assets/css/globals.css";
+import Navigation from "./components/Navigation.jsx";
 import { Inter } from "next/font/google";
 import { React } from "react";
 import "./page.css";
@@ -22,10 +22,10 @@ export default function RootLayout({ children }) {
       lang="en"
       className={`${inter.className} ${ibm_plex_mono.variable} ${newsreader.variable} text-base`}
     >
-      <body className="main">
+      <body className="main flex flex-col md:flex-row">
         <PageProvider>
           <Navigation />
-          <main className="content">{children}</main>
+          <main className="content mt-12">{children}</main>
         </PageProvider>
       </body>
     </html>

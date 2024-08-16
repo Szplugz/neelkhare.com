@@ -1,6 +1,6 @@
 import React from "react";
 import ArrowOutwardIcon from "@mui/icons-material/ArrowOutward";
-import MobileHeader from "@/app/_components/MobileHeader";
+import MobileHeader from "@/app/components/MobileHeader";
 import { getAllPostsMetadata } from "./mdToHtml";
 import Link from "next/link";
 

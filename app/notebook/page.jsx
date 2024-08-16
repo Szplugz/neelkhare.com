@@ -1,13 +1,12 @@
 import React from "react";
-import Tile from "../_components/Tile";
+import Tile from "../components/Tile";
 import Link from "next/link";
-import Card from "../_components/Card";
-import MobileHeader from "../_components/MobileHeader";
+import Card from "../components/Card";
+import MobileHeader from "../components/MobileHeader";
 
 const page = () => {
   return (
     <div className="notebook-grid flex flex-wrap md:px-20 md:w-[calc(100%-300px)] w-full">
-      <MobileHeader></MobileHeader>
       <Card styles="md:hidden text-base mb-4">
         Because I have a lot of thoughts, and I suck at remembering them.
       </Card>
