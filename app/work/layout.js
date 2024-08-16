@@ -33,11 +33,6 @@ const PortfolioLayout = ({ children }) => {
     <main className="portfolio-layout w-full">
       {children}
       <div className="portfolio-sidebar hidden md:flex md:flex-col md:w-[300px] md:items-end">
-        <Dropdown
-          desktop={true}
-          currentPage={capitalizeFirstLetter(currPage)}
-          routes={routes}
-        ></Dropdown>
         <Card styles="mt-4 text-end text-lightMud text-sm">
           Everything I create is an attempt to weave myself into the fabric of
           the world a little more.{" "}
