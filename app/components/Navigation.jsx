@@ -182,16 +182,6 @@ const Navigation = ({ props }) => {
                 />
                 <div className="md:hidden selected bg-candy w-[3px] h-[3px] rounded-[50%]"></div>
               </div>
-              <div className="navigation-about flex md:flex-col items-center md:items-start gap-4 md:gap-0">
-                <MenuButton
-                  key_="R"
-                  title="RESUME"
-                  url="https://drive.google.com/file/d/1pf0zSwgYH2oAd5o6n2qvPDXXx2xhVJBO/view?usp=sharing"
-                  styles="md:mt-2"
-                  target="_blank"
-                />
-                <div className="md:hidden selected bg-candy w-[3px] h-[3px] rounded-[50%]"></div>
-              </div>
               <div className="navigation-social flex md:flex-col items-center md:items-start gap-4 md:gap-0">
                 <MenuButton
                   key_="A"
