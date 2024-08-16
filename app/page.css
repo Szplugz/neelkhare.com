@@ -218,6 +218,10 @@ h2 {
     display: none;
   }
 
+  .menu-button:hover:before {
+    opacity: 0;
+  }
+
   .work-section-heading::after {
     display: none;
   }
