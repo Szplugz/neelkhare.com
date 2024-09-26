@@ -28,8 +28,8 @@ export default function Home() {
 
   return (
     <>
-      <div className="center-text-box font-medium text-lg leading-normal md:font-normal md:text-md md:mx-[84px]">
-        <h4 className={`text-3xl font-bold ${et_book.className}`}>
+      <div className="text-box flex flex-col font-medium text-lg leading-normal md:font-normal md:text-md md:mx-[84px] gap-4">
+        <h4 className={`text-3xl font-bold mb-2 ${et_book.className}`}>
           <em>
             <span className="inline-block animate-fade-in opacity-0">Hey!</span>{" "}
             <span
@@ -42,7 +42,7 @@ export default function Home() {
           </em>
         </h4>
         <div
-          className={`transition-opacity duration-1000 ease-in-out ${
+          className={`transition-opacity duration-1000 ease-in-out text-base flex flex-col gap-4 ${
             showContent ? "opacity-100" : "opacity-0"
           }`}
         >
@@ -58,26 +58,33 @@ export default function Home() {
           <p>
             I also love curating. I curate places on{" "}
             <Link
-              className="link"
+              className={`link ${et_book.className} text-xl leading-none`}
               href="https://www.corner.inc/neel"
               target="_blank"
             >
-              corner
+              <em>corner</em>
             </Link>{" "}
             and fragments of life on{" "}
             <Link
-              className="link"
+              className={`link ${et_book.className} text-xl leading-none`}
               href="https://www.corner.inc/neel"
               target="_blank"
             >
-              are.na
+              <em>are.na</em>
             </Link>
             .
           </p>
           <p>
             I believe that in order to survive in this world, you need a robust
-            garden of beliefs. I call mine Axioms of the Soul - they will likely
-            change over time and with new information.
+            garden of beliefs. I call mine{" "}
+            <Link
+              className={`link ${et_book.className} text-xl leading-none`}
+              href="https://www.corner.inc/neel"
+              target="_blank"
+            >
+              <em>Axioms of the Soul</em>
+            </Link>{" "}
+            - they will likely change over time and with new information.
           </p>
 
           <p>
@@ -85,7 +92,7 @@ export default function Home() {
             They’re thoughtful, curious, benevolent, charming, have a bias for
             action, and they care about people.
           </p>
-          <h4 className={`text-3xl font-bold ${et_book.className}`}>
+          <h4 className={`text-3xl font-bold ${et_book.className} my-2`}>
             <em>Things I Think About A Lot</em>
           </h4>
           <ol>
@@ -96,7 +103,7 @@ export default function Home() {
             <li>Learning to narrate enticing stories</li>
           </ol>
           <h4
-            className={`${et_book.className} center-text-heading font-bold text-mud md:text-3xl`}
+            className={`${et_book.className} m-2 center-text-heading font-bold text-mud md:text-3xl`}
           >
             <em>Words I live by</em>
           </h4>
@@ -107,7 +114,12 @@ export default function Home() {
         </div>
       </div>
       <div className={`image-frame`}>
-        <Image src={lacabra} alt="kitchen"></Image>
+        <Image
+          src={`https://res.cloudinary.com/${process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME}/image/upload/f_auto,q_auto/v1/portfolio/copenhagen/1`}
+          width={533}
+          height={400}
+          alt="kitchen"
+        ></Image>
       </div>
     </>
   );

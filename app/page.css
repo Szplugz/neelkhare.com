@@ -89,6 +89,18 @@ h2 {
   font-size: 3rem;
 }
 
+ol {
+  list-style-type: disc;
+}
+
+li {
+  margin: 4px 32px;
+}
+
+li::marker {
+  color: #9a4c5c;
+}
+
 .portfolio-layout {
   display: flex;
   flex-direction: row;
