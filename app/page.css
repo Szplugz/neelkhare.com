@@ -304,10 +304,6 @@ li::marker {
     overflow-y: auto;
   }
 
-  .navigation-menu {
-    padding: 1rem;
-  }
-
   .fade-overlay {
     display: none;
   }
