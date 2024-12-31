@@ -18,6 +18,10 @@ body,
   box-sizing: border-box;
 }
 
+::selection {
+  background: #ded0c1;
+}
+
 .main {
   display: flex;
   flex-direction: row;

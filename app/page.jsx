@@ -23,7 +23,7 @@ export default function Home() {
     setTimeout(() => {
       setDayOfWeek(dayName);
       setShowContent(true);
-    }, 1000); // Adjust this delay as needed
+    }, 500); // Adjust this delay as needed
   }, []);
 
   return (
@@ -47,69 +47,46 @@ export default function Home() {
           }`}
         >
           <p>
-            I&apos;m currently building Anecdote, a coffee shop and community
-            space meant to bring cool people together and increase serendipity.
-          </p>
-          <p>
-            I love beautiful spaces, walkable cities, good writing, nourishing
-            food, coffee, potlucks, thoughtful questions, well-produced movies,
-            and dancing!
-          </p>
-          <p>
-            I also love curating. I curate places on{" "}
+            I&apos;m currently building{" "}
             <Link
               className={`link ${et_book.className} text-xl leading-none`}
-              href="https://www.corner.inc/neel"
+              href="https://szplugz.substack.com/p/seeking-aliveness"
               target="_blank"
             >
-              <em>corner</em>
-            </Link>{" "}
-            and fragments of life on{" "}
-            <Link
-              className={`link ${et_book.className} text-xl leading-none`}
-              href="https://www.corner.inc/neel"
-              target="_blank"
-            >
-              <em>are.na</em>
+              <em>Anecdote</em>
             </Link>
-            .
+            , a coffee shop and community space for people who <em>care</em>.
           </p>
           <p>
-            I believe that in order to survive in this world, you need a robust
-            garden of beliefs. I call mine{" "}
+            I spend a lot of time{" "}
             <Link
               className={`link ${et_book.className} text-xl leading-none`}
-              href="https://www.corner.inc/neel"
+              href="https://szplugz.substack.com/"
               target="_blank"
             >
-              <em>Axioms of the Soul</em>
+              <em>writing</em>
             </Link>{" "}
-            - they will likely change over time and with new information.
+            - mostly about my building journey, human agency, and ways to live
+            better.
           </p>
-
+          <p>
+            I also spend a lot of time moving - whether it&apos;s lifting,
+            taking long walks in nature, playing sports, or dancing.
+          </p>
+          <p>
+            I live for beautiful spaces, walkable cities, good writing,
+            nourishing food, reggaeton, coffee, potlucks, electric
+            conversations, the sun, and dancing!
+          </p>
+          <p>
+            My curiosity far exceeds my ability to remember, which is why I love
+            curating.
+          </p>
           <p>
             I&apos;d describe most of my friends as social technologists.
             They’re thoughtful, curious, benevolent, charming, have a bias for
-            action, and they care about people.
-          </p>
-          <h4 className={`text-3xl font-bold ${et_book.className} my-2`}>
-            <em>Things I Think About A Lot</em>
-          </h4>
-          <ol>
-            <li>How we can live better</li>
-            <li>The role of agency in individuals, and how to cultivate it</li>
-            <li>Creating vitalizing spaces</li>
-            <li>The necessity of craftsmanship and beauty</li>
-            <li>Learning to narrate enticing stories</li>
-          </ol>
-          <h4
-            className={`${et_book.className} m-2 center-text-heading font-bold text-mud md:text-3xl`}
-          >
-            <em>Words I live by</em>
-          </h4>
-          <p>
-            Optimism, Curiosity, Agency, Benevolence, Longevity, Creativity,
-            Authenticity, Beauty, Growth
+            action, and they care about people. If that sounds like you, or if
+            you resonate with anything on my website, please reach out :)
           </p>
         </div>
       </div>
