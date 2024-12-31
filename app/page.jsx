@@ -46,10 +46,10 @@ export default function Home() {
             showContent ? "opacity-100" : "opacity-0"
           }`}
         >
-          <p>
+          <p className="text-body">
             I&apos;m currently building{" "}
             <Link
-              className={`link ${et_book.className} text-xl leading-none`}
+              className={`text-link ${et_book.className}`}
               href="https://szplugz.substack.com/p/seeking-aliveness"
               target="_blank"
             >
@@ -57,7 +57,7 @@ export default function Home() {
             </Link>
             , a coffee shop and community space for people who <em>care</em>.
           </p>
-          <p>
+          <p className="text-body">
             I spend a lot of time{" "}
             <Link
               className={`link ${et_book.className} text-xl leading-none`}
@@ -69,20 +69,20 @@ export default function Home() {
             - mostly about my building journey, human agency, and ways to live
             better.
           </p>
-          <p>
+          <p className="text-body">
             I also spend a lot of time moving - whether it&apos;s lifting,
             taking long walks in nature, playing sports, or dancing.
           </p>
-          <p>
+          <p className="text-body">
             I live for beautiful spaces, walkable cities, good writing,
             nourishing food, reggaeton, coffee, potlucks, electric
             conversations, the sun, and dancing!
           </p>
-          <p>
+          <p className="text-body">
             My curiosity far exceeds my ability to remember, which is why I love
             curating.
           </p>
-          <p>
+          <p className="text-body">
             I&apos;d describe most of my friends as social technologists.
             They’re thoughtful, curious, benevolent, charming, have a bias for
             action, and they care about people. If that sounds like you, or if

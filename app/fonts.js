@@ -47,12 +47,19 @@ export const bricolage = Bricolage_Grotesque({
 export const et_book = localFont({
   src: [
     {
+      path: "../public/fonts/et-book-roman-old-style-figures.woff", // Add this file if you have it
+      weight: "400",
+      style: "normal",
+    },
+    {
       path: "../public/fonts/ET-Book-Italic-Old-Style.woff",
-      style: ["italic"],
+      weight: "400",
+      style: "italic",
     },
     {
       path: "../public/fonts/ET-Book-Bold-Line-Figures.woff",
       weight: "700",
+      style: "normal",
     },
   ],
   variable: "--font-et",
