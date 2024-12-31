@@ -150,7 +150,7 @@ const Navigation = ({ props }) => {
 
   return (
     <React.Fragment>
-      <div className="navigation-block md:flex md:flex-col md:flex-shrink-0">
+      <div className="navigation-block md:flex md:flex-col md:flex-shrink-0 mb-4">
         <div className="logo-container flex items-center md:px-4">
           <Link href="/">
             <Image src={logo} className="mb-4" alt={"Kitchen"} height={50} />

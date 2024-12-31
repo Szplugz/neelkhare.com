@@ -24,9 +24,15 @@ body,
 
 .main {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   padding: calc(100vh / 6) calc(100vw / 12);
   background-color: #fbf9f4;
+}
+
+@media (min-width: 768px) {
+  .main {
+    flex-direction: row;
+  }
 }
 
 .content {
