@@ -135,7 +135,7 @@ const Navigation = ({ props }) => {
 
   return (
     <React.Fragment>
-      <div className="navigation-block md:flex md:flex-col md:flex-shrink-0 mb-8 max-w-[200px]">
+      <div className="navigation-block md:flex md:flex-col md:flex-shrink-0 sm:mb-8 mb-[3rem] sm:max-w-[200px]">
         <div className="logo-container flex items-center">
           <Link href="/">
             <Image src={logo} className="mb-4" alt={"Kitchen"} height={50} />
@@ -178,8 +178,8 @@ const Navigation = ({ props }) => {
               </div>
             </div>
           </div>
-          <hr className="my-8"></hr>
-          <div className="nav-image-container flex items-center justify-center max-w-full">
+          <hr className="my-8 hidden sm:block"></hr>
+          <div className="nav-image-container hidden sm:flex items-center justify-center max-w-full">
             <Image
               className="rounded-md mt-4 object-contain"
               src={`https://res.cloudinary.com/${process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME}/image/upload/f_auto,q_auto/v1/assets/profilepic2`}

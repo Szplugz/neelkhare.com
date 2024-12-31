@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
       lang="en"
       className={`${inter.className} ${piazolla.variable} ${newsreader.variable} text-base`}
     >
-      <body className="main flex flex-col md:flex-row">
+      <body className="main">
         <PageProvider>
           <Navigation />
           <main className="content">{children}</main>

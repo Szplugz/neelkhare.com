@@ -29,7 +29,7 @@ export default function Home() {
   return (
     <>
       <div className="text-box max-w-[500px] flex flex-col font-medium text-lg leading-normal md:font-normal md:text-md md:mx-[84px] gap-4">
-        <h4 className={`text-3xl font-bold mb-2 ${et_book.className}`}>
+        <h4 className={`text-2xl font-bold mb-2 ${et_book.className}`}>
           <em>
             <span className="inline-block animate-fade-in opacity-0">Hey!</span>{" "}
             <span
