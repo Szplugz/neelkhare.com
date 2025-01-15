@@ -29,6 +29,11 @@ const Navigation = ({ props }) => {
       target: "_blank",
       external: true,
     },
+    s: {
+      url: "https://szplugz.substack.com/",
+      target: "_blank",
+      external: true,
+    },
   };
 
   const showSearchBox = (e) => {
@@ -152,6 +157,14 @@ const Navigation = ({ props }) => {
                 <div className="md:hidden selected bg-candy w-[3px] h-[3px] rounded-[50%]"></div>
               </div> */}
               <div className="navigation-social flex md:flex-col items-center md:items-start gap-4 md:gap-0">
+                <MenuButton
+                  key_="S"
+                  title="SUBSTACK"
+                  styles="md:mt-2"
+                  url={"https://szplugz.substack.com/"}
+                  target="_blank"
+                />
+                <div className="md:hidden selected bg-candy w-[3px] h-[3px] rounded-[50%]"></div>
                 <MenuButton
                   key_="A"
                   title="ARE.NA"

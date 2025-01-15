@@ -78,15 +78,19 @@ export default function Home() {
             nourishing food, reggaeton, coffee, potlucks, electric
             conversations, the sun, and dancing!
           </p>
-          <p className="text-body">
+          {/* <p className="text-body">
             My curiosity far exceeds my ability to remember, which is why I love
             curating.
-          </p>
+          </p> */}
           <p className="text-body">
             I&apos;d describe most of my friends as social technologists.
             They’re thoughtful, curious, benevolent, charming, have a bias for
             action, and they care about people. If that sounds like you, or if
-            you resonate with anything on my website, please reach out :)
+            you resonate with anything on my website, please{" "}
+            <Link href="mailto:youfoundneel@gmail.com" className="link">
+              reach out
+            </Link>{" "}
+            :)
           </p>
         </div>
       </div>

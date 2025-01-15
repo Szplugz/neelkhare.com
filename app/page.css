@@ -10,6 +10,8 @@ body,
 
 :root {
   color: #43392e;
+  --text-base: clamp(1rem, 0.34vw + 0.91rem, 1.125rem);
+  --text-lg: clamp(1.125rem, 0.7vw + 0.92rem, 1.333rem);
 }
 
 *,
