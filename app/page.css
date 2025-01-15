@@ -10,6 +10,8 @@ body,
 
 :root {
   color: #43392e;
+  --text-base: clamp(1rem, 0.34vw + 0.91rem, 1.125rem);
+  --text-lg: clamp(1.125rem, 0.7vw + 0.92rem, 1.333rem);
 }
 
 *,
@@ -18,11 +20,21 @@ body,
   box-sizing: border-box;
 }
 
+::selection {
+  background: #ded0c1;
+}
+
 .main {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   padding: calc(100vh / 6) calc(100vw / 12);
   background-color: #fbf9f4;
+}
+
+@media (min-width: 768px) {
+  .main {
+    flex-direction: row;
+  }
 }
 
 .content {
@@ -87,6 +99,18 @@ h3 {
 
 h2 {
   font-size: 3rem;
+}
+
+ol {
+  list-style-type: disc;
+}
+
+li {
+  margin: 4px 32px;
+}
+
+li::marker {
+  color: #9a4c5c;
 }
 
 .portfolio-layout {
@@ -278,12 +302,7 @@ h2 {
   .navigation-block {
     position: sticky;
     top: 0;
-    height: 100vh;
-    overflow-y: auto;
-  }
-
-  .navigation-menu {
-    padding: 1rem;
+    overflow-y: visible;
   }
 
   .fade-overlay {

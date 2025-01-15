@@ -14,18 +14,8 @@ const Navigation = ({ props }) => {
   const [isSearchActive, setIsSearchActive] = useState(false);
   const pathname = usePathname();
   const keyMappings = {
-    1: {
-      url: "/work",
-      target: "_parent",
-      external: false,
-    },
-    2: {
-      url: "/notebook",
-      target: "_parent",
-      external: false,
-    },
     a: {
-      url: "https://sander.are.na/neel-khare/channels",
+      url: "https://are.na/neel-khare/channels",
       target: "_blank",
       external: true,
     },
@@ -34,13 +24,13 @@ const Navigation = ({ props }) => {
       target: "_blank",
       external: true,
     },
-    r: {
-      url: "https://read.cv/szplugz",
+    i: {
+      url: "https://instagram.com/secondhandneel",
       target: "_blank",
       external: true,
     },
-    g: {
-      url: "https://github.com/szplugz",
+    s: {
+      url: "https://szplugz.substack.com/",
       target: "_blank",
       external: true,
     },
@@ -150,8 +140,8 @@ const Navigation = ({ props }) => {
 
   return (
     <React.Fragment>
-      <div className="navigation-block md:flex md:flex-col md:flex-shrink-0">
-        <div className="logo-container flex items-center md:px-4">
+      <div className="navigation-block md:flex md:flex-col md:flex-shrink-0 sm:mb-8 mb-[3rem] sm:max-w-[200px]">
+        <div className="logo-container flex items-center">
           <Link href="/">
             <Image src={logo} className="mb-4" alt={"Kitchen"} height={50} />
           </Link>
@@ -163,26 +153,18 @@ const Navigation = ({ props }) => {
           ></div>
           <div className="navigation-menu" ref={navigationMenuRef}>
             <div className="menu-items-container">
-              <div className="navigation-explore flex md:flex-col items-center md:items-start gap-4 md:gap-0">
-                <MenuButton
-                  className="work-button"
-                  key_="1"
-                  title="WORK"
-                  selected={pathname.startsWith("/work")}
-                  url="/work/"
-                  target="_self"
-                />
+              {/* <div className="navigation-explore flex md:flex-col items-center md:items-start gap-4 md:gap-0">
                 <div className="md:hidden selected bg-candy w-[3px] h-[3px] rounded-[50%]"></div>
-                <MenuButton
-                  key_="2"
-                  title="NOTEBOOK"
-                  url="/notebook/"
-                  selected={pathname.startsWith("/notebook")}
-                  styles="md:mt-2"
-                />
-                <div className="md:hidden selected bg-candy w-[3px] h-[3px] rounded-[50%]"></div>
-              </div>
+              </div> */}
               <div className="navigation-social flex md:flex-col items-center md:items-start gap-4 md:gap-0">
+                <MenuButton
+                  key_="S"
+                  title="SUBSTACK"
+                  styles="md:mt-2"
+                  url={"https://szplugz.substack.com/"}
+                  target="_blank"
+                />
+                <div className="md:hidden selected bg-candy w-[3px] h-[3px] rounded-[50%]"></div>
                 <MenuButton
                   key_="A"
                   title="ARE.NA"
@@ -200,14 +182,24 @@ const Navigation = ({ props }) => {
                 />
                 <div className="md:hidden selected bg-candy w-[3px] h-[3px] rounded-[50%]"></div>
                 <MenuButton
-                  key_="G"
-                  title="GITHUB"
+                  key_="I"
+                  title="INSTAGRAM"
                   styles="md:mt-2"
-                  url={"https://github.com/Szplugz"}
+                  url={"https://instagram.com/secondhandneel"}
                   target="_blank"
                 />
               </div>
             </div>
+          </div>
+          <hr className="my-8 hidden sm:block"></hr>
+          <div className="nav-image-container hidden sm:flex items-center justify-center max-w-full">
+            <Image
+              className="rounded-md mt-4 object-contain"
+              src={`https://res.cloudinary.com/${process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME}/image/upload/f_auto,q_auto/v1/assets/profilepic2`}
+              width={533}
+              height={400}
+              alt="smalltalk-and-children"
+            ></Image>
           </div>
           <div
             className="fade-overlay right-fade"
